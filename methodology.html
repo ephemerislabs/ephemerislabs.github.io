@@ -1,0 +1,71 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Methodology — Drill Wizard</title>
+<style>
+:root{--night:#061826;--ink:#211D14;--paper:#EDE4D6;--rule:#C9BBA0;--rust:#95503E;
+--mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+--disp:-apple-system,"Helvetica Neue",Arial,sans-serif}
+*{box-sizing:border-box;margin:0}
+body{background:var(--night);font-family:var(--mono);padding:28px 14px 60px;display:flex;justify-content:center}
+.paper{background:var(--paper);color:var(--ink);max-width:760px;width:100%;border-radius:6px;
+padding:26px 22px 30px;box-shadow:0 0 0 1px var(--rule) inset;font-size:13.5px;line-height:1.6}
+.head{font-family:var(--disp);font-weight:800;letter-spacing:.06em;font-size:1.25rem;text-transform:uppercase;
+border-bottom:2px solid var(--ink);padding-bottom:8px}
+.head span{display:block;font-family:var(--mono);font-weight:400;font-size:10px;letter-spacing:.14em;margin-top:5px}
+h2{font-family:var(--disp);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem;
+margin:22px 0 6px;border-bottom:1px solid var(--ink);padding-bottom:3px}
+p{margin:8px 0}
+a{color:var(--rust)}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:12px}
+th,td{text-align:left;padding:5px 6px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-family:var(--disp);font-weight:800;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase}
+.foot{margin-top:26px;padding-top:10px;border-top:1px solid var(--rule);font-size:11px;letter-spacing:.04em}
+@media print{body{background:#fff;padding:0}.paper{box-shadow:none;background:#fff}}
+</style></head><body>
+<article class="paper">
+<div class="head">Methodology<span>DRILL WIZARD · EPHEMERIS LABS LLC · CY2026 DATA PACK</span></div>
+
+<p>Every number Drill Wizard asserts has a named authority, an effective date, and a refresh calendar. This page is the public version of the maintenance ledger the app is built against. All rates live in an embedded annual data pack; nothing updates silently.</p>
+
+<h2>Pay &amp; allowances</h2>
+<table><tbody>
+<tr><th>Figure</th><th>Authority</th><th>Effective</th><th>Refreshed</th></tr>
+<tr><td>Basic pay, all grades × YOS (incl. O1E–O3E)</td><td>DFAS pay tables · FY2026 NDAA +3.8%</td><td>2026-01-01</td><td>Every January</td></tr>
+<tr><td>BAS (enlisted $476.95 / officer $328.48)</td><td>DFAS</td><td>2026-01-01</td><td>Every January</td></tr>
+<tr><td>BAH RC/Transit by grade; locality BAH auto-matched from duty ZIP (DTMO sorted-ZIP table, 40,959 ZIPs) with manual override</td><td>DoD / DTMO</td><td>2026-01-01</td><td>Every January</td></tr>
+<tr><td>OCONUS per-diem M&amp;IE (239 groups, 1,513 locations)</td><td>DTMO per-diem committee</td><td>pack date</td><td>Annual (October)</td></tr>
+<tr><td>State Active Duty pay — state-set daily rate entered from the member’s orders; FICA, federal, and state withholding estimated; excluded from federal points, the good-year count, and the VA Form 21-8951 waiver</td><td>Member’s state orders</td><td>per orders</td><td>Per orders</td></tr>
+<tr><td>Promotion-split pricing — every drill period and order is priced at the grade in effect on its date; orders spanning a promotion price at their start-date grade</td><td>DFAS basic-pay tables</td><td>2026-01-01</td><td>Every January</td></tr>
+<tr><td>TDIU advisory — members rated at or above 60% see a note that duty performance can put an Individual Unemployability finding in question</td><td>38 CFR 4.16</td><td>static</td><td>As amended</td></tr>
+</tbody></table>
+
+<h2>VA compensation &amp; the waiver</h2>
+<table><tbody>
+<tr><th>Figure</th><th>Authority</th><th>Effective</th><th>Refreshed</th></tr>
+<tr><td>VA disability rates, 10–100% with full dependent matrix</td><td>va.gov compensation tables · +2.8% COLA</td><td>2025-12-01</td><td>Every December</td></tr>
+<tr><td>Daily VA rate = monthly ÷ 30; one waiver day per paid IDT period or day on orders</td><td>VA Form 21-8951 processing convention</td><td>convention</td><td>On form-instruction change</td></tr>
+</tbody></table>
+
+<h2>Special pays &amp; taxes</h2>
+<table><tbody>
+<tr><th>Figure</th><th>Authority</th><th>Effective</th><th>Refreshed</th></tr>
+<tr><td>FSA $300/mo, &gt;30-day threshold, retroactive to day 1 ($10/day proration)</td><td>37 U.S.C. §427 · FY2026 NDAA</td><td>2026-01-01</td><td>Every NDAA cycle</td></tr>
+<tr><td>IDP/HFP $225/mo, prorated daily</td><td>37 U.S.C. §310</td><td>current</td><td>NDAA watch</td></tr>
+<tr><td>Officer CZTE cap = senior-enlisted max basic + IDP</td><td>37 U.S.C. §310 · IRC §112(b)</td><td>statute</td><td>Flows from pay tables</td></tr>
+<tr><td>FICA 7.65% on drill and duty pay; CZTE never exempts FICA</td><td>IRS / SSA</td><td>stable</td><td>Verified annually</td></tr>
+<tr><td>SGLI premium $0.05/$1,000 + $1 TSGLI ($500k = $26/mo)</td><td>VA insurance rates · cut eff 2025-07-01</td><td>2025-07-01</td><td>On VA announcement</td></tr>
+<tr><td>State drill-pay tax semantics, 51 jurisdictions</td><td>State DOR military-pay pages</td><td>snapshot dated in-app</td><td>Annual legislative sweep</td></tr>
+<tr><td>Service-schedule pays (sea pay, SDAP, FLPB…)</td><td>Member-entered from the LES by design — never fabricated</td><td>member</td><td>N/A</td></tr>
+</tbody></table>
+
+<h2>Points &amp; participation (statute-locked)</h2>
+<p>1 point per IDT period and per day on orders; 15 membership points per anniversary year (DoDI 1215.07). The 130-point inactive cap includes membership (10 U.S.C. §12733). A good year is 50 points — the app calls it secured only when the points are banked, never on scheduled duty. The AT tracker defaults to the statutory 14 days (10 U.S.C. §10147), unit-tunable. These change only on statutory amendment, never on a calendar.</p>
+
+<h2>Verification</h2>
+<p>Each pack build is spot-verified against the primary source — table cells checked to the cent, not to the summary. The August 2026 audit re-verified DFAS basic-pay anchors, both BAS figures, the full VA.gov dependent-tier cells, FSA/IDP amounts, and caught and corrected the July 2025 SGLI rate cut. The app ships with a 500+-check regression harness; money math is computed once, in one engine, so no two cards can disagree.</p>
+
+<h2>What the app deliberately does not do</h2>
+<p>It does not model Special Monthly Compensation, the Social Security wage base, or Additional Medicare tax; it treats TSP contributions with post-tax (Roth-style) arithmetic, which slightly understates in-pocket cash for traditional contributions — a deliberately conservative choice; it scopes combat-zone tax relief to the order being priced; and it never invents service-schedule pay amounts — those are entered from your LES. Where its numbers and the government's differ, your LES, pay system, and official VA correspondence win.</p>
+
+<p class="foot">Drill Wizard is a planning tool, not financial, tax, or legal advice, and is not affiliated with the DoD, VA, or DFAS. © 2026 Ephemeris Labs, LLC. · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></p>
+</article></body></html>
