@@ -1,0 +1,36 @@
+/* Shared site stylesheet for Ephemeris Labs
+   Consolidates styles from individual pages into a single file for caching and maintainability.
+*/
+:root{
+  --field:#0C100D; --panel:#151A15; --raise:#1B211B; --edge:#2A322A; --bone:#D6D3C4; --olive:#93A87B; --coyote:#C09A5E; --dim:#8A9284;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --disp:-apple-system,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+.skip-link{position:absolute;left:-999px;top:auto;overflow:hidden}
+.skip-link:focus-visible{left:12px;top:12px;background:var(--panel);color:var(--bone);padding:8px 12px;border-radius:4px;z-index:1000}
+body{background:var(--field);font-family:var(--mono);padding:28px 14px 60px;display:flex;flex-direction:column;align-items:center}
+.paper{background:var(--panel);color:var(--bone);max-width:760px;width:100%;border-radius:6px;padding:26px 22px 30px;box-shadow:0 0 0 1px var(--edge) inset;font-size:14px;line-height:1.6}
+.head{font-family:var(--disp);font-weight:800;letter-spacing:.06em;font-size:1.45rem;text-transform:uppercase;color:var(--bone);border-bottom:2px solid var(--olive);padding-bottom:8px}
+.head span{display:block;font-family:var(--mono);font-weight:400;font-size:10px;letter-spacing:.14em;margin-top:5px;color:var(--olive)}
+.station{font-size:10px;letter-spacing:.18em;color:var(--coyote);margin:7px 0 0;text-transform:uppercase}
+h2{font-family:var(--disp);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem;margin:22px 0 6px;border-bottom:1px solid var(--edge);padding-bottom:3px;color:var(--olive)}
+p{margin:8px 0}
+a{color:var(--coyote)}
+a:focus-visible{outline:2px solid var(--coyote);outline-offset:2px}
+.entry{border:1px solid var(--edge);border-left:2px solid var(--olive);background:var(--raise);border-radius:3px;padding:14px 14px 12px;margin-top:10px}
+.entry .name{font-family:var(--disp);font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:1rem;color:var(--bone)}
+.entry .tag{font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-top:2px;color:var(--olive)}
+.entry p{margin:8px 0 10px}
+.pages{font-size:12px;letter-spacing:.06em;border-top:1px dashed var(--edge);padding-top:9px}
+.pages a{margin-right:16px;white-space:nowrap}
+.foot{font-size:11px;color:var(--dim);margin-top:18px;border-top:1px dashed var(--edge);padding-top:9px}
+.hint{font-family:var(--mono);font-size:11px;color:#5E6B5E;text-align:center;margin-top:24px}
+em{color:var(--coyote);font-style:italic}
+.table-wrap{overflow:auto;-webkit-overflow-scrolling:touch;margin:8px 0}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--edge);vertical-align:top}
+th{font-family:var(--disp);font-weight:800;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
+caption{caption-side:top;text-align:left;padding-bottom:6px;font-weight:700}
+@media print{body{background:#fff;padding:0}.paper{box-shadow:none;background:#fff}}
+@media (max-width:520px){.paper{padding:18px}.head{font-size:1.15rem}.pages a{display:inline-block;margin-right:12px}}
