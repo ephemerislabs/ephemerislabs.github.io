@@ -1,92 +1,568 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Ephemeris Labs, LLC — Software from Florida's First Coast</title>
-<meta name="description" content="Ephemeris Labs builds offline-first planning and training tools for aircrew, reservists, and people who train for real. Maker of Drill Wizard — planners and references for reserve pay, VA offset, and retirement points." />
-<link rel="canonical" href="https://ephemerislabs.app/" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Ephemeris Labs, LLC — Software from Florida's First Coast" />
-<meta property="og:description" content="Offline-first planning and training tools. Drill Wizard: local-first pricing for reserve drill pay, VA waiver decision help, and retirement point planning." />
-<meta property="og:url" content="https://ephemerislabs.app/" />
-<meta property="og:site_name" content="Ephemeris Labs" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Ephemeris Labs, LLC" />
-<meta name="twitter:description" content="Offline-first planning tools for aircrew and reservists." />
-<link rel="icon" href="/assets/favicon.ico" />
-<meta name="theme-color" content="#151A15" />
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Ephemeris Labs, LLC",
-  "url": "https://ephemerislabs.app/",
-  "sameAs": ["https://github.com/ephemerislabs"],
-  "contactPoint": [{"@type":"ContactPoint","email":"support@ephemerislabs.app","contactType":"customer support"}]
-}
-</script>
-<style>
-:root{--field:#0C100D;--panel:#151A15;--raise:#1B211B;--edge:#2A322A;--bone:#D6D3C4;--olive:#93A87B;--coyote:#C09A5E;--dim:#8A9284;
---mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
---disp:-apple-system,"Helvetica Neue",Arial,sans-serif}
-*{box-sizing:border-box;margin:0}
-.skip-link{position:absolute;left:-999px;top:auto;overflow:hidden}
-.skip-link:focus-visible{left:12px;top:12px;background:var(--panel);color:var(--bone);padding:8px 12px;border-radius:4px;z-index:1000}
-body{background:var(--field);font-family:var(--mono);padding:28px 14px 60px;display:flex;flex-direction:column;align-items:center}
-.paper{background:var(--panel);color:var(--bone);max-width:680px;width:100%;border-radius:4px;
-padding:26px 22px 30px;box-shadow:0 0 0 1px var(--edge) inset;font-size:14px;line-height:1.65}
-.head{font-family:var(--disp);font-weight:800;letter-spacing:.08em;font-size:1.45rem;text-transform:uppercase;color:var(--bone);
-border-bottom:2px solid var(--olive);padding-bottom:8px}
-.head span{display:block;font-family:var(--mono);font-weight:400;font-size:10px;letter-spacing:.14em;margin-top:5px;color:var(--olive)}
-.station{font-size:10px;letter-spacing:.18em;color:var(--coyote);margin:7px 0 0;text-transform:uppercase}
-h2{font-family:var(--disp);font-weight:800;letter-spacing:.1em;text-transform:uppercase;font-size:.78rem;color:var(--olive);
-margin:22px 0 6px;border-bottom:1px solid var(--edge);padding-bottom:3px}
-p{margin:8px 0}
-a{color:var(--coyote)}
-a:focus-visible{outline:2px solid var(--coyote);outline-offset:2px}
-.entry{border:1px solid var(--edge);border-left:2px solid var(--olive);background:var(--raise);border-radius:3px;padding:14px 14px 12px;margin-top:10px}
-.entry .name{font-family:var(--disp);font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:1rem;color:var(--bone)}
-.entry .tag{font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-top:2px;color:var(--olive)}
-.entry p{margin:8px 0 10px}
-.pages{font-size:12px;letter-spacing:.06em;border-top:1px dashed var(--edge);padding-top:9px}
-.pages a{margin-right:16px;white-space:nowrap}
-.foot{font-size:11px;color:var(--dim);margin-top:18px;border-top:1px dashed var(--edge);padding-top:9px}
-.hint{font-family:var(--mono);font-size:11px;color:#5E6B5E;text-align:center;margin-top:24px}
-em{color:var(--coyote);font-style:italic}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ephemeris Labs, LLC — Offline Planning & Training Tools</title>
+  <meta name="description" content="Ephemeris Labs builds offline-first planning and training tools. Maker of Drill Wizard — reserve drill pay, VA waiver analysis, and retirement point calculations.">
+  <link rel="canonical" href="https://ephemerislabs.app/">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ephemeris Labs, LLC">
+  <meta property="og:description" content="Offline-first planning and training tools. Maker of Drill Wizard for reserve pay, VA waivers, and retirement calculations.">
+  <meta property="og:url" content="https://ephemerislabs.app/">
+  <meta property="og:site_name" content="Ephemeris Labs">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ephemeris Labs, LLC">
+  <meta name="twitter:description" content="Offline-first planning tools for aircrew and military reservists.">
+  
+  <link rel="icon" href="/assets/favicon.ico">
+  <meta name="theme-color" content="#0a0e0b">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Ephemeris Labs, LLC",
+    "url": "https://ephemerislabs.app/",
+    "sameAs": ["https://github.com/ephemerislabs"],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "email": "support@ephemerislabs.app",
+        "contactType": "customer support"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --field: #080d09;
+      --panel: #111712;
+      --raise: #172018;
+      --edge: #233024;
+      --bone: #d8d4c7;
+      --bone-bright: #edebe4;
+      --olive: #98ae80;
+      --coyote: #c49f64;
+      --coyote-hover: #dcba82;
+      --dim: #73806e;
+
+      /* Brand Vector Palette */
+      --l0: #0f3d20;
+      --l1: #1e7a3c;
+      --l2: #3fd66b;
+      --l3: #a7ffbe;
+      
+      --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      --disp: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      background: var(--coyote);
+      color: var(--field);
+      font-weight: 700;
+      padding: 8px 14px;
+      border-radius: 2px;
+      z-index: 1000;
+      text-decoration: none;
+      transition: top 0.15s ease;
+    }
+    .skip-link:focus {
+      top: 16px;
+    }
+
+    body {
+      background-color: var(--field);
+      color: var(--bone);
+      font-family: var(--mono);
+      font-size: 13.5px;
+      line-height: 1.65;
+      padding: 32px 16px 48px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .paper {
+      background-color: var(--panel);
+      max-width: 660px;
+      width: 100%;
+      border-radius: 3px;
+      padding: 28px 24px;
+      border: 1px solid var(--edge);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
+    }
+
+    /* Terminal Mark Stage */
+    .stage-wrapper {
+      background: #020603;
+      border: 1px solid var(--edge);
+      border-radius: 2px;
+      padding: 24px 16px 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+
+    #stage {
+      width: min(85vw, 380px);
+    }
+    #stage svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .stage-tools {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid #141c15;
+    }
+
+    .tagline {
+      font-size: 9.5px;
+      letter-spacing: 0.16em;
+      color: var(--dim);
+      text-transform: uppercase;
+      opacity: 0;
+      transition: opacity 0.8s ease;
+    }
+
+    #replay {
+      background: none;
+      border: 1px solid var(--edge);
+      color: var(--dim);
+      font-family: var(--mono);
+      font-size: 9.5px;
+      letter-spacing: 0.14em;
+      padding: 4px 8px;
+      cursor: pointer;
+      border-radius: 2px;
+      transition: all 0.15s ease;
+    }
+    #replay:hover, #replay:focus-visible {
+      color: var(--l3);
+      border-color: var(--l1);
+      outline: none;
+    }
+
+    #powerline {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50%;
+      height: 2px;
+      background: var(--l3);
+      box-shadow: 0 0 20px 3px var(--l2);
+      transform: scaleX(0);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .flicker {
+      animation: flick 0.09s steps(2) 3;
+    }
+    @keyframes flick {
+      50% { opacity: 0.25; }
+    }
+
+    header {
+      border-bottom: 2px solid var(--olive);
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+
+    .head {
+      font-family: var(--disp);
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      font-size: 1.35rem;
+      text-transform: uppercase;
+      color: var(--bone-bright);
+      line-height: 1.2;
+    }
+
+    .head span {
+      display: block;
+      font-family: var(--mono);
+      font-weight: 400;
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      margin-top: 5px;
+      color: var(--olive);
+    }
+
+    h2 {
+      font-family: var(--disp);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      color: var(--olive);
+      margin: 24px 0 8px;
+      border-bottom: 1px solid var(--edge);
+      padding-bottom: 4px;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--coyote);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.15s ease;
+    }
+    a:hover {
+      color: var(--coyote-hover);
+    }
+    a:focus-visible {
+      outline: 2px solid var(--coyote);
+      outline-offset: 2px;
+    }
+
+    .entry {
+      border: 1px solid var(--edge);
+      border-left: 3px solid var(--olive);
+      background-color: var(--raise);
+      border-radius: 2px;
+      padding: 16px;
+      margin-top: 10px;
+    }
+
+    .entry .name {
+      font-family: var(--disp);
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-size: 0.95rem;
+      color: var(--bone-bright);
+    }
+
+    .entry .tag {
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 2px;
+      color: var(--olive);
+    }
+
+    .entry p {
+      margin: 10px 0 14px;
+      font-size: 13px;
+    }
+
+    .pages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 11.5px;
+      letter-spacing: 0.04em;
+      border-top: 1px dashed var(--edge);
+      padding-top: 10px;
+    }
+
+    .pages a {
+      text-decoration: none;
+      border-bottom: 1px dotted var(--coyote);
+    }
+    .pages a:hover {
+      border-bottom-style: solid;
+    }
+
+    address {
+      font-style: normal;
+    }
+
+    .foot {
+      font-size: 11px;
+      color: var(--dim);
+      margin-top: 24px;
+      border-top: 1px solid var(--edge);
+      padding-top: 12px;
+      line-height: 1.5;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .flicker { animation: none; }
+      #powerline { display: none; }
+      .tagline { opacity: 1 !important; }
+    }
+  </style>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to main content</a>
-<article class="paper">
-<header>
-<h1 class="head">Ephemeris Labs<span>INDEPENDENT SOFTWARE · FLORIDA LIMITED LIABILITY COMPANY</span></h1>
-<p class="station">Station: Ancient Coast, Florida · 29°54′N 81°19′W </p>
-</header>
-<main id="main">
-<h2>The Lab</h2>
-<p>Ephemeris Labs builds software the way old navigators built tables: completely local, mathematically resilient, and entirely independent of the grid.</p>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-<h2>Current entries</h2>
-<div class="entry">
-<div class="name">Drill Wizard</div>
-<div class="tag">Reserve drill pay · VA offset · retirement points</div>
-<p>The only planner that prices the whole reserve year — drill periods, days on orders, bonuses, and the VA waiver decision on Form 21-8951 — down to the dollar, entirely on your device. App Store and direct distribution options are available.</p>
-<nav class="pages" aria-label="Drill Wizard pages">
-<a href="methodology.html">Methodology</a>
-<a href="support.html">Support</a>
-<a href="privacy.html">Privacy</a>
-</nav>
-</div>
+  <article class="paper">
+    <div class="stage-wrapper">
+      <div id="powerline"></div>
+      <div id="stage"></div>
+      <div class="stage-tools">
+        <span class="tagline" id="tagline">Deterministic · Offline · Local-First</span>
+        <button id="replay" type="button" aria-label="Replay startup animation">reboot ▸ sound</button>
+      </div>
+    </div>
 
-<h2>Contact</h2>
-<p><a href="mailto:support@ephemerislabs.app">support@ephemerislabs.app</a></p>
+    <header>
+      <h1 class="head">
+        Ephemeris Labs
+        <span>INDEPENDENT SOFTWARE · FLORIDA, USA</span>
+      </h1>
+    </header>
 
-</main>
-<footer class="foot" role="contentinfo">
-<p>Ephemeris Labs, LLC is a Florida limited liability company. Its tools are planning and training aids, not financial, tax, or legal advice, and are not affiliated with the Department of Defense, Department of Veterans Affairs, or DFAS. © 2026 Ephemeris Labs, LLC.</p>
-</footer>
-</article>
-<p class="hint">© 2026 Ephemeris Labs, LLC. All rights reserved.</p>
+    <main id="main">
+      <section aria-labelledby="heading-about">
+        <h2 id="heading-about">About</h2>
+        <p>An <strong>ephemeris</strong> is a calculated table of celestial positions over time—self-contained data that allows navigators to fix their coordinates from first principles without pinging a remote source.</p>
+        <p>Ephemeris Labs designs software under that same philosophy: completely deterministic, privacy-focused, and executed entirely on local hardware without cloud or connectivity dependencies.</p>
+      </section>
+
+      <section aria-labelledby="heading-software">
+        <h2 id="heading-software">Software</h2>
+        <div class="entry">
+          <div class="name">Drill Wizard</div>
+          <div class="tag">Reserve Pay · VA Offset · Retirement Points</div>
+          <p>A comprehensive planner for U.S. military reservists. Calculates drill compensation, active-duty orders, VA disability offset trade-offs (Form 21-8951), and retirement point balances locally on-device.</p>
+          <nav class="pages" aria-label="Drill Wizard pages">
+            <a href="methodology.html">Methodology</a>
+            <a href="support.html">Support</a>
+            <a href="privacy.html">Privacy Policy</a>
+          </nav>
+        </div>
+      </section>
+
+      <section aria-labelledby="heading-contact">
+        <h2 id="heading-contact">Contact</h2>
+        <address>
+          <p><a href="mailto:support@ephemerislabs.app">support@ephemerislabs.app</a></p>
+        </address>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p>Ephemeris Labs, LLC is a Florida limited liability company. Tools are planning and reference aids and are not affiliated with or endorsed by the Department of Defense, Department of Veterans Affairs, or DFAS. © 2026 Ephemeris Labs, LLC.</p>
+    </footer>
+  </article>
+
+  <script>
+    const DATA = {
+      "stack": {
+        "w": 88,
+        "h": 46,
+        "rects": [
+          [26, 26, 0, 2], [60, 26, 0, 2], [34, 20, 1, 2], [34, 22, 1, 2], [36, 20, 1, 2], [36, 22, 1, 2], 
+          [50, 20, 1, 2], [50, 22, 1, 2], [52, 20, 1, 2], [52, 22, 1, 2], [30, 22, 0, 2], [56, 22, 0, 2], 
+          [40, 8, 3, 2], [40, 10, 3, 2], [40, 12, 3, 2], [40, 14, 3, 2], [42, 8, 3, 2], [42, 10, 3, 2], 
+          [42, 12, 3, 2], [42, 14, 3, 2], [44, 8, 3, 2], [44, 10, 3, 2], [44, 12, 3, 2], [44, 14, 3, 2], 
+          [46, 8, 3, 2], [46, 10, 3, 2], [46, 12, 3, 2], [46, 14, 3, 2], [42, 4, 2, 2], [44, 4, 2, 2], 
+          [42, 18, 2, 2], [44, 18, 2, 2], [36, 10, 2, 2], [36, 12, 2, 2], [50, 10, 2, 2], [50, 12, 2, 2], 
+          [38, 6, 2, 2], [48, 6, 2, 2], [38, 16, 2, 2], [48, 16, 2, 2], [2, 30, 1, 1], [3, 30, 1, 1], 
+          [4, 30, 1, 1], [5, 30, 1, 1], [6, 30, 1, 1], [7, 30, 1, 1], [8, 30, 1, 1], [9, 30, 1, 1], 
+          [10, 30, 1, 1], [11, 30, 1, 1], [12, 30, 1, 1], [13, 30, 1, 1], [14, 30, 1, 1], [15, 30, 1, 1], 
+          [16, 30, 1, 1], [17, 30, 1, 1], [18, 30, 1, 1], [19, 30, 1, 1], [20, 30, 1, 1], [21, 30, 1, 1], 
+          [22, 30, 1, 1], [23, 30, 1, 1], [24, 30, 1, 1], [25, 30, 1, 1], [26, 30, 1, 1], [27, 30, 1, 1], 
+          [28, 30, 1, 1], [29, 30, 1, 1], [30, 30, 1, 1], [31, 30, 1, 1], [32, 30, 1, 1], [33, 30, 1, 1], 
+          [34, 30, 1, 1], [35, 30, 1, 1], [36, 30, 1, 1], [37, 30, 1, 1], [38, 30, 1, 1], [39, 30, 1, 1], 
+          [40, 30, 1, 1], [41, 30, 1, 1], [42, 30, 1, 1], [43, 30, 1, 1], [44, 30, 1, 1], [45, 30, 1, 1], 
+          [46, 30, 1, 1], [47, 30, 1, 1], [48, 30, 1, 1], [49, 30, 1, 1], [50, 30, 1, 1], [51, 30, 1, 1], 
+          [52, 30, 1, 1], [53, 30, 1, 1], [54, 30, 1, 1], [55, 30, 1, 1], [56, 30, 1, 1], [57, 30, 1, 1], 
+          [58, 30, 1, 1], [59, 30, 1, 1], [60, 30, 1, 1], [61, 30, 1, 1], [62, 30, 1, 1], [63, 30, 1, 1], 
+          [64, 30, 1, 1], [65, 30, 1, 1], [66, 30, 1, 1], [67, 30, 1, 1], [68, 30, 1, 1], [69, 30, 1, 1], 
+          [70, 30, 1, 1], [71, 30, 1, 1], [72, 30, 1, 1], [73, 30, 1, 1], [74, 30, 1, 1], [75, 30, 1, 1], 
+          [76, 30, 1, 1], [77, 30, 1, 1], [78, 30, 1, 1], [79, 30, 1, 1], [80, 30, 1, 1], [81, 30, 1, 1], 
+          [82, 30, 1, 1], [83, 30, 1, 1], [84, 30, 1, 1], [85, 30, 1, 1], [26, 32, 2, 1], [27, 32, 2, 1], 
+          [34, 32, 2, 1], [35, 32, 2, 1], [52, 32, 2, 1], [53, 32, 2, 1], [60, 32, 2, 1], [61, 32, 2, 1], 
+          [42, 32, 2, 1], [43, 32, 2, 1], [44, 32, 2, 1], [45, 32, 2, 1], [2, 36, 3, 1], [3, 36, 3, 1], 
+          [4, 36, 3, 1], [5, 36, 3, 1], [6, 36, 3, 1], [2, 37, 3, 1], [2, 38, 3, 1], [2, 39, 3, 1], 
+          [3, 39, 3, 1], [4, 39, 3, 1], [5, 39, 3, 1], [2, 40, 3, 1], [2, 41, 3, 1], [2, 42, 3, 1], 
+          [3, 42, 3, 1], [4, 42, 3, 1], [5, 42, 3, 1], [6, 42, 3, 1], [8, 36, 3, 1], [9, 36, 3, 1], 
+          [10, 36, 3, 1], [11, 36, 3, 1], [8, 37, 3, 1], [12, 37, 3, 1], [8, 38, 3, 1], [12, 38, 3, 1], 
+          [8, 39, 3, 1], [9, 39, 3, 1], [10, 39, 3, 1], [11, 39, 3, 1], [8, 40, 3, 1], [8, 41, 3, 1], 
+          [8, 42, 3, 1], [14, 36, 3, 1], [18, 36, 3, 1], [14, 37, 3, 1], [18, 37, 3, 1], [14, 38, 3, 1], 
+          [18, 38, 3, 1], [14, 39, 3, 1], [15, 39, 3, 1], [16, 39, 3, 1], [17, 39, 3, 1], [18, 39, 3, 1], 
+          [14, 40, 3, 1], [18, 40, 3, 1], [14, 41, 3, 1], [18, 41, 3, 1], [14, 42, 3, 1], [18, 42, 3, 1], 
+          [20, 36, 3, 1], [21, 36, 3, 1], [22, 36, 3, 1], [23, 36, 3, 1], [24, 36, 3, 1], [20, 37, 3, 1], 
+          [20, 38, 3, 1], [20, 39, 3, 1], [21, 39, 3, 1], [22, 39, 3, 1], [23, 39, 3, 1], [20, 40, 3, 1], 
+          [20, 41, 3, 1], [20, 42, 3, 1], [21, 42, 3, 1], [22, 42, 3, 1], [23, 42, 3, 1], [24, 42, 3, 1], 
+          [26, 36, 3, 1], [30, 36, 3, 1], [26, 37, 3, 1], [27, 37, 3, 1], [29, 37, 3, 1], [30, 37, 3, 1], 
+          [26, 38, 3, 1], [28, 38, 3, 1], [30, 38, 3, 1], [26, 39, 3, 1], [28, 39, 3, 1], [30, 39, 3, 1], 
+          [26, 40, 3, 1], [30, 40, 3, 1], [26, 41, 3, 1], [30, 41, 3, 1], [26, 42, 3, 1], [30, 42, 3, 1], 
+          [32, 36, 3, 1], [33, 36, 3, 1], [34, 36, 3, 1], [35, 36, 3, 1], [36, 36, 3, 1], [32, 37, 3, 1], 
+          [32, 38, 3, 1], [32, 39, 3, 1], [33, 39, 3, 1], [34, 39, 3, 1], [35, 39, 3, 1], [32, 40, 3, 1], 
+          [32, 41, 3, 1], [32, 42, 3, 1], [33, 42, 3, 1], [34, 42, 3, 1], [35, 42, 3, 1], [36, 42, 3, 1], 
+          [38, 36, 3, 1], [39, 36, 3, 1], [40, 36, 3, 1], [41, 36, 3, 1], [38, 37, 3, 1], [42, 37, 3, 1], 
+          [38, 38, 3, 1], [42, 38, 3, 1], [38, 39, 3, 1], [39, 39, 3, 1], [40, 39, 3, 1], [41, 39, 3, 1], 
+          [38, 40, 3, 1], [40, 40, 3, 1], [38, 41, 3, 1], [41, 41, 3, 1], [38, 42, 3, 1], [42, 42, 3, 1], 
+          [44, 36, 3, 1], [45, 36, 3, 1], [46, 36, 3, 1], [47, 36, 3, 1], [48, 36, 3, 1], [46, 37, 3, 1], 
+          [46, 38, 3, 1], [46, 39, 3, 1], [46, 40, 3, 1], [46, 41, 3, 1], [44, 42, 3, 1], [45, 42, 3, 1], 
+          [46, 42, 3, 1], [47, 42, 3, 1], [48, 42, 3, 1], [51, 36, 3, 1], [52, 36, 3, 1], [53, 36, 3, 1], 
+          [54, 36, 3, 1], [50, 37, 3, 1], [50, 38, 3, 1], [51, 39, 3, 1], [52, 39, 3, 1], [53, 39, 3, 1], 
+          [54, 40, 3, 1], [54, 41, 3, 1], [50, 42, 3, 1], [51, 42, 3, 1], [52, 42, 3, 1], [53, 42, 3, 1], 
+          [62, 36, 3, 1], [62, 37, 3, 1], [62, 38, 3, 1], [62, 39, 3, 1], [62, 40, 3, 1], [62, 41, 3, 1], 
+          [62, 42, 3, 1], [63, 42, 3, 1], [64, 42, 3, 1], [65, 42, 3, 1], [66, 42, 3, 1], [69, 36, 3, 1], 
+          [70, 36, 3, 1], [71, 36, 3, 1], [68, 37, 3, 1], [72, 37, 3, 1], [68, 38, 3, 1], [72, 38, 3, 1], 
+          [68, 39, 3, 1], [69, 39, 3, 1], [70, 39, 3, 1], [71, 39, 3, 1], [72, 39, 3, 1], [68, 40, 3, 1], 
+          [72, 40, 3, 1], [68, 41, 3, 1], [72, 41, 3, 1], [68, 42, 3, 1], [72, 42, 3, 1], [74, 36, 3, 1], 
+          [75, 36, 3, 1], [76, 36, 3, 1], [77, 36, 3, 1], [74, 37, 3, 1], [78, 37, 3, 1], [74, 38, 3, 1], 
+          [78, 38, 3, 1], [74, 39, 3, 1], [75, 39, 3, 1], [76, 39, 3, 1], [77, 39, 3, 1], [74, 40, 3, 1], 
+          [78, 40, 3, 1], [74, 41, 3, 1], [78, 41, 3, 1], [74, 42, 3, 1], [75, 42, 3, 1], [76, 42, 3, 1], 
+          [77, 42, 3, 1], [81, 36, 3, 1], [82, 36, 3, 1], [83, 36, 3, 1], [84, 36, 3, 1], [80, 37, 3, 1], 
+          [80, 38, 3, 1], [81, 39, 3, 1], [82, 39, 3, 1], [83, 39, 3, 1], [84, 40, 3, 1], [84, 41, 3, 1], 
+          [80, 42, 3, 1], [81, 42, 3, 1], [82, 42, 3, 1], [83, 42, 3, 1]
+        ]
+      },
+      "pal": {
+        "L0": "#0f3d20",
+        "L1": "#1e7a3c",
+        "L2": "#3fd66b",
+        "L3": "#a7ffbe"
+      }
+    };
+
+    function svgOf(d, cell, ids) {
+      const W = d.w * cell, H = d.h * cell;
+      let b = "";
+      d.rects.forEach((r, i) => {
+        const [x, y, l, s] = r;
+        b += `<rect ${ids ? `id="px${i}"` : ""} x="${x * cell}" y="${y * cell}" width="${s * cell}" height="${s * cell}" fill="${DATA.pal["L" + l]}"/>`;
+      });
+      return `<svg viewBox="0 0 ${W} ${H}" shape-rendering="crispEdges">
+        <defs>
+          <filter id="gl" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="${cell * 0.8}"/>
+          </filter>
+        </defs>
+        <g filter="url(#gl)" opacity="0.45">${b.replace(/ id="px\d+"/g, "")}</g>
+        <g ${ids ? 'id="sharp"' : ""}>${b}</g>
+      </svg>`;
+    }
+
+    const stage = document.getElementById("stage");
+    const tagline = document.getElementById("tagline");
+    const power = document.getElementById("powerline");
+    const rm = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let AC = null;
+
+    function blip(f, t, dur = 0.05, type = "square", gain = 0.03) {
+      if (!AC) return;
+      const o = AC.createOscillator(), g = AC.createGain();
+      o.type = type;
+      o.frequency.value = f;
+      g.gain.setValueAtTime(gain, AC.currentTime + t);
+      g.gain.exponentialRampToValueAtTime(1e-4, AC.currentTime + t + dur);
+      o.connect(g).connect(AC.destination);
+      o.start(AC.currentTime + t);
+      o.stop(AC.currentTime + t + dur + 0.02);
+    }
+
+    function boot(sound) {
+      stage.innerHTML = svgOf(DATA.stack, 6, true);
+      const svg = stage.firstElementChild;
+      svg.style.width = "100%";
+      const px = [...svg.querySelectorAll('#sharp rect')];
+      
+      if (rm) {
+        tagline.style.opacity = 1;
+        return;
+      }
+
+      px.forEach(r => r.style.opacity = 0);
+      tagline.style.opacity = 0;
+
+      power.style.transition = "none";
+      power.style.opacity = 1;
+      power.style.transform = "scaleX(0)";
+      
+      requestAnimationFrame(() => {
+        power.style.transition = "transform .18s ease-out, opacity .5s .2s";
+        power.style.transform = "scaleX(1)";
+        power.style.opacity = 0;
+      });
+
+      if (sound) blip(120, 0, 0.14, "sawtooth", 0.04);
+
+      const R = DATA.stack.rects;
+      const groups = { horizon: [], ticks: [], dawn: [], morn: [], noon: [], aft: [], dusk: [], word: [] };
+      
+      R.forEach((r, i) => {
+        const [x, y] = r;
+        if (y === 30) groups.horizon.push(i);
+        else if (y === 32) groups.ticks.push(i);
+        else if (y >= 36) groups.word.push(i);
+        else if (x < 30) groups.dawn.push(i);
+        else if (x < 38) groups.morn.push(i);
+        else if (x < 52) groups.noon.push(i);
+        else if (x < 60) groups.aft.push(i);
+        else groups.dusk.push(i);
+      });
+
+      let t = 250;
+      groups.horizon.sort((a, b) => R[a][0] - R[b][0]).forEach((i, n) => {
+        setTimeout(() => px[i].style.opacity = 1, t + n * 5);
+      });
+
+      t += groups.horizon.length * 5 + 80;
+      setTimeout(() => groups.ticks.forEach(i => px[i].style.opacity = 1), t);
+
+      const suns = [["dawn", 392], ["morn", 523], ["noon", 659], ["aft", 523], ["dusk", 392]];
+      t += 150;
+      suns.forEach(([g, f], n) => {
+        const at = t + n * 180;
+        setTimeout(() => {
+          groups[g].forEach(i => px[i].style.opacity = 1);
+          if (g === "noon") svg.classList.add("flicker");
+        }, at);
+        if (sound) blip(f, at / 1000);
+      });
+
+      t += suns.length * 180 + 160;
+      groups.word.sort((a, b) => R[a][0] - R[b][0] || R[a][1] - R[b][1]);
+      const perCol = {};
+      groups.word.forEach(i => { (perCol[R[i][0]] ??= []).push(i); });
+      const cols = Object.keys(perCol).map(Number).sort((a, b) => a - b);
+      
+      cols.forEach((c, n) => setTimeout(() => perCol[c].forEach(i => px[i].style.opacity = 1), t + n * 10));
+      if (sound) blip(880, (t + cols.length * 5) / 1000, 0.04);
+
+      t += cols.length * 10 + 260;
+      setTimeout(() => {
+        tagline.style.opacity = 1;
+      }, t);
+    }
+
+    document.getElementById("replay").addEventListener("click", () => {
+      if (!AC) {
+        try { AC = new (window.AudioContext || window.webkitAudioContext)(); } catch(e) {}
+      }
+      if (AC && AC.state === "suspended") AC.resume();
+      boot(true);
+    });
+
+    boot(false);
+  </script>
+</body>
+</html>
 </body>
 </html>
