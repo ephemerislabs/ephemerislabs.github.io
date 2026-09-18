@@ -1,0 +1,54 @@
+# Mil Wizard — daily TSP share prices into milwizard-packs/latest.json
+# Ported from DrillWizard-packs/.github/workflows/tsp-prices.yml. Same updater, same doctrine:
+# fail-closed (a broken feed fails this job loudly and commits nothing), idempotent, and the
+# commit step rebases onto whatever a racing run pushed first.
+# The pack lives in this site repo under milwizard-packs/ so that GitHub Pages serves it at
+# https://ephemerislabs.github.io/milwizard-packs/latest.json — the URL compiled into the app.
+
+name: Mil Wizard TSP share prices
+
+on:
+  schedule:
+    - cron: "40 23 * * 1-5"      # weekdays 23:40 UTC, after tsp.gov posts the day's prices
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mw-latest-json          # never write milwizard-packs/latest.json at the same moment as the OCONUS job
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: milwizard-packs
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parser self-test (no network)
+        run: python3 update_tsp_prices.py --selftest
+
+      - name: Fetch prices and update latest.json
+        run: python3 update_tsp_prices.py
+
+      - name: Commit if anything changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- latest.json; then
+            echo "no change — nothing to commit"
+            exit 0
+          fi
+          git config user.name  "mil-wizard-packs[bot]"
+          git config user.email "support@ephemerislabs.app"
+          git add latest.json
+          git commit -m "Mil Wizard TSP prices $(date -u +%F)"
+          # During a rebase, "-X theirs" keeps THIS run's file content — the freshest fetch.
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push rejected — rebasing onto the winner (attempt $i)"
+            git pull --rebase -X theirs origin main
+          done
+          git push

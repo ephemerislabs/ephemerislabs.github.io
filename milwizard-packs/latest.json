@@ -1,0 +1,8842 @@
+{
+ "schema_version": 3,
+ "generated": "2026-09-18",
+ "note": "Mil Wizard rate packs. Served to the app at DATA_PACK_URL. See README.md.",
+ "packs": [
+  {
+   "pack_id": "2026",
+   "schema_version": 3,
+   "generated": "2026-09-18",
+   "effective": {
+    "military_pay_start": "2026-01-01"
+   },
+   "basic_pay": {
+    "sea_monthly": 11166.9,
+    "brackets": [
+     0,
+     2,
+     3,
+     4,
+     6,
+     8,
+     10,
+     12,
+     14,
+     16,
+     18,
+     20,
+     22,
+     24,
+     26,
+     28,
+     30,
+     32,
+     34,
+     36,
+     38,
+     40
+    ],
+    "grades": {
+     "E1": [
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2,
+      2407.2
+     ],
+     "E2": [
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9,
+      2697.9
+     ],
+     "E3": [
+      2836.8,
+      3015,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198,
+      3198
+     ],
+     "E4": [
+      3142.2,
+      3303,
+      3482.4,
+      3658.5,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4,
+      3815.4
+     ],
+     "E5": [
+      3342.9,
+      3598.2,
+      3775.8,
+      3946.8,
+      4110,
+      4299.9,
+      4395.3,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7,
+      4421.7
+     ],
+     "E6": [
+      3401.1,
+      3743.1,
+      3908.1,
+      4068.9,
+      4235.7,
+      4612.8,
+      4759.5,
+      5043.3,
+      5130.3,
+      5193.6,
+      5267.7,
+      5267.7,
+      5267.7,
+      5267.7,
+      5267.7,
+      5267.7,
+      5267.7,
+      5267.7,
+      5267.7,
+      5267.7,
+      5267.7,
+      5267.7
+     ],
+     "E7": [
+      3932.1,
+      4291.5,
+      4456.2,
+      4673.1,
+      4843.8,
+      5135.7,
+      5300.4,
+      5591.7,
+      5835,
+      6000.9,
+      6177.3,
+      6245.7,
+      6475.2,
+      6598.2,
+      7067.4,
+      7067.4,
+      7067.4,
+      7067.4,
+      7067.4,
+      7067.4,
+      7067.4,
+      7067.4
+     ],
+     "E8": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      5656.5,
+      5907,
+      6061.8,
+      6247.2,
+      6448.2,
+      6811.2,
+      6995.4,
+      7308.3,
+      7481.7,
+      7908.9,
+      7908.9,
+      8067.3,
+      8067.3,
+      8067.3,
+      8067.3,
+      8067.3,
+      8067.3
+     ],
+     "E9": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      6910.2,
+      7066.5,
+      7263.6,
+      7496.1,
+      7730.7,
+      8105.1,
+      8423.1,
+      8756.7,
+      9267.9,
+      9267.9,
+      9730.2,
+      9730.2,
+      10217.4,
+      10217.4,
+      10729.2,
+      10729.2
+     ],
+     "W1": [
+      4056.6,
+      4493.7,
+      4611,
+      4859.1,
+      5152.2,
+      5584.2,
+      5786.1,
+      6069.3,
+      6346.5,
+      6564.9,
+      6766.2,
+      7010.1,
+      7010.1,
+      7010.1,
+      7010.1,
+      7010.1,
+      7010.1,
+      7010.1,
+      7010.1,
+      7010.1,
+      7010.1,
+      7010.1
+     ],
+     "W2": [
+      4621.8,
+      5058.9,
+      5193.3,
+      5286,
+      5585.4,
+      6051,
+      6282.6,
+      6509.4,
+      6787.5,
+      7005,
+      7201.5,
+      7437,
+      7591.5,
+      7714.2,
+      7714.2,
+      7714.2,
+      7714.2,
+      7714.2,
+      7714.2,
+      7714.2,
+      7714.2,
+      7714.2
+     ],
+     "W3": [
+      5223.3,
+      5440.5,
+      5664.3,
+      5736.9,
+      5970.9,
+      6431.1,
+      6910.5,
+      7136.4,
+      7397.7,
+      7665.9,
+      8150.4,
+      8476.5,
+      8671.8,
+      8879.7,
+      9162.6,
+      9162.6,
+      9162.6,
+      9162.6,
+      9162.6,
+      9162.6,
+      9162.6,
+      9162.6
+     ],
+     "W4": [
+      5719.8,
+      6152.1,
+      6328.5,
+      6502.2,
+      6801.9,
+      7098,
+      7398,
+      7848.3,
+      8243.7,
+      8619.9,
+      8928.6,
+      9228.9,
+      9669.6,
+      10032,
+      10445.4,
+      10445.4,
+      10653.6,
+      10653.6,
+      10653.6,
+      10653.6,
+      10653.6,
+      10653.6
+     ],
+     "W5": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      10169.7,
+      10685.7,
+      11070.3,
+      11495.1,
+      11495.1,
+      12070.8,
+      12070.8,
+      12673.5,
+      12673.5,
+      13308.3,
+      13308.3
+     ],
+     "O1": [
+      4150.2,
+      4320,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4,
+      5222.4
+     ],
+     "O2": [
+      4782,
+      5446.2,
+      6272.4,
+      6484.5,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7,
+      6617.7
+     ],
+     "O3": [
+      5534.1,
+      6273.9,
+      6770.4,
+      7382.7,
+      7737,
+      8125.5,
+      8375.7,
+      8788.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2,
+      9004.2
+     ],
+     "O4": [
+      6294.6,
+      7286.4,
+      7773.6,
+      7881,
+      8332.2,
+      8816.4,
+      9420,
+      9888.3,
+      10214.4,
+      10401.6,
+      10509.9,
+      10509.9,
+      10509.9,
+      10509.9,
+      10509.9,
+      10509.9,
+      10509.9,
+      10509.9,
+      10509.9,
+      10509.9,
+      10509.9,
+      10509.9
+     ],
+     "O5": [
+      7295.4,
+      8218.2,
+      8787,
+      8894.1,
+      9249.6,
+      9461.4,
+      9928.5,
+      10271.7,
+      10715.1,
+      11391.3,
+      11713.8,
+      12032.7,
+      12394.8,
+      12394.8,
+      12394.8,
+      12394.8,
+      12394.8,
+      12394.8,
+      12394.8,
+      12394.8,
+      12394.8,
+      12394.8
+     ],
+     "O6": [
+      8751.3,
+      9613.8,
+      10245,
+      10245,
+      10284.3,
+      10725,
+      10783.5,
+      10783.5,
+      11396.4,
+      12479.7,
+      13115.4,
+      13751.1,
+      14112.9,
+      14479.2,
+      15188.7,
+      15188.7,
+      15408.3,
+      15408.3,
+      15408.3,
+      15408.3,
+      15408.3,
+      15408.3
+     ],
+     "O7": [
+      11540.1,
+      12076.2,
+      12324.3,
+      12522,
+      12878.7,
+      13231.8,
+      13639.2,
+      14045.7,
+      14454.3,
+      15735.3,
+      16817.7,
+      16817.7,
+      16817.7,
+      16817.7,
+      16904.4,
+      16904.4,
+      17242.2,
+      17242.2,
+      17242.2,
+      17242.2,
+      17242.2,
+      17242.2
+     ],
+     "O8": [
+      13888.5,
+      14343.9,
+      14645.4,
+      14729.4,
+      15106.5,
+      15735.3,
+      15882,
+      16479.6,
+      16651.8,
+      17166.6,
+      17911.8,
+      18598.2,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9
+     ],
+     "O9": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9
+     ],
+     "O10": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9,
+      18999.9
+     ],
+     "O1E": [
+      null,
+      null,
+      null,
+      5222.4,
+      5576.4,
+      5783.1,
+      5993.7,
+      6200.7,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5,
+      6484.5
+     ],
+     "O2E": [
+      null,
+      null,
+      null,
+      6484.5,
+      6617.7,
+      6828,
+      7183.8,
+      7458.9,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5,
+      7663.5
+     ],
+     "O3E": [
+      null,
+      null,
+      null,
+      7382.7,
+      7737,
+      8125.5,
+      8375.7,
+      8788.2,
+      9137.1,
+      9336.9,
+      9609.6,
+      9609.6,
+      9609.6,
+      9609.6,
+      9609.6,
+      9609.6,
+      9609.6,
+      9609.6,
+      9609.6,
+      9609.6,
+      9609.6,
+      9609.6
+     ]
+    }
+   },
+   "bas": {
+    "enlisted": 476.95,
+    "officer": 328.48
+   },
+   "tsp_prices": {
+    "as_of": "2026-09-16",
+    "px": {
+     "LI": 30.9516,
+     "L30": 63.1152,
+     "L35": 19.3938,
+     "L40": 74.7409,
+     "L45": 20.7723,
+     "L50": 46.2304,
+     "L55": 24.2845,
+     "L60": 24.2811,
+     "L65": 24.2775,
+     "L70": 14.3884,
+     "L75": 12.5683,
+     "G": 20.2182,
+     "F": 20.5873,
+     "C": 121.8196,
+     "S": 113.104,
+     "I": 64.7938
+    }
+   },
+   "avip_navy_officer_baseline": [
+    {
+     "label": "2 or less",
+     "min": 0,
+     "rate": 125
+    },
+    {
+     "label": "Over 2",
+     "min": 2,
+     "rate": 156
+    },
+    {
+     "label": "Over 3",
+     "min": 3,
+     "rate": 188
+    },
+    {
+     "label": "Over 4",
+     "min": 4,
+     "rate": 206
+    },
+    {
+     "label": "Over 6",
+     "min": 6,
+     "rate": 650
+    },
+    {
+     "label": "Over 14",
+     "min": 14,
+     "rate": 840
+    },
+    {
+     "label": "Over 22",
+     "min": 22,
+     "rate": 585
+    },
+    {
+     "label": "Over 23",
+     "min": 23,
+     "rate": 495
+    },
+    {
+     "label": "Over 24",
+     "min": 24,
+     "rate": 385
+    },
+    {
+     "label": "Over 25",
+     "min": 25,
+     "rate": 250
+    }
+   ],
+   "avip_service_tables": {
+    "army": [
+     {
+      "label": "2 or less",
+      "min": 0,
+      "rate": 125
+     },
+     {
+      "label": "Over 2",
+      "min": 2,
+      "rate": 200
+     },
+     {
+      "label": "Over 6",
+      "min": 6,
+      "rate": 700
+     },
+     {
+      "label": "Over 10",
+      "min": 10,
+      "rate": 1000
+     },
+     {
+      "label": "Over 22",
+      "min": 22,
+      "rate": 700
+     },
+     {
+      "label": "Over 24",
+      "min": 24,
+      "rate": 400
+     }
+    ],
+    "af": [
+     {
+      "label": "2 or less",
+      "min": 0,
+      "rate": 150
+     },
+     {
+      "label": "Over 2",
+      "min": 2,
+      "rate": 250
+     },
+     {
+      "label": "Over 6",
+      "min": 6,
+      "rate": 700
+     },
+     {
+      "label": "Over 12",
+      "min": 12,
+      "rate": 1000
+     },
+     {
+      "label": "Over 22",
+      "min": 22,
+      "rate": 700
+     },
+     {
+      "label": "Over 24",
+      "min": 24,
+      "rate": 450
+     }
+    ],
+    "usmc": [
+     {
+      "label": "2 or less",
+      "min": 0,
+      "rate": 125
+     },
+     {
+      "label": "Over 2",
+      "min": 2,
+      "rate": 156
+     },
+     {
+      "label": "Over 3",
+      "min": 3,
+      "rate": 188
+     },
+     {
+      "label": "Over 4",
+      "min": 4,
+      "rate": 206
+     },
+     {
+      "label": "Over 6",
+      "min": 6,
+      "rate": 650
+     },
+     {
+      "label": "Over 8",
+      "min": 8,
+      "rate": 800
+     },
+     {
+      "label": "Over 10",
+      "min": 10,
+      "rate": 1000
+     },
+     {
+      "label": "Over 17",
+      "min": 17,
+      "rate": 840
+     },
+     {
+      "label": "Over 22",
+      "min": 22,
+      "rate": 585
+     },
+     {
+      "label": "Over 23",
+      "min": 23,
+      "rate": 495
+     },
+     {
+      "label": "Over 24",
+      "min": 24,
+      "rate": 385
+     },
+     {
+      "label": "Over 25",
+      "min": 25,
+      "rate": 250
+     }
+    ],
+    "cg": [
+     {
+      "label": "2 or less",
+      "min": 0,
+      "rate": 150
+     },
+     {
+      "label": "Over 2",
+      "min": 2,
+      "rate": 250
+     },
+     {
+      "label": "Over 6",
+      "min": 6,
+      "rate": 800
+     },
+     {
+      "label": "Over 10",
+      "min": 10,
+      "rate": 1000
+     },
+     {
+      "label": "Over 22",
+      "min": 22,
+      "rate": 700
+     },
+     {
+      "label": "Over 24",
+      "min": 24,
+      "rate": 450
+     }
+    ]
+   },
+   "special_pay_catalog": [
+    {
+     "id": "avip",
+     "label": "Aviation Incentive Pay (officer)",
+     "kind": "avip"
+    },
+    {
+     "id": "cefip",
+     "label": "Career Enlisted Flyer Incentive Pay",
+     "kind": "cefip"
+    },
+    {
+     "id": "hdip_crew",
+     "label": "HDIP — flying, aircrew (non-AvIP)",
+     "def": null,
+     "hint": "Up to $250/mo by grade — enter your LES amount"
+    },
+    {
+     "id": "hdip_noncrew",
+     "label": "HDIP — flying, non-crewmember",
+     "def": 150
+    },
+    {
+     "id": "para",
+     "label": "Parachute duty (static line)",
+     "def": 150,
+     "hint": "Army rate temporarily higher through 2029 — verify on LES"
+    },
+    {
+     "id": "halo",
+     "label": "Parachute duty (MFF / HALO)",
+     "def": 225,
+     "hint": "Recent NDAA raised some MFF rates — verify on LES"
+    },
+    {
+     "id": "demo",
+     "label": "Demolition duty (EOD)",
+     "def": 150
+    },
+    {
+     "id": "flightdeck",
+     "label": "Flight deck duty",
+     "def": 150
+    },
+    {
+     "id": "dive",
+     "label": "Diving duty",
+     "def": null,
+     "hint": "Up to $240 officer / $340 enlisted — enter your LES amount"
+    },
+    {
+     "id": "sub",
+     "label": "Submarine duty",
+     "def": null,
+     "hint": "By grade and YOS — enter your LES amount"
+    },
+    {
+     "id": "seapay",
+     "label": "Career sea pay",
+     "def": null,
+     "hint": "By grade and cumulative sea years — roughly $60–$805/mo, tables vary by service. Enter your LES amount"
+    },
+    {
+     "id": "seaprem",
+     "label": "Career sea pay premium",
+     "def": 200,
+     "hint": "After 36 consecutive months of sea duty. Officers O1–O6 draw $100 — edit the amount"
+    },
+    {
+     "id": "flpb",
+     "label": "Foreign language proficiency",
+     "def": null,
+     "hint": "By language/level — enter your LES amount"
+    },
+    {
+     "id": "sdap",
+     "label": "Special duty assignment pay",
+     "def": null,
+     "hint": "SD-1 to SD-6 — enter your LES amount"
+    },
+    {
+     "id": "custom",
+     "label": "Other (name it)",
+     "kind": "custom"
+    }
+   ],
+   "tsp": {
+    "elective_deferral": 24500
+   },
+   "sgli": {
+    "per_1000": 0.05,
+    "tsgli": 1,
+    "max": 500000,
+    "step": 50000
+   },
+   "tsp_funds": {
+    "as_of": "2026-07-30",
+    "proxy_note": "funds younger than 10 yrs default to the L2050 10-yr figure",
+    "list": [
+     {
+      "id": "G",
+      "label": "G Fund (Treasuries)",
+      "r10": 2.9
+     },
+     {
+      "id": "F",
+      "label": "F Fund (bonds)",
+      "r10": 1.5
+     },
+     {
+      "id": "C",
+      "label": "C Fund (S&P 500)",
+      "r10": 15
+     },
+     {
+      "id": "S",
+      "label": "S Fund (small/mid cap)",
+      "r10": 11.6
+     },
+     {
+      "id": "I",
+      "label": "I Fund (international)",
+      "r10": 10
+     },
+     {
+      "id": "LI",
+      "label": "L Income",
+      "r10": 5.4
+     },
+     {
+      "id": "L30",
+      "label": "L 2030",
+      "r10": 9.1
+     },
+     {
+      "id": "L35",
+      "label": "L 2035",
+      "r10": null,
+      "si": 11.3,
+      "inc": "2020"
+     },
+     {
+      "id": "L40",
+      "label": "L 2040",
+      "r10": 10.2
+     },
+     {
+      "id": "L45",
+      "label": "L 2045",
+      "r10": null,
+      "si": 12.6,
+      "inc": "2020"
+     },
+     {
+      "id": "L50",
+      "label": "L 2050",
+      "r10": 11.2
+     },
+     {
+      "id": "L55",
+      "label": "L 2055",
+      "r10": null,
+      "si": 15.5,
+      "inc": "2020"
+     },
+     {
+      "id": "L60",
+      "label": "L 2060",
+      "r10": null,
+      "si": 15.5,
+      "inc": "2020"
+     },
+     {
+      "id": "L65",
+      "label": "L 2065",
+      "r10": null,
+      "si": 15.5,
+      "inc": "2020"
+     },
+     {
+      "id": "L70",
+      "label": "L 2070",
+      "r10": null,
+      "si": 19,
+      "inc": "2024"
+     },
+     {
+      "id": "L75",
+      "label": "L 2075",
+      "r10": null,
+      "si": 22,
+      "inc": "2025"
+     }
+    ]
+   },
+   "fica": {
+    "rate": 0.0765,
+    "ss_rate": 0.062,
+    "medicare_rate": 0.0145,
+    "ss_wage_base": 184500,
+    "src": "SSA 2026 wage base; 6.2% OASDI to the base + 1.45% Medicare uncapped"
+   },
+   "brs_match": {
+    "auto_pct": 1,
+    "auto_start_days": 60,
+    "start_yos": 2,
+    "end_yos": 26,
+    "src": "5 U.S.C. 8440e(e)(3); 5 CFR 1600.19 — automatic 1% from 60 days, match from 2 yrs + 1 day, both end at 26 YOS"
+   },
+   "tsp_limits": {
+    "elective": 24500,
+    "annual_additions": 72000,
+    "catchup": 8000,
+    "catchup_start_age": 50,
+    "catchup_super": 11250,
+    "super_ages": [
+     60,
+     63
+    ],
+    "as_of": "2026",
+    "src": "IRC 402(g)/415(c); IRS Notice 2025-67, TSP Bulletin 25-3; SECURE 2.0 s603"
+   },
+   "bas_meal": {
+    "discount_daily": 13.65,
+    "standard_daily": 18,
+    "as_of": "2026-01-01",
+    "src": "OUSD(C) Food Service Charges memo eff. 2026-01-01 — discount rate B $3.35 / L $5.55 / D $4.75 = $13.65; charged to ESM/EUM members (DoDD 1418.05, JTR 020315)"
+   },
+   "fsa": {
+    "monthly": 300,
+    "daily": 10,
+    "min_days": 30,
+    "src": "37 U.S.C. 427 as amended by the FY2026 NDAA — $300/mo eff. 2026-01-01 (was $250 since 2003); prorated $10/day; payable after more than 30 continuous days"
+   },
+   "hfp_idp": {
+    "monthly": 225,
+    "daily": 7.5,
+    "src": "37 U.S.C. 310; DoD FMR Vol 7A Ch 10 — HFP $225 for any month with exposure, IDP prorated at $7.50/day"
+   },
+   "hdp_l": {
+    "tiers": [
+     50,
+     100,
+     150
+    ],
+    "src": "37 U.S.C. 352; DoD FMR Vol 7A Ch 17 — $50/$100/$150 by designated location"
+   },
+   "afrh": {
+    "monthly": 0.5,
+    "branches": [
+     "ARMY",
+     "NAVY",
+     "USAF",
+     "USMC",
+     "USSF"
+    ],
+    "src": "24 U.S.C. 419 — $0.50/mo from enlisted, warrant, and limited-duty officers of the Armed Forces Retirement Home services; Coast Guard is not assessed"
+   },
+   "tdp": {
+    "as_of": "2026-03-01",
+    "e4_below": {
+     "single": 8.79,
+     "family": 22.85
+    },
+    "e5_above": {
+     "single": 11.72,
+     "family": 30.47
+    },
+    "src": "TRICARE Dental Program premiums eff. 2026-03-01 through 2027-02-28 (United Concordia; tricare.mil/costs) — by sponsor grade, one family member vs two or more; paid by payroll allotment a month ahead. Active-duty families pay NO enrollment fee for TRICARE Prime or Select."
+   },
+   "fsgli": {
+    "max": 100000,
+    "step": 10000,
+    "child_free": 10000,
+    "per_10k": [
+     {
+      "max_age": 34,
+      "rate": 0.4
+     },
+     {
+      "max_age": 39,
+      "rate": 0.47
+     },
+     {
+      "max_age": 44,
+      "rate": 0.62
+     },
+     {
+      "max_age": 49,
+      "rate": 0.85
+     },
+     {
+      "max_age": 54,
+      "rate": 1.35
+     },
+     {
+      "max_age": 59,
+      "rate": 2.3
+     },
+     {
+      "max_age": 999,
+      "rate": 4
+     }
+    ],
+    "src": "VA Insurance Service FSGLI premium table eff. 2025-07-01 ($0.40–$4.00 per $10,000 by spouse age); children $10,000 at no cost"
+   },
+   "cz": {
+    "officer_cap_note": "Officers exclude up to the senior-enlisted (E-9 max) monthly basic pay plus HFP/IDP; enlisted and warrant exclude all pay earned in the zone",
+    "src": "26 U.S.C. 112; 26 CFR 1.112-1; DoD FMR Vol 7A Ch 44"
+   },
+   "dla": {
+    "as_of": "2026-01-01",
+    "partial": 1002.71,
+    "src": "PDTATAC UTD/MAP 72-25(I), CY2026 DLA rates eff. 2026-01-01 (JTR 0505); partial DLA per military.com CY2026 table",
+    "wo": {
+     "O10": 5187.33,
+     "O9": 5187.33,
+     "O8": 5187.33,
+     "O7": 5187.33,
+     "O6": 4758.96,
+     "O5": 4583.51,
+     "O4": 4247.61,
+     "O3": 3404.11,
+     "O2": 2700.31,
+     "O1": 2273.82,
+     "O3E": 3675.83,
+     "O2E": 3124.87,
+     "O1E": 2687.09,
+     "W5": 4315.51,
+     "W4": 3832.45,
+     "W3": 3221.08,
+     "W2": 2860.7,
+     "W1": 2394.55,
+     "E9": 3147.54,
+     "E8": 2888.97,
+     "E7": 2468.19,
+     "E6": 2389.42,
+     "E5": 2389.42,
+     "E4": 2389.42,
+     "E3": 2355.48,
+     "E2": 2025.26,
+     "E1": 1870.58
+    },
+    "w": {
+     "O10": 6385.58,
+     "O9": 6385.58,
+     "O8": 6385.58,
+     "O7": 6385.58,
+     "O6": 5749.63,
+     "O5": 5542.06,
+     "O4": 4885.43,
+     "O3": 4041.88,
+     "O2": 3451.28,
+     "O1": 3085.23,
+     "O3E": 4343.8,
+     "O2E": 3919.27,
+     "O1E": 3621.1,
+     "W5": 4715.58,
+     "W4": 4323.11,
+     "W3": 3960.78,
+     "W2": 3643.75,
+     "W1": 3151.31,
+     "E9": 4149.51,
+     "E8": 3824.94,
+     "E7": 3551.31,
+     "E6": 3548.02,
+     "E5": 3548.02,
+     "E4": 3548.02,
+     "E3": 3548.02,
+     "E2": 3548.02,
+     "E1": 3548.02
+    }
+   },
+   "tle": {
+    "daily_cap": 290,
+    "max_days": 21,
+    "oconus_side_days": 7,
+    "std_lodging": 110,
+    "std_mie": 68,
+    "pct": {
+     "one": 0.65,
+     "two": 1,
+     "add_12up": 0.35,
+     "add_under12": 0.25
+    },
+    "src": "JTR 0506, Tables 5-13/5-17; MAP 66-24(R) raised CONUS TLE from 14 to 21 days eff. 2024-11-27; $290/day cap"
+   },
+   "tla": {
+    "max_days_arrive": 60,
+    "max_days_depart": 10,
+    "pct": {
+     "one": 0.65,
+     "two": 1,
+     "three": 1.1,
+     "four": 1.25,
+     "add_12up": 0.35,
+     "add_under12": 0.25
+    },
+    "src": "JTR 0507 (TLA) — locality per diem × family-size percentage; no daily cap; 60 days on arrival, 10 on departure, in 15-day increments"
+   },
+   "ppm": {
+    "incentive_pct": 1,
+    "advance_pct": 0.6,
+    "withholding_pct": 0.22,
+    "src": "JTR 051502 — 100% of the Government Constructed Cost for moves after 2025-09-30 (the 130% authority expired); advance up to 60%; DFAS withholds 22% federal on the taxable excess of incentive over receipted expenses"
+   },
+   "leave": {
+    "accrual_per_month": 2.5,
+    "use_lose_cap": 60,
+    "sell_career_cap": 60,
+    "src": "10 U.S.C. 701 — 2.5 days per month; carryover above 60 days is lost at fiscal year end unless SLA applies; 60 days of leave may be sold in a career, at basic pay only"
+   },
+   "retirement": {
+    "high3_mult": 0.025,
+    "brs_mult": 0.02,
+    "min_yos": 20,
+    "src": "10 U.S.C. 1401/1407/1409 — 2.5% (High-3) or 2.0% (BRS) per year of service × high-36 average basic pay; retired pay from the first day after 20 years, no age gate"
+   },
+   "per_diem_ie": {
+    "conus": 5,
+    "oconus_reduced": 3.5,
+    "src": "JTR 020304-F — incidental expense $5 CONUS; $3.50 OCONUS when lodged in government quarters on a U.S. installation; none under field conditions or aboard ship"
+   },
+   "sdp": {
+    "rate": 0.1,
+    "max": 10000,
+    "min_days": 30,
+    "tail_days": 90,
+    "src": "10 U.S.C. 1035; DoD FMR Vol 7A Ch 51 — Savings Deposit Program: 10% a year, compounded quarterly, on up to $10,000, after 30 consecutive days in a designated combat zone/direct-support area drawing HFP/IDP; interest runs 90 days past return and is taxable"
+   },
+   "idp_rules": {
+    "daily": 7.5,
+    "monthly_cap": 225,
+    "skip_31st": true,
+    "src": "DoD FMR Vol 7A Ch 10 ¶2.2 (Oct 2024) — IDP prorated $7.50/day to $225; the 31st is never a paid day for members on active duty 30+ days; HFP is the full $225 for any month with a certified hostile-fire event"
+   },
+   "hdpl_rules": {
+    "min_consecutive_days": 30,
+    "cap_with_idp": 100,
+    "combined_cap": 325,
+    "src": "DoD FMR Vol 7A Ch 17 ¶2.1.4, ¶3.1 (Dec 2024) — TDY/deployed HDP-L starts on the 31st consecutive day, retroactive to arrival; maximum $100 in any month HFP/IDP is paid; HDP-L + HFP/IDP ≤ $325"
+   },
+   "deploy_zones": {
+    "as_of": "2025-09-23",
+    "src": "IDP: DoD FMR Vol 7A Ch 10 Table 10-1 (incl. Red Sea/Gulf of Aden/Bab-al-Mandeb Oct 2023, Gaza/Israel seas Mar 2023, Ukraine Apr 2022). CZ: IRS Pub 3 (2025) / FMR Ch 44; EO 12744, 13239, 13119; P.L. 115-97 §11026. HDP-L: DFAS HDP-L table updated 2025-09-23 (Kuwait $100 from Sep 2025).",
+    "list": [
+     {
+      "k": "kuwait",
+      "g": "Arabian Peninsula (EO 12744)",
+      "label": "Kuwait — Arifjan, Buehring, Ali Al Salem",
+      "oc": "KUWAIT",
+      "idp": false,
+      "cz": "eo",
+      "hdpl": 100,
+      "note": "IDP ended June 2014; the combat-zone exclusion never did."
+     },
+     {
+      "k": "bahrain",
+      "g": "Arabian Peninsula (EO 12744)",
+      "label": "Bahrain — NSA Bahrain",
+      "oc": "BAHRAIN",
+      "idp": false,
+      "cz": "eo",
+      "hdpl": 100
+     },
+     {
+      "k": "qatar",
+      "g": "Arabian Peninsula (EO 12744)",
+      "label": "Qatar — Al Udeid AB",
+      "oc": "QATAR",
+      "idp": false,
+      "cz": "eo",
+      "hdpl": 50
+     },
+     {
+      "k": "uae",
+      "g": "Arabian Peninsula (EO 12744)",
+      "label": "UAE — Al Dhafra, Fujairah, Jebel Ali",
+      "oc": "UNITED ARAB EMIRATES",
+      "idp": false,
+      "cz": "eo",
+      "hdpl": 50
+     },
+     {
+      "k": "oman",
+      "g": "Arabian Peninsula (EO 12744)",
+      "label": "Oman — Duqm, Thumrait, Masirah",
+      "oc": "OMAN",
+      "idp": false,
+      "cz": "eo",
+      "hdpl": 100
+     },
+     {
+      "k": "saudi",
+      "g": "Arabian Peninsula (EO 12744)",
+      "label": "Saudi Arabia — Prince Sultan AB",
+      "oc": "SAUDI ARABIA",
+      "idp": true,
+      "cz": "eo",
+      "hdpl": 100
+     },
+     {
+      "k": "iraq",
+      "g": "Arabian Peninsula (EO 12744)",
+      "label": "Iraq — Erbil, Al Asad, Baghdad",
+      "oc": "IRAQ",
+      "idp": true,
+      "cz": "eo",
+      "hdpl": 100
+     },
+     {
+      "k": "sea_gulf",
+      "g": "Arabian Peninsula (EO 12744)",
+      "label": "At sea — Persian Gulf, Gulf of Oman, Arabian Sea",
+      "oc": "",
+      "idp": false,
+      "cz": "eo",
+      "hdpl": 0,
+      "sea": true,
+      "note": "Water areas of EO 12744; no IDP designation since 2014."
+     },
+     {
+      "k": "sea_red",
+      "g": "Arabian Peninsula (EO 12744)",
+      "label": "At sea — Red Sea, Gulf of Aden, Bab-al-Mandeb",
+      "oc": "",
+      "idp": true,
+      "cz": "eo",
+      "hdpl": 0,
+      "sea": true,
+      "note": "IDP designated 19 Oct 2023 for the ships facing the Houthi campaign."
+     },
+     {
+      "k": "sinai",
+      "g": "Sinai (P.L. 115-97)",
+      "label": "Egypt — Sinai Peninsula (MFO)",
+      "oc": "EGYPT",
+      "idp": true,
+      "cz": "qhda",
+      "hdpl": 100
+     },
+     {
+      "k": "jordan",
+      "g": "Direct support (with IDP)",
+      "label": "Jordan — Muwaffaq Salti, Tower 22",
+      "oc": "JORDAN",
+      "idp": true,
+      "cz": "ds",
+      "hdpl": 100
+     },
+     {
+      "k": "syria",
+      "g": "Direct support (with IDP)",
+      "label": "Syria",
+      "oc": "SYRIA",
+      "idp": true,
+      "cz": "ds",
+      "hdpl": 100
+     },
+     {
+      "k": "djibouti",
+      "g": "Direct support (with IDP)",
+      "label": "Djibouti — Camp Lemonnier",
+      "oc": "DJIBOUTI",
+      "idp": true,
+      "cz": "ds",
+      "hdpl": 100
+     },
+     {
+      "k": "somalia",
+      "g": "Direct support (with IDP)",
+      "label": "Somalia",
+      "oc": "SOMALIA",
+      "idp": true,
+      "cz": "ds",
+      "hdpl": 100
+     },
+     {
+      "k": "yemen",
+      "g": "Direct support (with IDP)",
+      "label": "Yemen",
+      "oc": "YEMEN",
+      "idp": true,
+      "cz": "ds",
+      "hdpl": 100
+     },
+     {
+      "k": "lebanon",
+      "g": "Direct support (with IDP)",
+      "label": "Lebanon",
+      "oc": "LEBANON",
+      "idp": true,
+      "cz": "ds",
+      "hdpl": 100
+     },
+     {
+      "k": "israel",
+      "g": "Direct support (with IDP)",
+      "label": "Israel",
+      "oc": "ISRAEL",
+      "idp": true,
+      "cz": "ds",
+      "hdpl": 50
+     },
+     {
+      "k": "incirlik",
+      "g": "Direct support (with IDP)",
+      "label": "Turkey — Incirlik AB",
+      "oc": "TURKEY",
+      "idp": true,
+      "cz": "ds",
+      "hdpl": 100,
+      "note": "Direct support east of 33.51°E; Izmir is excluded from IDP."
+     },
+     {
+      "k": "pakistan",
+      "g": "Direct support (with IDP)",
+      "label": "Pakistan",
+      "oc": "PAKISTAN",
+      "idp": true,
+      "cz": "ds",
+      "hdpl": 100
+     },
+     {
+      "k": "sea_som",
+      "g": "Direct support (with IDP)",
+      "label": "At sea — Somalia Basin",
+      "oc": "",
+      "idp": true,
+      "cz": "ds",
+      "hdpl": 0,
+      "sea": true
+     },
+     {
+      "k": "afghan",
+      "g": "Afghanistan (EO 13239)",
+      "label": "Afghanistan",
+      "oc": "AFGHANISTAN",
+      "idp": true,
+      "cz": "eo",
+      "hdpl": 100
+     },
+     {
+      "k": "kosovo",
+      "g": "Kosovo (EO 13119)",
+      "label": "Kosovo — Camp Bondsteel",
+      "oc": "KOSOVO",
+      "idp": true,
+      "cz": "eo",
+      "hdpl": 100
+     },
+     {
+      "k": "ukraine",
+      "g": "IDP, no tax exclusion",
+      "label": "Ukraine",
+      "oc": "UKRAINE",
+      "idp": true,
+      "cz": "",
+      "hdpl": 100
+     },
+     {
+      "k": "niger",
+      "g": "IDP, no tax exclusion",
+      "label": "Niger",
+      "oc": "NIGER",
+      "idp": true,
+      "cz": "",
+      "hdpl": 100
+     },
+     {
+      "k": "kenya",
+      "g": "IDP, no tax exclusion",
+      "label": "Kenya — Manda Bay",
+      "oc": "KENYA",
+      "idp": true,
+      "cz": "",
+      "hdpl": 100
+     },
+     {
+      "k": "libya",
+      "g": "IDP, no tax exclusion",
+      "label": "Libya",
+      "oc": "LIBYA",
+      "idp": true,
+      "cz": "",
+      "hdpl": 100
+     },
+     {
+      "k": "mindanao",
+      "g": "IDP, no tax exclusion",
+      "label": "Philippines — Mindanao / Sulu",
+      "oc": "PHILIPPINES",
+      "idp": true,
+      "cz": "",
+      "hdpl": 100
+     },
+     {
+      "k": "gtmo",
+      "g": "IDP, no tax exclusion",
+      "label": "Cuba — JTF Guantanamo",
+      "oc": "CUBA",
+      "idp": true,
+      "cz": "",
+      "hdpl": 150,
+      "note": "IDP only for duty within the detention facilities; HDP-L $150 for the JTF, capped at $100 with IDP."
+     },
+     {
+      "k": "sea_med",
+      "g": "IDP, no tax exclusion",
+      "label": "At sea — Mediterranean (North African coast area)",
+      "oc": "",
+      "idp": true,
+      "cz": "",
+      "hdpl": 0,
+      "sea": true
+     },
+     {
+      "k": "korea1",
+      "g": "Hardship only",
+      "label": "Korea — Area I (Camp Casey, DMZ)",
+      "oc": "KOREA, SOUTH",
+      "idp": false,
+      "cz": "",
+      "hdpl": 150
+     },
+     {
+      "k": "korea",
+      "g": "Hardship only",
+      "label": "Korea — other (Humphreys, Osan: $0)",
+      "oc": "KOREA, SOUTH",
+      "idp": false,
+      "cz": "",
+      "hdpl": 50,
+      "note": "Osan, Pyongtaek/Humphreys, Seoul, Busan and most large posts are $0; the $50 is the country 'other' rate."
+     },
+     {
+      "k": "honduras",
+      "g": "Hardship only",
+      "label": "Honduras — Soto Cano",
+      "oc": "HONDURAS",
+      "idp": false,
+      "cz": "",
+      "hdpl": 150
+     },
+     {
+      "k": "greenland",
+      "g": "Hardship only",
+      "label": "Greenland — Pituffik SB",
+      "oc": "GREENLAND",
+      "idp": false,
+      "cz": "",
+      "hdpl": 150
+     },
+     {
+      "k": "diego",
+      "g": "Hardship only",
+      "label": "Diego Garcia",
+      "oc": "",
+      "idp": false,
+      "cz": "",
+      "hdpl": 50
+     },
+     {
+      "k": "iceland",
+      "g": "Hardship only",
+      "label": "Iceland — Keflavik",
+      "oc": "ICELAND",
+      "idp": false,
+      "cz": "",
+      "hdpl": 50
+     },
+     {
+      "k": "romania",
+      "g": "Hardship only",
+      "label": "Romania — MK AB",
+      "oc": "ROMANIA",
+      "idp": false,
+      "cz": "",
+      "hdpl": 50
+     },
+     {
+      "k": "bulgaria",
+      "g": "Hardship only",
+      "label": "Bulgaria",
+      "oc": "BULGARIA",
+      "idp": false,
+      "cz": "",
+      "hdpl": 50
+     },
+     {
+      "k": "baltics",
+      "g": "Hardship only",
+      "label": "Lithuania / Estonia",
+      "oc": "LITHUANIA",
+      "idp": false,
+      "cz": "",
+      "hdpl": 50
+     },
+     {
+      "k": "poland",
+      "g": "No designation",
+      "label": "Poland",
+      "oc": "POLAND",
+      "idp": false,
+      "cz": "",
+      "hdpl": 0
+     },
+     {
+      "k": "germany",
+      "g": "No designation",
+      "label": "Germany",
+      "oc": "GERMANY",
+      "idp": false,
+      "cz": "",
+      "hdpl": 0
+     },
+     {
+      "k": "italy",
+      "g": "No designation",
+      "label": "Italy — Sigonella, Aviano, Naples",
+      "oc": "ITALY",
+      "idp": false,
+      "cz": "",
+      "hdpl": 0
+     },
+     {
+      "k": "spain",
+      "g": "No designation",
+      "label": "Spain — Rota",
+      "oc": "SPAIN",
+      "idp": false,
+      "cz": "",
+      "hdpl": 0
+     },
+     {
+      "k": "japan",
+      "g": "No designation",
+      "label": "Japan",
+      "oc": "JAPAN",
+      "idp": false,
+      "cz": "",
+      "hdpl": 0
+     },
+     {
+      "k": "guam",
+      "g": "No designation",
+      "label": "Guam",
+      "oc": "GUAM",
+      "idp": false,
+      "cz": "",
+      "hdpl": 0
+     },
+     {
+      "k": "australia",
+      "g": "No designation",
+      "label": "Australia — Darwin",
+      "oc": "AUSTRALIA",
+      "idp": false,
+      "cz": "",
+      "hdpl": 0
+     },
+     {
+      "k": "sea_other",
+      "g": "No designation",
+      "label": "At sea — Western Pacific / Atlantic / other",
+      "oc": "",
+      "idp": false,
+      "cz": "",
+      "hdpl": 0,
+      "sea": true
+     },
+     {
+      "k": "other",
+      "g": "No designation",
+      "label": "Somewhere else",
+      "oc": "",
+      "idp": false,
+      "cz": "",
+      "hdpl": 0
+     }
+    ]
+   },
+   "csp_navy_usmc": {
+    "as_of": "2014-05-01",
+    "premium": 200,
+    "premium_after_months": 36,
+    "src": "DFAS Career Sea Pay table, Navy/Marine Corps (dfas.mil, updated 2024-01-25); DoD FMR Vol 7A Ch 18",
+    "cols": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     16,
+     18,
+     20
+    ],
+    "grades": {
+     "O6": [
+      100,
+      100,
+      100,
+      394,
+      400,
+      400,
+      419,
+      450,
+      463,
+      494,
+      506,
+      525,
+      544,
+      544,
+      569,
+      594,
+      625,
+      669
+     ],
+     "O5": [
+      100,
+      100,
+      100,
+      394,
+      394,
+      394,
+      394,
+      400,
+      431,
+      438,
+      456,
+      463,
+      463,
+      463,
+      500,
+      525,
+      550,
+      594
+     ],
+     "O4": [
+      100,
+      100,
+      100,
+      325,
+      331,
+      350,
+      356,
+      375,
+      388,
+      388,
+      394,
+      394,
+      419,
+      419,
+      475,
+      494,
+      506,
+      525
+     ],
+     "O3": [
+      100,
+      100,
+      100,
+      263,
+      281,
+      325,
+      331,
+      344,
+      356,
+      375,
+      394,
+      394,
+      419,
+      419,
+      456,
+      475,
+      494,
+      506
+     ],
+     "O2": [
+      100,
+      100,
+      100,
+      263,
+      281,
+      325,
+      331,
+      344,
+      356,
+      375,
+      394,
+      394,
+      419,
+      419,
+      438,
+      456,
+      475,
+      494
+     ],
+     "O1": [
+      100,
+      100,
+      100,
+      263,
+      281,
+      325,
+      331,
+      344,
+      356,
+      375,
+      394,
+      394,
+      419,
+      419,
+      438,
+      456,
+      475,
+      494
+     ],
+     "W5": [
+      210,
+      210,
+      210,
+      263,
+      300,
+      506,
+      544,
+      544,
+      544,
+      544,
+      613,
+      656,
+      700,
+      700,
+      750,
+      750,
+      750,
+      750
+     ],
+     "W4": [
+      210,
+      210,
+      210,
+      263,
+      300,
+      506,
+      544,
+      544,
+      544,
+      544,
+      613,
+      656,
+      700,
+      700,
+      750,
+      750,
+      750,
+      750
+     ],
+     "W3": [
+      210,
+      210,
+      210,
+      263,
+      300,
+      475,
+      494,
+      500,
+      506,
+      544,
+      613,
+      656,
+      700,
+      700,
+      744,
+      744,
+      750,
+      750
+     ],
+     "W2": [
+      210,
+      210,
+      210,
+      263,
+      300,
+      456,
+      463,
+      463,
+      475,
+      544,
+      594,
+      594,
+      656,
+      656,
+      700,
+      700,
+      700,
+      700
+     ],
+     "W1": [
+      180,
+      190,
+      195,
+      263,
+      300,
+      306,
+      350,
+      438,
+      475,
+      525,
+      569,
+      569,
+      594,
+      594,
+      631,
+      656,
+      656,
+      656
+     ],
+     "E9": [
+      135,
+      135,
+      160,
+      381,
+      400,
+      438,
+      438,
+      469,
+      688,
+      700,
+      700,
+      713,
+      725,
+      750,
+      750,
+      750,
+      750,
+      750
+     ],
+     "E8": [
+      135,
+      135,
+      160,
+      381,
+      400,
+      438,
+      438,
+      469,
+      688,
+      700,
+      700,
+      713,
+      725,
+      750,
+      750,
+      750,
+      750,
+      750
+     ],
+     "E7": [
+      135,
+      135,
+      160,
+      381,
+      400,
+      438,
+      438,
+      469,
+      688,
+      700,
+      700,
+      713,
+      725,
+      750,
+      750,
+      750,
+      750,
+      750
+     ],
+     "E6": [
+      135,
+      135,
+      160,
+      350,
+      375,
+      394,
+      406,
+      438,
+      638,
+      656,
+      656,
+      656,
+      675,
+      694,
+      713,
+      731,
+      750,
+      750
+     ],
+     "E5": [
+      70,
+      80,
+      160,
+      350,
+      375,
+      394,
+      406,
+      438,
+      638,
+      638,
+      638,
+      638,
+      638,
+      638,
+      638,
+      638,
+      638,
+      638
+     ],
+     "E4": [
+      70,
+      80,
+      160,
+      350,
+      363,
+      363,
+      363,
+      363,
+      488,
+      488,
+      488,
+      488,
+      488,
+      488,
+      488,
+      488,
+      488,
+      488
+     ],
+     "E3": [
+      50,
+      60,
+      100,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+     ],
+     "E2": [
+      50,
+      60,
+      75,
+      94,
+      94,
+      94,
+      94,
+      94,
+      94,
+      94,
+      94,
+      94,
+      94,
+      94,
+      94,
+      94,
+      94,
+      94
+     ],
+     "E1": [
+      50,
+      50,
+      50,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63
+     ]
+    }
+   },
+   "oconus_mie": {
+    "as_of": "2026-09-01",
+    "source": "DTMO OCONUS per diem supplement (travel.dod.mil), eff. 01 Sep 2026",
+    "countries": {
+     "AFGHANISTAN": [
+      [
+       "HERAT (NON-US FACILITIES)",
+       40
+      ],
+      [
+       "HERAT",
+       28
+      ],
+      [
+       "KABUL (NON-US FACILITIES)",
+       100
+      ],
+      [
+       "KABUL",
+       78
+      ],
+      [
+       "MILITARY BASES IN KABUL",
+       78
+      ],
+      [
+       "MILITARY BASES NOT IN KABUL",
+       15
+      ],
+      [
+       "[OTHER] (NON-US FACILITIES)",
+       50
+      ],
+      [
+       "[OTHER]",
+       15
+      ]
+     ],
+     "ALASKA": [
+      [
+       "ADAK",
+       143
+      ],
+      [
+       "ANCHORAGE",
+       148
+      ],
+      [
+       "BARROW",
+       143
+      ],
+      [
+       "BARTER ISLAND LRRS",
+       143
+      ],
+      [
+       "BETHEL",
+       143
+      ],
+      [
+       "BETTLES",
+       143
+      ],
+      [
+       "CAPE LISBURNE LRRS",
+       143
+      ],
+      [
+       "CAPE NEWENHAM LRRS",
+       143
+      ],
+      [
+       "CAPE ROMANZOF LRRS",
+       143
+      ],
+      [
+       "CLEAR AB",
+       143
+      ],
+      [
+       "COLD BAY LRRS",
+       143
+      ],
+      [
+       "COLD BAY",
+       143
+      ],
+      [
+       "COLDFOOT",
+       143
+      ],
+      [
+       "COPPER CENTER",
+       143
+      ],
+      [
+       "CORDOVA",
+       143
+      ],
+      [
+       "CRAIG",
+       143
+      ],
+      [
+       "DEADHORSE",
+       143
+      ],
+      [
+       "DELTA JUNCTION",
+       143
+      ],
+      [
+       "DENALI NATIONAL PARK",
+       143
+      ],
+      [
+       "DILLINGHAM",
+       143
+      ],
+      [
+       "DUTCH HARBOR-UNALASKA",
+       143
+      ],
+      [
+       "EARECKSON AIR STATION",
+       74
+      ],
+      [
+       "EIELSON AFB",
+       133
+      ],
+      [
+       "ELFIN COVE",
+       143
+      ],
+      [
+       "ELMENDORF AFB",
+       148
+      ],
+      [
+       "FAIRBANKS",
+       133
+      ],
+      [
+       "FORT YUKON LRRS",
+       143
+      ],
+      [
+       "FT. GREELY",
+       143
+      ],
+      [
+       "FT. RICHARDSON",
+       148
+      ],
+      [
+       "FT. WAINWRIGHT",
+       133
+      ],
+      [
+       "GAMBELL",
+       143
+      ],
+      [
+       "GLENNALLEN",
+       143
+      ],
+      [
+       "HAINES",
+       143
+      ],
+      [
+       "HEALY",
+       143
+      ],
+      [
+       "HOMER",
+       143
+      ],
+      [
+       "JB ELMENDORF-RICHARDSON",
+       148
+      ],
+      [
+       "JUNEAU",
+       143
+      ],
+      [
+       "KAKTOVIK",
+       143
+      ],
+      [
+       "KAVIK CAMP",
+       143
+      ],
+      [
+       "KENAI-SOLDOTNA",
+       143
+      ],
+      [
+       "KENNICOTT",
+       143
+      ],
+      [
+       "KETCHIKAN",
+       143
+      ],
+      [
+       "KING SALMON LRRS",
+       143
+      ],
+      [
+       "KING SALMON",
+       143
+      ],
+      [
+       "KLAWOCK",
+       143
+      ],
+      [
+       "KODIAK",
+       139
+      ],
+      [
+       "KOTZEBUE",
+       143
+      ],
+      [
+       "KULIS AGS",
+       148
+      ],
+      [
+       "MCCARTHY",
+       143
+      ],
+      [
+       "MCGRATH",
+       143
+      ],
+      [
+       "MURPHY DOME",
+       133
+      ],
+      [
+       "NOME",
+       143
+      ],
+      [
+       "NOSC ANCHORAGE",
+       148
+      ],
+      [
+       "NUIQSUT",
+       143
+      ],
+      [
+       "OLIKTOK LRRS",
+       143
+      ],
+      [
+       "PALMER",
+       143
+      ],
+      [
+       "PETERSBURG",
+       143
+      ],
+      [
+       "POINT BARROW LRRS",
+       143
+      ],
+      [
+       "POINT HOPE",
+       143
+      ],
+      [
+       "POINT LONELY LRRS",
+       143
+      ],
+      [
+       "PORT ALEXANDER",
+       143
+      ],
+      [
+       "PORT ALSWORTH",
+       143
+      ],
+      [
+       "PRUDHOE BAY",
+       143
+      ],
+      [
+       "SELDOVIA",
+       143
+      ],
+      [
+       "SEWARD",
+       189
+      ],
+      [
+       "SITKA-MT. EDGECUMBE",
+       143
+      ],
+      [
+       "SKAGWAY",
+       143
+      ],
+      [
+       "SLANA",
+       143
+      ],
+      [
+       "SPARREVOHN LRRS",
+       143
+      ],
+      [
+       "SPRUCE CAPE",
+       143
+      ],
+      [
+       "ST. GEORGE",
+       143
+      ],
+      [
+       "TALKEETNA",
+       148
+      ],
+      [
+       "TANANA",
+       143
+      ],
+      [
+       "TATALINA LRRS",
+       143
+      ],
+      [
+       "TIN CITY LRRS",
+       143
+      ],
+      [
+       "TOK",
+       143
+      ],
+      [
+       "VALDEZ",
+       143
+      ],
+      [
+       "WAINWRIGHT",
+       143
+      ],
+      [
+       "WASILLA",
+       129
+      ],
+      [
+       "WRANGELL",
+       143
+      ],
+      [
+       "YAKUTAT",
+       143
+      ],
+      [
+       "[OTHER]",
+       143
+      ]
+     ],
+     "ALBANIA": [
+      [
+       "TIRANA",
+       126
+      ],
+      [
+       "[OTHER]",
+       83
+      ]
+     ],
+     "ALGERIA": [
+      [
+       "ALGIERS",
+       118
+      ],
+      [
+       "[OTHER]",
+       109
+      ]
+     ],
+     "ALL PLACES NOT LISTED": [
+      [
+       "ALL PLACES NOT LISTED",
+       43
+      ]
+     ],
+     "AMERICAN SAMOA": [
+      [
+       "AMERICAN SAMOA",
+       138
+      ],
+      [
+       "PAGO PAGO",
+       138
+      ]
+     ],
+     "ANDORRA": [
+      [
+       "ANDORRA",
+       128
+      ]
+     ],
+     "ANGOLA": [
+      [
+       "LUANDA",
+       199
+      ],
+      [
+       "[OTHER]",
+       199
+      ]
+     ],
+     "ANGUILLA": [
+      [
+       "THE VALLEY",
+       130
+      ]
+     ],
+     "ANTARCTICA": [
+      [
+       "ANTARCTICA REGION POSTS",
+       1
+      ],
+      [
+       "MCMURDO STATION ANTARCTICA",
+       1
+      ]
+     ],
+     "ANTIGUA AND BARBUDA": [
+      [
+       "ALL CONTRACTOR FACILITIES",
+       22
+      ],
+      [
+       "ANTIGUA AND BARBUDA",
+       125,
+       138
+      ],
+      [
+       "[OTHER]",
+       18,
+       19
+      ]
+     ],
+     "ARGENTINA": [
+      [
+       "BARILOCHE",
+       132
+      ],
+      [
+       "BUENOS AIRES",
+       126
+      ],
+      [
+       "MENDOZA",
+       119
+      ],
+      [
+       "[OTHER]",
+       120
+      ]
+     ],
+     "ARMENIA": [
+      [
+       "YEREVAN",
+       93
+      ],
+      [
+       "[OTHER]",
+       93
+      ]
+     ],
+     "ARUBA": [
+      [
+       "ORANJESTAD",
+       160
+      ],
+      [
+       "[OTHER]",
+       160
+      ]
+     ],
+     "ASCENSION ISLAND": [
+      [
+       "ASCENSION ISLAND",
+       29
+      ]
+     ],
+     "AUSTRALIA": [
+      [
+       "ADELAIDE",
+       114
+      ],
+      [
+       "BENDIGO",
+       123
+      ],
+      [
+       "BRISBANE",
+       133
+      ],
+      [
+       "BROOME",
+       127
+      ],
+      [
+       "CAIRNS",
+       130
+      ],
+      [
+       "CANBERRA",
+       115
+      ],
+      [
+       "DARWIN, NORTHERN TERRITORY",
+       124
+      ],
+      [
+       "EXMOUTH",
+       115
+      ],
+      [
+       "FREMANTLE",
+       106
+      ],
+      [
+       "HOBART",
+       131
+      ],
+      [
+       "MELBOURNE (INTL EVENTS)",
+       112
+      ],
+      [
+       "MELBOURNE",
+       112
+      ],
+      [
+       "PERTH",
+       135
+      ],
+      [
+       "RICHMOND, NSW",
+       106
+      ],
+      [
+       "SYDNEY",
+       147
+      ],
+      [
+       "WOOMERA AS",
+       130
+      ],
+      [
+       "[OTHER]",
+       130
+      ]
+     ],
+     "AUSTRIA": [
+      [
+       "GRAZ",
+       123
+      ],
+      [
+       "INNSBRUCK",
+       130
+      ],
+      [
+       "LINZ",
+       152
+      ],
+      [
+       "SALZBURG",
+       118
+      ],
+      [
+       "VIENNA",
+       146
+      ],
+      [
+       "[OTHER]",
+       130
+      ]
+     ],
+     "AZERBAIJAN": [
+      [
+       "BAKU",
+       145
+      ],
+      [
+       "GANJA",
+       90
+      ],
+      [
+       "QABALA",
+       84
+      ],
+      [
+       "[OTHER]",
+       81
+      ]
+     ],
+     "BAHAMAS, THE": [
+      [
+       "ALL OTHER OPBAT SITES",
+       50
+      ],
+      [
+       "ANDROS ISLAND (AUTEC SITE)",
+       52
+      ],
+      [
+       "ANDROS ISLAND (OPBAT SITE)",
+       50
+      ],
+      [
+       "ANDROS ISLAND",
+       107
+      ],
+      [
+       "ELEUTHERA ISLAND",
+       143,
+       150
+      ],
+      [
+       "GRAND BAHAMA ISLAND",
+       126
+      ],
+      [
+       "GREAT EXUMA ISL - OPBAT SITE",
+       50
+      ],
+      [
+       "GREAT INAGUA ISL - OPBAT SITE",
+       50
+      ],
+      [
+       "NASSAU",
+       181
+      ],
+      [
+       "[OTHER]",
+       132
+      ]
+     ],
+     "BAHRAIN": [
+      [
+       "BAHRAIN",
+       126
+      ],
+      [
+       "MANAMA",
+       126
+      ],
+      [
+       "NAVAL SUPPORT ACTIVITY BAHRAIN",
+       126
+      ],
+      [
+       "SHAIKH ISA AIR BASE",
+       126
+      ]
+     ],
+     "BANGLADESH": [
+      [
+       "CHITTAGONG",
+       118
+      ],
+      [
+       "DHAKA",
+       132
+      ],
+      [
+       "SYLHET",
+       123
+      ],
+      [
+       "[OTHER]",
+       135
+      ]
+     ],
+     "BARBADOS": [
+      [
+       "BARBADOS",
+       167,
+       178
+      ]
+     ],
+     "BELARUS": [
+      [
+       "MINSK",
+       116
+      ],
+      [
+       "[OTHER]",
+       116
+      ]
+     ],
+     "BELGIUM": [
+      [
+       "ANTWERP",
+       171
+      ],
+      [
+       "BRUGES",
+       157
+      ],
+      [
+       "BRUSSELS",
+       178
+      ],
+      [
+       "DIEGEM",
+       178
+      ],
+      [
+       "GENT",
+       179
+      ],
+      [
+       "KLEINE BROGEL AB",
+       82
+      ],
+      [
+       "KLEINE BROGEL",
+       82
+      ],
+      [
+       "LIEGE",
+       78
+      ],
+      [
+       "MONS",
+       120
+      ],
+      [
+       "OSTEND",
+       157
+      ],
+      [
+       "SHAPE/CHIEVRES",
+       120
+      ],
+      [
+       "ZAVENTEM",
+       178
+      ],
+      [
+       "[OTHER]",
+       135
+      ]
+     ],
+     "BELIZE": [
+      [
+       "BELIZE CITY",
+       139
+      ],
+      [
+       "BELMOPAN",
+       91
+      ],
+      [
+       "CAYE CAULKER",
+       115
+      ],
+      [
+       "HOPKINS",
+       133
+      ],
+      [
+       "PLACENCIA",
+       144
+      ],
+      [
+       "SAN IGNACIO TOWN",
+       112
+      ],
+      [
+       "SAN PEDRO",
+       127
+      ],
+      [
+       "[OTHER]",
+       101
+      ]
+     ],
+     "BENIN": [
+      [
+       "COTONOU",
+       114
+      ],
+      [
+       "[OTHER]",
+       60
+      ]
+     ],
+     "BERMUDA": [
+      [
+       "BERMUDA",
+       222,
+       242
+      ]
+     ],
+     "BHUTAN": [
+      [
+       "BHUTAN",
+       112
+      ]
+     ],
+     "BOLIVIA": [
+      [
+       "COCHABAMBA",
+       76
+      ],
+      [
+       "LA PAZ",
+       63
+      ],
+      [
+       "POTOSI",
+       45
+      ],
+      [
+       "SANTA CRUZ",
+       62
+      ],
+      [
+       "TARIJA",
+       81
+      ],
+      [
+       "[OTHER]",
+       42
+      ]
+     ],
+     "BONAIRE, SINT EUSTATIUS, AND SABA": [
+      [
+       "BONAIRE",
+       126
+      ],
+      [
+       "SABA",
+       129
+      ],
+      [
+       "SINT EUSTATIUS",
+       110
+      ]
+     ],
+     "BOSNIA AND HERZEGOVINA": [
+      [
+       "MIL BASES IN SARAJEVO",
+       113
+      ],
+      [
+       "MIL BASES NOT IN SARAJEVO",
+       113
+      ],
+      [
+       "SARAJEVO",
+       113
+      ],
+      [
+       "[OTHER]",
+       113
+      ]
+     ],
+     "BOTSWANA": [
+      [
+       "FRANCISTOWN",
+       72
+      ],
+      [
+       "GABORONE",
+       70
+      ],
+      [
+       "KASANE",
+       88
+      ],
+      [
+       "MAUN",
+       69
+      ],
+      [
+       "SELEBI PHIKWE",
+       63
+      ],
+      [
+       "SEROWE",
+       70
+      ],
+      [
+       "[OTHER]",
+       63
+      ]
+     ],
+     "BRAZIL": [
+      [
+       "BELEM",
+       113
+      ],
+      [
+       "BELO HORIZONTE",
+       106
+      ],
+      [
+       "BRASILIA",
+       125
+      ],
+      [
+       "FORTALEZA",
+       119
+      ],
+      [
+       "GOIANIA",
+       114
+      ],
+      [
+       "MANAUS",
+       140
+      ],
+      [
+       "NATAL",
+       107
+      ],
+      [
+       "PORTO ALEGRE",
+       107
+      ],
+      [
+       "PORTO VELHO",
+       114
+      ],
+      [
+       "RECIFE, PERNAMBUCO",
+       108
+      ],
+      [
+       "RIO DE JANEIRO",
+       126
+      ],
+      [
+       "SALVADOR DA BAHIA",
+       123
+      ],
+      [
+       "SAO PAULO",
+       137
+      ],
+      [
+       "VIRACOPOS AIRPORT",
+       137
+      ],
+      [
+       "[OTHER]",
+       114
+      ]
+     ],
+     "BRUNEI": [
+      [
+       "BANDAR SERI BEGAWAN",
+       93
+      ],
+      [
+       "JERUDONG",
+       106
+      ],
+      [
+       "[OTHER]",
+       48
+      ]
+     ],
+     "BULGARIA": [
+      [
+       "BOURGAS",
+       159
+      ],
+      [
+       "PLOVDIV",
+       99
+      ],
+      [
+       "SOFIA",
+       207
+      ],
+      [
+       "VARNA",
+       187
+      ],
+      [
+       "[OTHER]",
+       192
+      ]
+     ],
+     "BURKINA FASO": [
+      [
+       "BOBO DIOULASSO",
+       65
+      ],
+      [
+       "OUAGADOUGOU",
+       106
+      ],
+      [
+       "[OTHER]",
+       65
+      ]
+     ],
+     "BURMA": [
+      [
+       "NAYPYITAW",
+       106
+      ],
+      [
+       "RANGOON",
+       107
+      ],
+      [
+       "[OTHER]",
+       93
+      ]
+     ],
+     "BURUNDI": [
+      [
+       "BUJUMBURA",
+       88
+      ],
+      [
+       "[OTHER]",
+       88
+      ]
+     ],
+     "CABO VERDE": [
+      [
+       "BOA VISTA ISLAND",
+       63
+      ],
+      [
+       "FOGO",
+       76
+      ],
+      [
+       "PRAIA",
+       108
+      ],
+      [
+       "SAL ISLAND",
+       136
+      ],
+      [
+       "SAO TIAGO ISLAND",
+       91
+      ],
+      [
+       "SAO VICENTE ISLAND",
+       107
+      ],
+      [
+       "[OTHER]",
+       79
+      ]
+     ],
+     "CAMBODIA": [
+      [
+       "PHNOM PENH",
+       99
+      ],
+      [
+       "SIEM REAP",
+       108
+      ],
+      [
+       "SIHANOUKVILLE",
+       108
+      ],
+      [
+       "[OTHER]",
+       64
+      ]
+     ],
+     "CAMEROON": [
+      [
+       "DOUALA",
+       125
+      ],
+      [
+       "LIMBE",
+       73
+      ],
+      [
+       "YAOUNDE",
+       126
+      ],
+      [
+       "[OTHER]",
+       63
+      ]
+     ],
+     "CANADA": [
+      [
+       "CALGARY",
+       169
+      ],
+      [
+       "DARTMOUTH",
+       146
+      ],
+      [
+       "DURHAM",
+       144
+      ],
+      [
+       "EAST YORK",
+       144
+      ],
+      [
+       "EDMONTON",
+       133
+      ],
+      [
+       "ETOBICOKE",
+       144
+      ],
+      [
+       "FORT MCMURRAY, ALBERTA",
+       115
+      ],
+      [
+       "FREDERICTON",
+       110
+      ],
+      [
+       "GANDER, NEWFOUNDLAND",
+       132
+      ],
+      [
+       "GOOSE BAY",
+       106
+      ],
+      [
+       "HALIFAX",
+       146
+      ],
+      [
+       "HALTON",
+       144
+      ],
+      [
+       "KELOWNA",
+       122
+      ],
+      [
+       "LONDON, ONTARIO",
+       121
+      ],
+      [
+       "MONCTON",
+       108
+      ],
+      [
+       "MONTREAL",
+       154
+      ],
+      [
+       "NANOOSE BAY",
+       90
+      ],
+      [
+       "NIAGARA FALLS, ONTARIO",
+       129
+      ],
+      [
+       "NIAGARA-ON-THE-LAKE, ONTARIO",
+       129
+      ],
+      [
+       "NORTH YORK",
+       144
+      ],
+      [
+       "OTTAWA",
+       128
+      ],
+      [
+       "PEEL",
+       144
+      ],
+      [
+       "PRINCE EDWARD ISLAND",
+       121,
+       136
+      ],
+      [
+       "QUEBEC",
+       144
+      ],
+      [
+       "REGINA, SASKATCHEWAN",
+       91
+      ],
+      [
+       "RICHMOND",
+       117
+      ],
+      [
+       "SASKATOON, SASKATCHEWAN",
+       90
+      ],
+      [
+       "SIDNEY",
+       97
+      ],
+      [
+       "ST. CATHERINES, ONTARIO",
+       129
+      ],
+      [
+       "ST. JOHN'S, NEWFOUNDLAND",
+       153
+      ],
+      [
+       "TORONTO",
+       144
+      ],
+      [
+       "VANCOUVER",
+       137,
+       151
+      ],
+      [
+       "VICTORIA",
+       126,
+       138
+      ],
+      [
+       "WHISTLER, BC",
+       115
+      ],
+      [
+       "WHITEHORSE, YUKON",
+       93
+      ],
+      [
+       "WINNIPEG",
+       142
+      ],
+      [
+       "YELLOWKNIFE",
+       93
+      ],
+      [
+       "YORK & SCARBOROUGH",
+       144
+      ],
+      [
+       "YORK",
+       144
+      ],
+      [
+       "[OTHER]",
+       120
+      ]
+     ],
+     "CAYMAN ISLANDS": [
+      [
+       "CAYMAN ISLANDS",
+       119,
+       147
+      ]
+     ],
+     "CENTRAL AFRICAN REPUBLIC": [
+      [
+       "BANGUI",
+       91
+      ],
+      [
+       "[OTHER]",
+       91
+      ]
+     ],
+     "CHAD": [
+      [
+       "NDJAMENA",
+       115
+      ],
+      [
+       "[OTHER]",
+       100
+      ]
+     ],
+     "CHAGOS ARCHIPELAGO": [
+      [
+       "DIEGO GARCIA",
+       80
+      ],
+      [
+       "US NAVY SUPPORT FACILITY",
+       80
+      ]
+     ],
+     "CHILE": [
+      [
+       "SANTIAGO",
+       110
+      ],
+      [
+       "[OTHER]",
+       105
+      ]
+     ],
+     "CHINA": [
+      [
+       "2026 CANTON TRADE FAIR (GUANGZHOU)",
+       157
+      ],
+      [
+       "BEIJING",
+       142
+      ],
+      [
+       "CHANGCHUN",
+       100
+      ],
+      [
+       "CHENGDU",
+       126
+      ],
+      [
+       "CHONGQING",
+       133
+      ],
+      [
+       "DALIAN",
+       108
+      ],
+      [
+       "FUZHOU",
+       117
+      ],
+      [
+       "GUANGZHOU",
+       157
+      ],
+      [
+       "GUILIN",
+       92
+      ],
+      [
+       "HAIKOU",
+       117
+      ],
+      [
+       "HANGZHOU",
+       139
+      ],
+      [
+       "HARBIN",
+       101
+      ],
+      [
+       "JINAN",
+       117
+      ],
+      [
+       "LHASA",
+       111
+      ],
+      [
+       "LIJIANG",
+       133
+      ],
+      [
+       "NANJING",
+       106
+      ],
+      [
+       "NANNING",
+       127
+      ],
+      [
+       "NINGBO",
+       92
+      ],
+      [
+       "QINGDAO",
+       108
+      ],
+      [
+       "SANYA",
+       136
+      ],
+      [
+       "SHANGHAI",
+       171
+      ],
+      [
+       "SHANTOU",
+       101
+      ],
+      [
+       "SHENYANG",
+       98
+      ],
+      [
+       "SHENZHEN",
+       147
+      ],
+      [
+       "SUZHOU",
+       101
+      ],
+      [
+       "TIANJIN",
+       134
+      ],
+      [
+       "URUMQI",
+       79
+      ],
+      [
+       "WUHAN",
+       105
+      ],
+      [
+       "XIAMEN",
+       118
+      ],
+      [
+       "XIAN",
+       127
+      ],
+      [
+       "ZHUHAI",
+       128
+      ],
+      [
+       "[OTHER]",
+       102
+      ]
+     ],
+     "COCOS (KEELING) ISLANDS": [
+      [
+       "COCOS ISLANDS",
+       117
+      ]
+     ],
+     "COLOMBIA": [
+      [
+       "BARRANQUILLA",
+       137
+      ],
+      [
+       "BOGOTA",
+       193
+      ],
+      [
+       "BUCARAMANGA",
+       165
+      ],
+      [
+       "BUENAVENTURA",
+       115
+      ],
+      [
+       "CALI",
+       150
+      ],
+      [
+       "CARTAGENA",
+       190
+      ],
+      [
+       "CUCUTA",
+       123
+      ],
+      [
+       "MEDELLIN",
+       168
+      ],
+      [
+       "PASTO",
+       104
+      ],
+      [
+       "SAN ANDRES",
+       71
+      ],
+      [
+       "SAN JOSE DEL GUAVIARE",
+       103
+      ],
+      [
+       "SANTA MARTA",
+       153
+      ],
+      [
+       "TUMACO",
+       105
+      ],
+      [
+       "[OTHER]",
+       103
+      ]
+     ],
+     "COMOROS": [
+      [
+       "MORONI",
+       83
+      ],
+      [
+       "[OTHER]",
+       91
+      ]
+     ],
+     "COOK ISLANDS": [
+      [
+       "RAROTONGA",
+       102
+      ],
+      [
+       "[OTHER]",
+       102
+      ]
+     ],
+     "COSTA RICA": [
+      [
+       "SAN JOSE",
+       153
+      ],
+      [
+       "[OTHER]",
+       153
+      ]
+     ],
+     "COTE D'IVOIRE": [
+      [
+       "ABIDJAN",
+       117
+      ],
+      [
+       "YAMOUSSOUKRO",
+       76
+      ],
+      [
+       "[OTHER]",
+       76
+      ]
+     ],
+     "CROATIA": [
+      [
+       "CAVTAT",
+       130,
+       144
+      ],
+      [
+       "DUBROVNIK",
+       130,
+       144
+      ],
+      [
+       "SPLIT",
+       121,
+       134
+      ],
+      [
+       "ZAGREB",
+       103
+      ],
+      [
+       "[OTHER]",
+       103
+      ]
+     ],
+     "CUBA": [
+      [
+       "CAMAGUEY",
+       64
+      ],
+      [
+       "GUANTANAMO BAY NS",
+       52
+      ],
+      [
+       "GUANTANAMO BAY",
+       52
+      ],
+      [
+       "HAVANA",
+       118
+      ],
+      [
+       "HOLGUIN",
+       49
+      ],
+      [
+       "MATANZAS",
+       47
+      ],
+      [
+       "SANTIAGO",
+       60
+      ],
+      [
+       "TRINIDAD",
+       63
+      ],
+      [
+       "[OTHER]",
+       49
+      ]
+     ],
+     "CURACAO": [
+      [
+       "CURACAO",
+       143
+      ]
+     ],
+     "CYPRUS": [
+      [
+       "AKROTIRI",
+       159,
+       179
+      ],
+      [
+       "LIMASSOL",
+       159,
+       179
+      ],
+      [
+       "NICOSIA",
+       121
+      ],
+      [
+       "PAPHOS",
+       116,
+       136
+      ],
+      [
+       "[OTHER]",
+       115,
+       118
+      ]
+     ],
+     "CZECHIA": [
+      [
+       "BRNO",
+       84
+      ],
+      [
+       "PRAGUE",
+       111
+      ],
+      [
+       "[OTHER]",
+       82
+      ]
+     ],
+     "DEM. PEOPLE'S REPUBLIC OF KOREA": [
+      [
+       "PYONGYANG",
+       69
+      ],
+      [
+       "[OTHER]",
+       63
+      ]
+     ],
+     "DEMOCRATIC REPUBLIC OF THE CONGO": [
+      [
+       "BUKAVU",
+       122
+      ],
+      [
+       "GOMA",
+       107
+      ],
+      [
+       "KINSHASA",
+       152
+      ],
+      [
+       "LUBUMBASHI",
+       147
+      ],
+      [
+       "[OTHER]",
+       107
+      ]
+     ],
+     "DENMARK": [
+      [
+       "AALBORG",
+       117
+      ],
+      [
+       "COPENHAGEN",
+       141
+      ],
+      [
+       "LYNGBY",
+       141
+      ],
+      [
+       "ODENSE",
+       123
+      ],
+      [
+       "[OTHER]",
+       112
+      ]
+     ],
+     "DJIBOUTI": [
+      [
+       "CAMP LEMONNIER",
+       98
+      ],
+      [
+       "DJIBOUTI CITY",
+       110
+      ],
+      [
+       "[OTHER]",
+       98
+      ]
+     ],
+     "DOMINICA": [
+      [
+       "DOMINICA",
+       135
+      ]
+     ],
+     "DOMINICAN REPUBLIC": [
+      [
+       "SANTO DOMINGO",
+       104
+      ],
+      [
+       "SOSUA",
+       63
+      ],
+      [
+       "[OTHER]",
+       94
+      ]
+     ],
+     "DUTCH CARIBBEAN": [
+      [
+       "[OTHER]",
+       88,
+       91
+      ]
+     ],
+     "ECUADOR": [
+      [
+       "CUENCA",
+       97
+      ],
+      [
+       "GALAPAGOS ISLANDS",
+       158
+      ],
+      [
+       "GUAYAQUIL",
+       139
+      ],
+      [
+       "MANTA AB",
+       89
+      ],
+      [
+       "MANTA",
+       89
+      ],
+      [
+       "QUITO",
+       105
+      ],
+      [
+       "[OTHER]",
+       97
+      ]
+     ],
+     "EGYPT": [
+      [
+       "ALEXANDRIA",
+       97
+      ],
+      [
+       "ASWAN",
+       101,
+       106
+      ],
+      [
+       "CAIRO",
+       114
+      ],
+      [
+       "LUXOR",
+       93
+      ],
+      [
+       "MFO BASES",
+       4
+      ],
+      [
+       "SHARM EL SHEIKH",
+       114,
+       123
+      ],
+      [
+       "[OTHER]",
+       111
+      ]
+     ],
+     "EL SALVADOR": [
+      [
+       "SAN SALVADOR IAP (AREA OF COMALAPA)",
+       91
+      ],
+      [
+       "SAN SALVADOR",
+       91
+      ],
+      [
+       "[OTHER]",
+       57
+      ]
+     ],
+     "EQUATORIAL GUINEA": [
+      [
+       "BATA",
+       95
+      ],
+      [
+       "MALABO",
+       110
+      ],
+      [
+       "[OTHER]",
+       110
+      ]
+     ],
+     "ERITREA": [
+      [
+       "ASMARA",
+       75
+      ],
+      [
+       "KEREN",
+       85
+      ],
+      [
+       "MASSAWA",
+       83
+      ],
+      [
+       "[OTHER]",
+       85
+      ]
+     ],
+     "ESTONIA": [
+      [
+       "TALLINN",
+       139
+      ],
+      [
+       "[OTHER]",
+       127,
+       134
+      ]
+     ],
+     "ESWATINI": [
+      [
+       "EZULWINI",
+       60
+      ],
+      [
+       "MANZINI",
+       60
+      ],
+      [
+       "MBABANE",
+       60
+      ],
+      [
+       "[OTHER]",
+       22
+      ]
+     ],
+     "ETHIOPIA": [
+      [
+       "ADDIS ABABA",
+       134
+      ],
+      [
+       "[OTHER]",
+       61
+      ]
+     ],
+     "FALKLAND ISLANDS (ISLAS MALVINAS)": [
+      [
+       "FALKLAND ISLANDS",
+       75
+      ]
+     ],
+     "FAROE ISLANDS": [
+      [
+       "FAROE ISLANDS",
+       99
+      ]
+     ],
+     "FIJI": [
+      [
+       "KOROLEVU",
+       74
+      ],
+      [
+       "NADI",
+       133
+      ],
+      [
+       "NATADOLA",
+       157
+      ],
+      [
+       "SIGATOKA",
+       78
+      ],
+      [
+       "SUVA",
+       122
+      ],
+      [
+       "[OTHER]",
+       122
+      ]
+     ],
+     "FINLAND": [
+      [
+       "HELSINKI",
+       144
+      ],
+      [
+       "[OTHER]",
+       124
+      ]
+     ],
+     "FRANCE": [
+      [
+       "BORDEAUX",
+       135
+      ],
+      [
+       "CANNES",
+       152,
+       167
+      ],
+      [
+       "DEAUVILLE",
+       129
+      ],
+      [
+       "ESSONE",
+       173
+      ],
+      [
+       "HAUTS-DE-SEINE",
+       173
+      ],
+      [
+       "LYON",
+       151
+      ],
+      [
+       "MARSEILLE",
+       154
+      ],
+      [
+       "MONTPELLIER",
+       166
+      ],
+      [
+       "NICE",
+       141
+      ],
+      [
+       "PARIS",
+       173
+      ],
+      [
+       "SEINE-ST. DENIS",
+       173
+      ],
+      [
+       "STRASBOURG",
+       164
+      ],
+      [
+       "TOULOUSE",
+       131
+      ],
+      [
+       "VAL-D'OISE",
+       173
+      ],
+      [
+       "VAL-DE-MARNE",
+       173
+      ],
+      [
+       "YVELINES",
+       173
+      ],
+      [
+       "[OTHER]",
+       132
+      ]
+     ],
+     "FRENCH GUIANA": [
+      [
+       "FRENCH GUIANA",
+       94
+      ]
+     ],
+     "FRENCH POLYNESIA": [
+      [
+       "FRENCH POLYNESIA",
+       155
+      ]
+     ],
+     "GABON": [
+      [
+       "LIBREVILLE",
+       141
+      ],
+      [
+       "[OTHER]",
+       133
+      ]
+     ],
+     "GAMBIA, THE": [
+      [
+       "BANJUL",
+       62
+      ],
+      [
+       "[OTHER]",
+       32
+      ]
+     ],
+     "GEORGIA": [
+      [
+       "AJARA REGION",
+       95
+      ],
+      [
+       "BORJOMI",
+       71
+      ],
+      [
+       "GUDAURI",
+       71,
+       77
+      ],
+      [
+       "KUTAISI",
+       93
+      ],
+      [
+       "TBILISI",
+       104
+      ],
+      [
+       "[OTHER]",
+       63
+      ]
+     ],
+     "GERMANY": [
+      [
+       "ANDERSON BARRACKS",
+       135
+      ],
+      [
+       "ANSBACH - US ARMY GARRISON",
+       133
+      ],
+      [
+       "BAD KREUZNACH MILITARY COMMUNITIES",
+       133
+      ],
+      [
+       "BARTON BARRACKS",
+       133
+      ],
+      [
+       "BAUMHOLDER MILITARY COMMUNITIES",
+       133
+      ],
+      [
+       "BERLIN",
+       145
+      ],
+      [
+       "BOEBLINGEN",
+       136
+      ],
+      [
+       "BONAMES",
+       135
+      ],
+      [
+       "BONN",
+       133
+      ],
+      [
+       "BREMEN",
+       133
+      ],
+      [
+       "BUCHEL AB",
+       133
+      ],
+      [
+       "CLAY KASERNE",
+       132
+      ],
+      [
+       "COLOGNE",
+       130
+      ],
+      [
+       "DRESDEN",
+       135
+      ],
+      [
+       "DUESSELDORF",
+       151
+      ],
+      [
+       "ECHTERDINGEN (STUTTGART ARMY AIRFLD",
+       136
+      ],
+      [
+       "ECHTERDINGEN",
+       136
+      ],
+      [
+       "ERFURT",
+       151
+      ],
+      [
+       "ESCHBORN",
+       135
+      ],
+      [
+       "ESSLINGEN",
+       136
+      ],
+      [
+       "FRANKFURT AM MAIN",
+       135
+      ],
+      [
+       "GARMISCH - US ARMY GARRISON",
+       140
+      ],
+      [
+       "GARMISCH-PARTENKIRCHEN",
+       140
+      ],
+      [
+       "GEILENKIRCHEN AB",
+       133
+      ],
+      [
+       "GRAFENWOEHR - US ARMY GARRISON",
+       133
+      ],
+      [
+       "HAMBURG",
+       133
+      ],
+      [
+       "HANNOVER",
+       123
+      ],
+      [
+       "HEIDELBERG",
+       151
+      ],
+      [
+       "HERONGEN",
+       151
+      ],
+      [
+       "HOECHST",
+       135
+      ],
+      [
+       "HOHENFELS - US ARMY GARRISON",
+       133
+      ],
+      [
+       "KAISERSLAUTERN MILITARY COMMUNITY",
+       133
+      ],
+      [
+       "KALKAR",
+       151
+      ],
+      [
+       "KAPAUN AS",
+       133
+      ],
+      [
+       "KAPAUN NCO ACADEMY",
+       133
+      ],
+      [
+       "KATTERBACH KASERNE",
+       133
+      ],
+      [
+       "KELLEY BARRACKS (STUTTGART)",
+       136
+      ],
+      [
+       "KOENIGSWINTER",
+       133
+      ],
+      [
+       "KORNWESTHEIM",
+       136
+      ],
+      [
+       "LANDSTUHL REGIONAL MEDICAL CENTER",
+       133
+      ],
+      [
+       "LANDSTUHL",
+       133
+      ],
+      [
+       "LEIPZIG",
+       132
+      ],
+      [
+       "LUDWIGSBURG",
+       136
+      ],
+      [
+       "MAINZ",
+       135
+      ],
+      [
+       "MOEHRINGEN/STUTTGART",
+       136
+      ],
+      [
+       "MOENCHEN-GLADBACH",
+       151
+      ],
+      [
+       "MUNICH",
+       154
+      ],
+      [
+       "NELLINGEN",
+       136
+      ],
+      [
+       "OBERAMMERGAU",
+       140
+      ],
+      [
+       "OFFENBACH",
+       135
+      ],
+      [
+       "PANZER KASERNE/BOEBLINGEN",
+       136
+      ],
+      [
+       "PANZER KASERNE/STUTTGART",
+       136
+      ],
+      [
+       "PATCH BARRACKS",
+       136
+      ],
+      [
+       "PATCH KASERNE",
+       136
+      ],
+      [
+       "RAMSTEIN AB",
+       133
+      ],
+      [
+       "ROBINSON BARRACKS",
+       136
+      ],
+      [
+       "ROEDELHEIM",
+       135
+      ],
+      [
+       "SCHWETZINGEN MILITARY ACTIVITIES",
+       151
+      ],
+      [
+       "SEMBACH KASERNE",
+       133
+      ],
+      [
+       "SINDELFINGEN",
+       136
+      ],
+      [
+       "SPANGDAHLEM AB",
+       133
+      ],
+      [
+       "STORCK BARRACKS",
+       133
+      ],
+      [
+       "STUTTGART",
+       136
+      ],
+      [
+       "TUEBINGEN",
+       136
+      ],
+      [
+       "TWISTEDEN",
+       151
+      ],
+      [
+       "VAIHINGEN/STUTTGART",
+       136
+      ],
+      [
+       "VILSECK - US ARMY GARRISON",
+       133
+      ],
+      [
+       "VOGELWEH",
+       133
+      ],
+      [
+       "WIESBADEN",
+       132
+      ],
+      [
+       "ZUFFENHAUSEN/STUTTGART",
+       136
+      ],
+      [
+       "[OTHER]",
+       133
+      ]
+     ],
+     "GHANA": [
+      [
+       "ACCRA",
+       123
+      ],
+      [
+       "[OTHER]",
+       56
+      ]
+     ],
+     "GIBRALTAR": [
+      [
+       "GIBRALTAR",
+       119
+      ]
+     ],
+     "GREECE": [
+      [
+       "ATHENS",
+       133,
+       144
+      ],
+      [
+       "IRAKLION (CRETE)",
+       127
+      ],
+      [
+       "SOUDA BAY NAVAL SUP ACT",
+       127
+      ],
+      [
+       "[OTHER]",
+       127
+      ]
+     ],
+     "GREENLAND": [
+      [
+       "ILULISSAT",
+       125
+      ],
+      [
+       "KANGERLUSSUAQ",
+       113
+      ],
+      [
+       "NUUK",
+       142
+      ],
+      [
+       "THULE AB",
+       68
+      ],
+      [
+       "THULE",
+       68
+      ],
+      [
+       "[OTHER]",
+       110
+      ]
+     ],
+     "GRENADA": [
+      [
+       "GRENADA",
+       142
+      ]
+     ],
+     "GUADELOUPE": [
+      [
+       "BASSE-TERRE",
+       100
+      ],
+      [
+       "GRAND-TERRE",
+       100
+      ],
+      [
+       "ISLE DES SAINTES",
+       100
+      ],
+      [
+       "ISLE LA DESIRADE",
+       100
+      ],
+      [
+       "ISLE MARIE-GALANTE",
+       100
+      ],
+      [
+       "PETITE-TERRE",
+       100
+      ],
+      [
+       "SAINT MARTIN (FRENCH PART)",
+       100
+      ],
+      [
+       "[OTHER]",
+       80
+      ]
+     ],
+     "GUAM": [
+      [
+       "CAMP BLAZ",
+       138
+      ],
+      [
+       "GUAM (INCL ALL MIL INSTAL)",
+       138
+      ],
+      [
+       "JOINT REGION MARIANAS (ANDERSEN)",
+       138
+      ],
+      [
+       "JOINT REGION MARIANAS (NAVAL BASE)",
+       138
+      ],
+      [
+       "TAMUNING",
+       138
+      ]
+     ],
+     "GUATEMALA": [
+      [
+       "GUATEMALA CITY",
+       96
+      ],
+      [
+       "[OTHER]",
+       99
+      ]
+     ],
+     "GUINEA-BISSAU": [
+      [
+       "BISSAU",
+       80
+      ],
+      [
+       "[OTHER]",
+       44
+      ]
+     ],
+     "GUINEA": [
+      [
+       "CONAKRY",
+       94
+      ],
+      [
+       "[OTHER]",
+       53
+      ]
+     ],
+     "GUYANA": [
+      [
+       "GEORGETOWN",
+       141
+      ],
+      [
+       "[OTHER]",
+       141
+      ]
+     ],
+     "HAITI": [
+      [
+       "CAP HAITIEN",
+       91
+      ],
+      [
+       "JACMEL",
+       75
+      ],
+      [
+       "MONTROUIS",
+       106
+      ],
+      [
+       "PETIONVILLE",
+       111
+      ],
+      [
+       "PORT-AU-PRINCE",
+       98
+      ],
+      [
+       "[OTHER]",
+       40
+      ]
+     ],
+     "HAWAII": [
+      [
+       "CAMP H M SMITH",
+       163
+      ],
+      [
+       "CNI NAVMAG PEARL HARBOR-HICKAM",
+       163
+      ],
+      [
+       "FT. DERUSSEY",
+       163
+      ],
+      [
+       "FT. SHAFTER",
+       163
+      ],
+      [
+       "HICKAM AFB",
+       163
+      ],
+      [
+       "HONOLULU",
+       163
+      ],
+      [
+       "ISLE OF HAWAII: HILO",
+       146
+      ],
+      [
+       "ISLE OF HAWAII: LOCATIONS OTHER THAN HILO",
+       180
+      ],
+      [
+       "ISLE OF KAUAI",
+       165
+      ],
+      [
+       "ISLE OF LANAI",
+       163
+      ],
+      [
+       "ISLE OF MAUI",
+       153
+      ],
+      [
+       "ISLE OF MOLOKAI",
+       163
+      ],
+      [
+       "ISLE OF OAHU",
+       163
+      ],
+      [
+       "JB PEARL HARBOR-HICKAM",
+       163
+      ],
+      [
+       "KAPOLEI",
+       163
+      ],
+      [
+       "KEKAHA PACIFIC MISSILE RANGE FAC",
+       165
+      ],
+      [
+       "KILAUEA MILITARY CAMP",
+       146
+      ],
+      [
+       "LIHUE",
+       165
+      ],
+      [
+       "MCB HAWAII",
+       163
+      ],
+      [
+       "NCTAMS PAC WAHIAWA HI",
+       163
+      ],
+      [
+       "NOSC PEARL HARBOR",
+       163
+      ],
+      [
+       "PEARL HARBOR",
+       163
+      ],
+      [
+       "PMRF BARKING SANDS",
+       165
+      ],
+      [
+       "SCHOFIELD BARRACKS",
+       163
+      ],
+      [
+       "TRIPLER ARMY MEDICAL CENTER",
+       163
+      ],
+      [
+       "WHEELER ARMY AIRFIELD",
+       163
+      ],
+      [
+       "[OTHER]",
+       163
+      ]
+     ],
+     "HOLY SEE": [
+      [
+       "HOLY SEE",
+       179
+      ]
+     ],
+     "HONDURAS": [
+      [
+       "BAY ISLANDS",
+       99
+      ],
+      [
+       "LA CEIBA",
+       85
+      ],
+      [
+       "SAN PEDRO SULA",
+       98
+      ],
+      [
+       "TEGUCIGALPA",
+       85
+      ],
+      [
+       "TELA",
+       86
+      ],
+      [
+       "[OTHER]",
+       80
+      ]
+     ],
+     "HONG KONG": [
+      [
+       "HONG KONG NAVY CONTRACTING DEPT",
+       180
+      ],
+      [
+       "HONG KONG",
+       180
+      ]
+     ],
+     "HUNGARY": [
+      [
+       "BUDAPEST",
+       95
+      ],
+      [
+       "PAPA",
+       80
+      ],
+      [
+       "[OTHER]",
+       80
+      ]
+     ],
+     "ICELAND": [
+      [
+       "AKUREYRI",
+       165,
+       170
+      ],
+      [
+       "EGILSSTADIR",
+       179
+      ],
+      [
+       "REYKJAVIK",
+       211,
+       236
+      ],
+      [
+       "[OTHER]",
+       179
+      ]
+     ],
+     "INDIA": [
+      [
+       "AGRA",
+       81
+      ],
+      [
+       "BENGALURU",
+       135
+      ],
+      [
+       "CHENNAI",
+       120
+      ],
+      [
+       "GOA",
+       86
+      ],
+      [
+       "HYDERABAD",
+       116
+      ],
+      [
+       "KOLKATA",
+       118
+      ],
+      [
+       "MUMBAI",
+       104,
+       111
+      ],
+      [
+       "NEW DELHI",
+       113
+      ],
+      [
+       "PUNE",
+       101
+      ],
+      [
+       "TRIVANDRUM",
+       56
+      ],
+      [
+       "[OTHER]",
+       92
+      ]
+     ],
+     "INDONESIA": [
+      [
+       "BALI",
+       111
+      ],
+      [
+       "BANDUNG",
+       107
+      ],
+      [
+       "DENPASAR",
+       111
+      ],
+      [
+       "JAKARTA",
+       95
+      ],
+      [
+       "JAYAPURA",
+       61
+      ],
+      [
+       "MEDAN",
+       67
+      ],
+      [
+       "SURABAYA",
+       91
+      ],
+      [
+       "TIMIKA, IRIAN JAYA",
+       80
+      ],
+      [
+       "[OTHER]",
+       47
+      ]
+     ],
+     "IRAN": [
+      [
+       "TEHRAN",
+       58
+      ],
+      [
+       "[OTHER]",
+       58
+      ]
+     ],
+     "IRAQ": [
+      [
+       "BAGHDAD (NON-US FACILITIES)",
+       54
+      ],
+      [
+       "BAGHDAD IAP",
+       11
+      ],
+      [
+       "BAGHDAD",
+       11
+      ],
+      [
+       "DOHUK (NON-US FACILITIES)",
+       48
+      ],
+      [
+       "ERBIL (NON-US FACILITIES)",
+       65
+      ],
+      [
+       "ERBIL",
+       11
+      ],
+      [
+       "MILITARY BASES IN BAGHDAD",
+       11
+      ],
+      [
+       "MILITARY BASES NOT IN BAGHDAD",
+       11
+      ],
+      [
+       "SULAIMANIYAH (NON-US FACILITIES)",
+       48
+      ],
+      [
+       "[OTHER] (NON-US FACILITIES)",
+       82
+      ],
+      [
+       "[OTHER]",
+       11
+      ]
+     ],
+     "IRELAND": [
+      [
+       "CORK",
+       132
+      ],
+      [
+       "DUBLIN",
+       155
+      ],
+      [
+       "GALWAY",
+       124
+      ],
+      [
+       "[OTHER]",
+       122
+      ]
+     ],
+     "ISRAEL": [
+      [
+       "EILAT",
+       150
+      ],
+      [
+       "EN BOQEQ",
+       168
+      ],
+      [
+       "HAIFA",
+       132
+      ],
+      [
+       "HERZLIYA-PITUACH",
+       209
+      ],
+      [
+       "JERUSALEM",
+       198
+      ],
+      [
+       "SEDOM",
+       168
+      ],
+      [
+       "TEL AVIV",
+       219
+      ],
+      [
+       "TIBERIAS",
+       190
+      ],
+      [
+       "[OTHER]",
+       190
+      ]
+     ],
+     "ITALY": [
+      [
+       "AVIANO AB",
+       89
+      ],
+      [
+       "AVIANO",
+       89
+      ],
+      [
+       "BARI",
+       141
+      ],
+      [
+       "BOLOGNA",
+       129
+      ],
+      [
+       "BOLZANO",
+       125
+      ],
+      [
+       "BRINDISI",
+       115
+      ],
+      [
+       "CAMP DARBY (INCLUDING LEGHORN)",
+       96
+      ],
+      [
+       "CAPRI",
+       176
+      ],
+      [
+       "CASERMA EDERLE",
+       127
+      ],
+      [
+       "CATANIA",
+       128
+      ],
+      [
+       "COMO",
+       168
+      ],
+      [
+       "FERRARA",
+       114
+      ],
+      [
+       "FLORENCE",
+       137
+      ],
+      [
+       "GAETA",
+       135,
+       155
+      ],
+      [
+       "GENOA",
+       123
+      ],
+      [
+       "GHEDI AB",
+       95
+      ],
+      [
+       "LA SPEZIA",
+       109
+      ],
+      [
+       "LATINA AIR FORCE NCISS SCHOOL",
+       135
+      ],
+      [
+       "LATINA ARMY NCISS SCHOOL",
+       135
+      ],
+      [
+       "MILAN",
+       191
+      ],
+      [
+       "MODENA",
+       95
+      ],
+      [
+       "NAPLES NAVAL SUPPORT ACTIVITY",
+       169
+      ],
+      [
+       "NAPLES",
+       169
+      ],
+      [
+       "PALERMO",
+       152
+      ],
+      [
+       "PISA",
+       96
+      ],
+      [
+       "RAVENNA",
+       108
+      ],
+      [
+       "REGGIO EMILIA",
+       116
+      ],
+      [
+       "RIMINI",
+       124
+      ],
+      [
+       "ROME",
+       179
+      ],
+      [
+       "SIENA",
+       120
+      ],
+      [
+       "SIGONELLA NAS",
+       135
+      ],
+      [
+       "TAORMINA",
+       128
+      ],
+      [
+       "TREVISO",
+       114
+      ],
+      [
+       "TRIESTE",
+       147
+      ],
+      [
+       "TURIN",
+       146
+      ],
+      [
+       "VENICE",
+       223
+      ],
+      [
+       "VERONA",
+       93
+      ],
+      [
+       "VICENZA",
+       127
+      ],
+      [
+       "[OTHER]",
+       135
+      ]
+     ],
+     "JAMAICA": [
+      [
+       "KINGSTON",
+       99
+      ],
+      [
+       "MONTEGO BAY",
+       99
+      ],
+      [
+       "[OTHER]",
+       99
+      ]
+     ],
+     "JAPAN": [
+      [
+       "ADACHI",
+       122
+      ],
+      [
+       "AKASHI",
+       197
+      ],
+      [
+       "AMAGASAKI",
+       197
+      ],
+      [
+       "ARAKAWA",
+       122
+      ],
+      [
+       "ASHIYA",
+       110
+      ],
+      [
+       "ATSUGI NAF",
+       104
+      ],
+      [
+       "ATSUGI",
+       104
+      ],
+      [
+       "AWASHIMA",
+       142
+      ],
+      [
+       "AYASE",
+       104
+      ],
+      [
+       "BUNKYO",
+       122
+      ],
+      [
+       "CAMP ASAKA",
+       104
+      ],
+      [
+       "CAMP BETSUKAI",
+       104
+      ],
+      [
+       "CAMP BUTLER USMCB",
+       105,
+       120
+      ],
+      [
+       "CAMP COURTNEY",
+       105,
+       120
+      ],
+      [
+       "CAMP FOSTER USMC",
+       105,
+       120
+      ],
+      [
+       "CAMP FUJI",
+       104
+      ],
+      [
+       "CAMP HANSEN USMC",
+       105,
+       120
+      ],
+      [
+       "CAMP HIGASHI-CHITOSE",
+       104
+      ],
+      [
+       "CAMP IMAZU",
+       104
+      ],
+      [
+       "CAMP ITAMI",
+       197
+      ],
+      [
+       "CAMP KENGUN",
+       71
+      ],
+      [
+       "CAMP KINSER USMC",
+       105,
+       120
+      ],
+      [
+       "CAMP KITA-KUMAMOTO",
+       71
+      ],
+      [
+       "CAMP LESTER",
+       105,
+       120
+      ],
+      [
+       "CAMP SCHWAB USMC",
+       105,
+       120
+      ],
+      [
+       "CAMP SENDAI",
+       91
+      ],
+      [
+       "CAMP SHIELDS",
+       105,
+       120
+      ],
+      [
+       "CAMP ZAMA",
+       104
+      ],
+      [
+       "CHIBA-KEN",
+       104
+      ],
+      [
+       "CHIYODA",
+       122
+      ],
+      [
+       "CHUO",
+       122
+      ],
+      [
+       "EDOGAWA",
+       122
+      ],
+      [
+       "FUKUOKA",
+       162
+      ],
+      [
+       "FUSSA",
+       104
+      ],
+      [
+       "FUTENMA MCAS",
+       105,
+       120
+      ],
+      [
+       "GIFU",
+       82
+      ],
+      [
+       "HANEDA",
+       122
+      ],
+      [
+       "HIROSHIMA",
+       87,
+       96
+      ],
+      [
+       "ITABASHI",
+       122
+      ],
+      [
+       "IWAKUNI MCAS",
+       104
+      ],
+      [
+       "IZUMISANO",
+       64
+      ],
+      [
+       "KADENA AB",
+       105,
+       120
+      ],
+      [
+       "KADENA NAF",
+       105,
+       120
+      ],
+      [
+       "KAGOSHIMA",
+       62
+      ],
+      [
+       "KANAGAWA-KEN",
+       104
+      ],
+      [
+       "KATSUSHIKA",
+       122
+      ],
+      [
+       "KITA",
+       122
+      ],
+      [
+       "KOTO",
+       122
+      ],
+      [
+       "KUMAMOTO",
+       71
+      ],
+      [
+       "KURASHIKI",
+       115
+      ],
+      [
+       "KYOTO",
+       166
+      ],
+      [
+       "MACHIDA-SHI",
+       104
+      ],
+      [
+       "MEGURO",
+       122
+      ],
+      [
+       "MINATO",
+       122
+      ],
+      [
+       "MISAWA AB",
+       104
+      ],
+      [
+       "MISAWA NAF",
+       104
+      ],
+      [
+       "MIYAZAKI CITY",
+       87
+      ],
+      [
+       "NAGASAKI",
+       89
+      ],
+      [
+       "NAGOYA (20TH ASIAN & 5TH PARA GAMES)",
+       160
+      ],
+      [
+       "NAGOYA",
+       160
+      ],
+      [
+       "NAKANO",
+       122
+      ],
+      [
+       "NARITA",
+       63
+      ],
+      [
+       "NERIMA",
+       122
+      ],
+      [
+       "NISHINOMIYA",
+       110
+      ],
+      [
+       "OKAYAMA",
+       86
+      ],
+      [
+       "OKINAWA PREFECTURE",
+       105,
+       120
+      ],
+      [
+       "OSAKA-KOBE",
+       197
+      ],
+      [
+       "OTA",
+       122
+      ],
+      [
+       "SAGAMIHARA DEPOT",
+       104
+      ],
+      [
+       "SAITAMA-KEN",
+       104
+      ],
+      [
+       "SAPPORO",
+       114,
+       138
+      ],
+      [
+       "SASEBO US FLT ACTIVITIES",
+       104
+      ],
+      [
+       "SENDAI",
+       91
+      ],
+      [
+       "SETAGAYA",
+       122
+      ],
+      [
+       "SHIBUYA",
+       122
+      ],
+      [
+       "SHINAGAWA",
+       122
+      ],
+      [
+       "SHINJUKU",
+       122
+      ],
+      [
+       "SUGINAMI",
+       122
+      ],
+      [
+       "SUMIDA",
+       122
+      ],
+      [
+       "TACHIKAWA",
+       104
+      ],
+      [
+       "TAITO",
+       122
+      ],
+      [
+       "TAKAYAMA",
+       74
+      ],
+      [
+       "TOKYO CITY",
+       122
+      ],
+      [
+       "TORI STATION",
+       105,
+       120
+      ],
+      [
+       "TOSHIMA",
+       122
+      ],
+      [
+       "US NAVAL HOSPITAL, OKINAWA",
+       105,
+       120
+      ],
+      [
+       "US NAVAL JOINT SERV ACT",
+       122
+      ],
+      [
+       "WHITE BEACH NAVAL FACILITY",
+       105,
+       120
+      ],
+      [
+       "YOKOHAMA",
+       121
+      ],
+      [
+       "YOKOSUKA US NAVAL ACTIVITIES",
+       104
+      ],
+      [
+       "YOKOTA AB",
+       104
+      ],
+      [
+       "[OTHER]",
+       104
+      ]
+     ],
+     "JORDAN": [
+      [
+       "AMMAN",
+       102
+      ],
+      [
+       "AQABA",
+       128
+      ],
+      [
+       "DEAD SEA/JORDAN VALLEY",
+       143
+      ],
+      [
+       "PETRA",
+       129
+      ],
+      [
+       "[OTHER]",
+       128
+      ]
+     ],
+     "KAZAKHSTAN": [
+      [
+       "AKTAU",
+       93
+      ],
+      [
+       "ALMATY",
+       129
+      ],
+      [
+       "ASTANA",
+       117
+      ],
+      [
+       "[OTHER]",
+       98
+      ]
+     ],
+     "KENYA": [
+      [
+       "KAHAWA",
+       77
+      ],
+      [
+       "KIAMBU",
+       77
+      ],
+      [
+       "KIHARA",
+       77
+      ],
+      [
+       "KIKUYU",
+       77
+      ],
+      [
+       "KIRBICHIKU",
+       77
+      ],
+      [
+       "LAMU",
+       87
+      ],
+      [
+       "MALINDI",
+       69
+      ],
+      [
+       "MARA AREA REGION",
+       30
+      ],
+      [
+       "MOMBASA",
+       78
+      ],
+      [
+       "MT. KENYA AREA",
+       106
+      ],
+      [
+       "NAIROBI",
+       77
+      ],
+      [
+       "NANYUKI",
+       64
+      ],
+      [
+       "RUIRU",
+       77
+      ],
+      [
+       "THOGOTO",
+       77
+      ],
+      [
+       "WANGIGE",
+       77
+      ],
+      [
+       "WATAMU",
+       90
+      ],
+      [
+       "[OTHER]",
+       77
+      ]
+     ],
+     "KIRIBATI": [
+      [
+       "CHRISTMAS ISLAND",
+       64
+      ],
+      [
+       "KIRIBATI",
+       71
+      ],
+      [
+       "[OTHER]",
+       42
+      ]
+     ],
+     "KOREA, SOUTH": [
+      [
+       "BUSAN",
+       120
+      ],
+      [
+       "CAMP CARROLL",
+       106
+      ],
+      [
+       "CAMP CASEY",
+       41
+      ],
+      [
+       "CAMP HENRY & WALKER",
+       106
+      ],
+      [
+       "CAMP HUMPHREYS",
+       51
+      ],
+      [
+       "CAMP MARKET",
+       126
+      ],
+      [
+       "CAMP MUJUK",
+       100,
+       117
+      ],
+      [
+       "CAMP RED CLOUD",
+       41
+      ],
+      [
+       "CAMP STANLEY",
+       41
+      ],
+      [
+       "CHANGWON",
+       57
+      ],
+      [
+       "CHEJU",
+       90
+      ],
+      [
+       "CHINJU",
+       56
+      ],
+      [
+       "CHONGJU",
+       43
+      ],
+      [
+       "CHONJU",
+       60
+      ],
+      [
+       "CHUNG JU",
+       49
+      ],
+      [
+       "FLEET ACTIVITIES CHINHAE",
+       57
+      ],
+      [
+       "GYEONGJU",
+       100,
+       117
+      ],
+      [
+       "INCHEON",
+       117
+      ],
+      [
+       "K-16",
+       126
+      ],
+      [
+       "KIMHAE",
+       56
+      ],
+      [
+       "KIMPO AIRFIELD",
+       126
+      ],
+      [
+       "KUMI",
+       63
+      ],
+      [
+       "KUNSAN AB",
+       51
+      ],
+      [
+       "KWANGJU",
+       113
+      ],
+      [
+       "MASAN",
+       61
+      ],
+      [
+       "MERCER & COLBERN",
+       126
+      ],
+      [
+       "OSAN AB",
+       41
+      ],
+      [
+       "PYEONGCHANG",
+       75
+      ],
+      [
+       "PYEONGTAEK",
+       51
+      ],
+      [
+       "SEOUL",
+       126
+      ],
+      [
+       "SOKCHO",
+       71
+      ],
+      [
+       "SUWON AB",
+       126
+      ],
+      [
+       "TAEGU",
+       106
+      ],
+      [
+       "TAEJON",
+       63
+      ],
+      [
+       "UIJONGBU",
+       41
+      ],
+      [
+       "ULSAN",
+       81
+      ],
+      [
+       "YONGSAN US ARMY GARRISON",
+       126
+      ],
+      [
+       "[OTHER]",
+       41
+      ]
+     ],
+     "KOSOVO": [
+      [
+       "MILITARY BASES IN PRISTINA",
+       64
+      ],
+      [
+       "MILITARY BASES NOT IN PRISTINA",
+       46
+      ],
+      [
+       "PRISTINA",
+       64
+      ],
+      [
+       "[OTHER]",
+       46
+      ]
+     ],
+     "KUWAIT": [
+      [
+       "CAMP ARIFJAN",
+       143
+      ],
+      [
+       "CAMP DOHA",
+       143
+      ],
+      [
+       "KUWAIT CITY",
+       143
+      ],
+      [
+       "MILITARY BASES NOT IN KUWAIT CITY",
+       143
+      ],
+      [
+       "[OTHER]",
+       143
+      ]
+     ],
+     "KYRGYZSTAN": [
+      [
+       "BISHKEK",
+       114
+      ],
+      [
+       "ISSYK-KUL REGION",
+       79
+      ],
+      [
+       "MANAS-GANCI AIR BASE",
+       114
+      ],
+      [
+       "[OTHER]",
+       67
+      ]
+     ],
+     "LAOS": [
+      [
+       "LUANG PRABANG",
+       112
+      ],
+      [
+       "VIENTIANE",
+       110
+      ],
+      [
+       "[OTHER]",
+       80
+      ]
+     ],
+     "LATVIA": [
+      [
+       "RIGA",
+       132
+      ],
+      [
+       "[OTHER]",
+       95
+      ]
+     ],
+     "LEBANON": [
+      [
+       "BEIRUT (NON-US FACILITIES)",
+       98
+      ],
+      [
+       "BEIRUT",
+       53
+      ],
+      [
+       "[OTHER] (NON-US FACILITIES)",
+       98
+      ],
+      [
+       "[OTHER]",
+       53
+      ]
+     ],
+     "LESOTHO": [
+      [
+       "MASERU",
+       70
+      ],
+      [
+       "[OTHER]",
+       86
+      ]
+     ],
+     "LIBERIA": [
+      [
+       "CAMP SANDEE WARE",
+       92
+      ],
+      [
+       "CAREYSBURG",
+       92
+      ],
+      [
+       "EDWARD B. KESSELLY BARRACKS",
+       92
+      ],
+      [
+       "MONROVIA",
+       110
+      ],
+      [
+       "SCHIEFFELIN",
+       92
+      ],
+      [
+       "[OTHER]",
+       46
+      ]
+     ],
+     "LIBYA": [
+      [
+       "BENGHAZI",
+       70
+      ],
+      [
+       "MISURATA",
+       70
+      ],
+      [
+       "SIRTE",
+       70
+      ],
+      [
+       "TRIPOLI",
+       70
+      ],
+      [
+       "[OTHER]",
+       70
+      ]
+     ],
+     "LIECHTENSTEIN": [
+      [
+       "LIECHTENSTEIN",
+       200
+      ]
+     ],
+     "LITHUANIA": [
+      [
+       "PALANGA",
+       147,
+       157
+      ],
+      [
+       "VILNIUS",
+       150
+      ],
+      [
+       "[OTHER]",
+       110
+      ]
+     ],
+     "LUXEMBOURG": [
+      [
+       "LUXEMBOURG",
+       138
+      ]
+     ],
+     "MACAU": [
+      [
+       "MACAU",
+       120
+      ]
+     ],
+     "MADAGASCAR": [
+      [
+       "ANTANANARIVO",
+       68
+      ],
+      [
+       "NOSY BE",
+       68
+      ],
+      [
+       "[OTHER]",
+       54
+      ]
+     ],
+     "MALAWI": [
+      [
+       "BLANTYRE",
+       104
+      ],
+      [
+       "LILONGWE",
+       111
+      ],
+      [
+       "SALIMA",
+       73
+      ],
+      [
+       "[OTHER]",
+       62
+      ]
+     ],
+     "MALAYSIA": [
+      [
+       "FEDERAL TERRITORY OF PUTRAJAYA",
+       84
+      ],
+      [
+       "KLANG",
+       84
+      ],
+      [
+       "KOTA KINABALU, SABAH",
+       120
+      ],
+      [
+       "KUALA LUMPUR",
+       84
+      ],
+      [
+       "KUANTAN",
+       86
+      ],
+      [
+       "LANGKAWI",
+       87
+      ],
+      [
+       "MELAKA",
+       84
+      ],
+      [
+       "PENANG",
+       68
+      ],
+      [
+       "PETALING JAYA",
+       84
+      ],
+      [
+       "SHAH ALAM",
+       84
+      ],
+      [
+       "SUBANG",
+       84
+      ],
+      [
+       "[OTHER]",
+       71
+      ]
+     ],
+     "MALDIVES": [
+      [
+       "MALDIVES",
+       134
+      ],
+      [
+       "MALE",
+       134
+      ]
+     ],
+     "MALI": [
+      [
+       "BAMAKO",
+       131
+      ],
+      [
+       "[OTHER]",
+       46
+      ]
+     ],
+     "MALTA": [
+      [
+       "MALTA",
+       145
+      ]
+     ],
+     "MARSHALL ISLANDS": [
+      [
+       "KWAJALEIN ATOLL",
+       46
+      ],
+      [
+       "LIKIEP ATOLL",
+       37
+      ],
+      [
+       "MAJURO",
+       80
+      ],
+      [
+       "[OTHER]",
+       33
+      ]
+     ],
+     "MARTINIQUE": [
+      [
+       "MARTINIQUE",
+       135
+      ]
+     ],
+     "MAURITANIA": [
+      [
+       "KAEDI",
+       33
+      ],
+      [
+       "NOUADHIBOU",
+       56
+      ],
+      [
+       "NOUAKCHOTT",
+       69
+      ],
+      [
+       "[OTHER]",
+       35
+      ]
+     ],
+     "MAURITIUS": [
+      [
+       "MAURITIUS",
+       135
+      ]
+     ],
+     "MAYOTTE": [
+      [
+       "MAYOTTE ISLANDS",
+       71
+      ]
+     ],
+     "MEXICO": [
+      [
+       "ACAPULCO",
+       153
+      ],
+      [
+       "CABO SAN LUCAS",
+       108
+      ],
+      [
+       "CAMPECHE",
+       80
+      ],
+      [
+       "CANCUN",
+       135
+      ],
+      [
+       "CHIHUAHUA",
+       96
+      ],
+      [
+       "CIUDAD JUAREZ",
+       95
+      ],
+      [
+       "CIUDAD VICTORIA",
+       55
+      ],
+      [
+       "COLIMA",
+       76
+      ],
+      [
+       "COZUMEL",
+       109
+      ],
+      [
+       "CUERNAVACA",
+       112
+      ],
+      [
+       "CULIACAN",
+       130
+      ],
+      [
+       "ENSENADA",
+       123
+      ],
+      [
+       "GUADALAJARA",
+       131
+      ],
+      [
+       "HERMOSILLO",
+       128
+      ],
+      [
+       "HUATULCO",
+       113
+      ],
+      [
+       "IXTAPA ZIHUATANEJO",
+       127
+      ],
+      [
+       "LA PAZ",
+       93
+      ],
+      [
+       "MANZANILLO",
+       114,
+       120
+      ],
+      [
+       "MATAMOROS",
+       94
+      ],
+      [
+       "MAZATLAN",
+       133
+      ],
+      [
+       "MERIDA",
+       115
+      ],
+      [
+       "MEXICALI",
+       116
+      ],
+      [
+       "MEXICO CITY, D.F.",
+       136
+      ],
+      [
+       "MONTERREY",
+       158
+      ],
+      [
+       "MORELIA",
+       107
+      ],
+      [
+       "NOGALES",
+       96
+      ],
+      [
+       "NUEVO LAREDO",
+       104
+      ],
+      [
+       "OAXACA",
+       107
+      ],
+      [
+       "PLAYA DEL CARMEN, QUINTANA ROO",
+       98
+      ],
+      [
+       "PUEBLA",
+       112
+      ],
+      [
+       "PUERTO PENASCO",
+       121
+      ],
+      [
+       "PUERTO VALLARTA",
+       134
+      ],
+      [
+       "QUERETARO",
+       133
+      ],
+      [
+       "SAN CARLOS",
+       100
+      ],
+      [
+       "SAN LUIS POTOSI",
+       105
+      ],
+      [
+       "SAN MIGUEL DE ALLENDE",
+       133
+      ],
+      [
+       "TAPACHULA",
+       77
+      ],
+      [
+       "TIJUANA",
+       110
+      ],
+      [
+       "VALLE DEL BRAVO",
+       106
+      ],
+      [
+       "VERACRUZ",
+       103
+      ],
+      [
+       "ZACATECAS",
+       94
+      ],
+      [
+       "[OTHER]",
+       120
+      ]
+     ],
+     "MICRONESIA, FEDERATED STATES OF": [
+      [
+       "AIR FORCE SCAT POHNPEI ISLAND",
+       35
+      ],
+      [
+       "AIR FORCE SUPPORT FOR CAT CHUUK",
+       35
+      ],
+      [
+       "ARMY SUPPORT FOR CAT POHNPEI ISLAND",
+       35
+      ],
+      [
+       "CHUUK",
+       85
+      ],
+      [
+       "KOSRAE",
+       84,
+       89
+      ],
+      [
+       "NAVY SUPPORT FOR CAT POHNPEI ISLAND",
+       35
+      ],
+      [
+       "POHNPEI",
+       85
+      ],
+      [
+       "YAP",
+       91
+      ],
+      [
+       "[OTHER]",
+       85
+      ]
+     ],
+     "MIDWAY ISLANDS": [
+      [
+       "MIDWAY ISLANDS",
+       81
+      ]
+     ],
+     "MOLDOVA": [
+      [
+       "CHISINAU",
+       91
+      ],
+      [
+       "[OTHER]",
+       91
+      ]
+     ],
+     "MONACO": [
+      [
+       "MONACO",
+       130
+      ]
+     ],
+     "MONGOLIA": [
+      [
+       "ULAANBAATAR",
+       92
+      ],
+      [
+       "[OTHER]",
+       66
+      ]
+     ],
+     "MONTENEGRO": [
+      [
+       "PODGORICA",
+       111
+      ],
+      [
+       "[OTHER]",
+       111
+      ]
+     ],
+     "MONTSERRAT": [
+      [
+       "MONTSERRAT",
+       97
+      ]
+     ],
+     "MOROCCO": [
+      [
+       "AGADIR",
+       106
+      ],
+      [
+       "CASABLANCA",
+       141
+      ],
+      [
+       "FES",
+       143
+      ],
+      [
+       "MARRAKECH",
+       153
+      ],
+      [
+       "OUARZAZATE",
+       144
+      ],
+      [
+       "RABAT",
+       162
+      ],
+      [
+       "TANGIER",
+       176
+      ],
+      [
+       "TAROUDANT",
+       145
+      ],
+      [
+       "[OTHER]",
+       96
+      ]
+     ],
+     "MOZAMBIQUE": [
+      [
+       "MAPUTO",
+       110
+      ],
+      [
+       "PEMBA",
+       113
+      ],
+      [
+       "[OTHER]",
+       113
+      ]
+     ],
+     "NAMIBIA": [
+      [
+       "ETOSHA",
+       71
+      ],
+      [
+       "OPUWO",
+       76
+      ],
+      [
+       "WALVIS BAY",
+       80
+      ],
+      [
+       "WINDHOEK",
+       91
+      ],
+      [
+       "[OTHER]",
+       74
+      ]
+     ],
+     "NAURU": [
+      [
+       "NAURU",
+       83
+      ]
+     ],
+     "NEPAL": [
+      [
+       "KATHMANDU",
+       99
+      ],
+      [
+       "POKHARA",
+       113
+      ],
+      [
+       "[OTHER]",
+       90
+      ]
+     ],
+     "NETHERLANDS": [
+      [
+       "ALBRANDSWAARD (INCL RHOON & POOR",
+       157
+      ],
+      [
+       "AMSTERDAM",
+       192
+      ],
+      [
+       "BARENDRECHT",
+       157
+      ],
+      [
+       "BERGSCHENHOEK",
+       157
+      ],
+      [
+       "BERKEL EN RODENRIJS",
+       157
+      ],
+      [
+       "BERNISSE",
+       157
+      ],
+      [
+       "BLEISWIJK",
+       157
+      ],
+      [
+       "BRIELLE",
+       157
+      ],
+      [
+       "BRUNSSUM/SCHINNEN",
+       120
+      ],
+      [
+       "CAPELLE AAN DEN IJSSEL",
+       157
+      ],
+      [
+       "COEVORDEN",
+       121
+      ],
+      [
+       "EINDHOVEN",
+       141
+      ],
+      [
+       "HELLEVOETSLUIS",
+       157
+      ],
+      [
+       "KRIMPEN AAN DEN IJSSEL",
+       157
+      ],
+      [
+       "LISSE",
+       130
+      ],
+      [
+       "MAASSLUIS",
+       157
+      ],
+      [
+       "MAASTRICHT",
+       165
+      ],
+      [
+       "NOORDWIJK",
+       108
+      ],
+      [
+       "PAPENDRECHT",
+       157
+      ],
+      [
+       "RIDDERKERK",
+       157
+      ],
+      [
+       "ROTTERDAM",
+       157
+      ],
+      [
+       "ROZENBURG",
+       157
+      ],
+      [
+       "SCHIEDAM",
+       157
+      ],
+      [
+       "SCHIPHOL",
+       192
+      ],
+      [
+       "SPIJKENISSE",
+       157
+      ],
+      [
+       "THE HAGUE",
+       176
+      ],
+      [
+       "UTRECHT",
+       120
+      ],
+      [
+       "VLAARDINGEN",
+       157
+      ],
+      [
+       "VOLKEL AB",
+       120
+      ],
+      [
+       "WESTVOORNE",
+       157
+      ],
+      [
+       "YPENBURG",
+       131
+      ],
+      [
+       "[OTHER]",
+       120
+      ]
+     ],
+     "NEW CALEDONIA": [
+      [
+       "NEW CALEDONIA",
+       97
+      ]
+     ],
+     "NEW ZEALAND": [
+      [
+       "AUCKLAND",
+       118
+      ],
+      [
+       "CHRISTCHURCH",
+       123
+      ],
+      [
+       "DUNEDIN",
+       97
+      ],
+      [
+       "NAVANTARCTICSUPPU DET CHRISTCHURCH",
+       123
+      ],
+      [
+       "QUEENSTOWN",
+       112
+      ],
+      [
+       "ROTORUA",
+       99
+      ],
+      [
+       "WELLINGTON",
+       136
+      ],
+      [
+       "[OTHER]",
+       80
+      ]
+     ],
+     "NICARAGUA": [
+      [
+       "CORN ISLAND",
+       65
+      ],
+      [
+       "MANAGUA",
+       94
+      ],
+      [
+       "SAN JUAN DEL SUR",
+       70
+      ],
+      [
+       "[OTHER]",
+       55
+      ]
+     ],
+     "NIGER": [
+      [
+       "NIAMEY",
+       84
+      ],
+      [
+       "[OTHER]",
+       57
+      ]
+     ],
+     "NIGERIA": [
+      [
+       "ABUJA",
+       119
+      ],
+      [
+       "KADUNA",
+       113
+      ],
+      [
+       "LAGOS",
+       145
+      ],
+      [
+       "PORT HARCOURT",
+       131
+      ],
+      [
+       "[OTHER]",
+       131
+      ]
+     ],
+     "NIUE": [
+      [
+       "NIUE",
+       68
+      ]
+     ],
+     "NORTH MACEDONIA": [
+      [
+       "MILITARY BASES IN SKOPJE",
+       97
+      ],
+      [
+       "MILITARY BASES NOT IN SKOPJE",
+       90
+      ],
+      [
+       "OHRID",
+       90
+      ],
+      [
+       "SKOPJE",
+       97
+      ],
+      [
+       "[OTHER]",
+       90
+      ]
+     ],
+     "NORTHERN MARIANA ISLANDS": [
+      [
+       "ROTA",
+       138
+      ],
+      [
+       "SAIPAN",
+       138
+      ],
+      [
+       "TINIAN",
+       138
+      ]
+     ],
+     "NORWAY": [
+      [
+       "OSLO",
+       155
+      ],
+      [
+       "STAVANGER",
+       168
+      ],
+      [
+       "TROMSO",
+       171
+      ],
+      [
+       "[OTHER]",
+       155
+      ]
+     ],
+     "OMAN": [
+      [
+       "DUQM",
+       135
+      ],
+      [
+       "MUSCAT",
+       160
+      ],
+      [
+       "SALALAH",
+       165,
+       170
+      ],
+      [
+       "[OTHER]",
+       165,
+       170
+      ]
+     ],
+     "OTHER FOREIGN LOCALITIES": [
+      [
+       "FOREIGN AREAS",
+       43
+      ],
+      [
+       "NONFOREIGN AREAS",
+       43
+      ],
+      [
+       "OTHER FOREIGN LOCALITIES",
+       43
+      ]
+     ],
+     "PAKISTAN": [
+      [
+       "FAISALABAD",
+       80
+      ],
+      [
+       "ISLAMABAD (NON-US FACILITIES)",
+       81
+      ],
+      [
+       "ISLAMABAD",
+       80
+      ],
+      [
+       "KARACHI (USG CIVILIAN COMPOUNDS)",
+       69
+      ],
+      [
+       "KARACHI",
+       102
+      ],
+      [
+       "LAHORE (USG CIVILIAN COMPOUNDS)",
+       68
+      ],
+      [
+       "LAHORE",
+       71
+      ],
+      [
+       "PESHAWAR (USG CIVILIAN COMPOUNDS)",
+       60
+      ],
+      [
+       "PESHAWAR",
+       74
+      ],
+      [
+       "QUETTA",
+       82
+      ],
+      [
+       "[OTHER]",
+       82
+      ]
+     ],
+     "PALAU": [
+      [
+       "KOROR",
+       145
+      ],
+      [
+       "[OTHER]",
+       145
+      ]
+     ],
+     "PANAMA": [
+      [
+       "COLON",
+       87
+      ],
+      [
+       "DAVID, CHIRIQUI",
+       81
+      ],
+      [
+       "PANAMA CITY",
+       99
+      ],
+      [
+       "[OTHER]",
+       58
+      ]
+     ],
+     "PAPUA NEW GUINEA": [
+      [
+       "PORT MORESBY",
+       67
+      ],
+      [
+       "[OTHER]",
+       51
+      ]
+     ],
+     "PARAGUAY": [
+      [
+       "ASUNCION",
+       102
+      ],
+      [
+       "CIUDAD DEL ESTE",
+       85
+      ],
+      [
+       "PEGRO JUAN",
+       76
+      ],
+      [
+       "[OTHER]",
+       60
+      ]
+     ],
+     "PERU": [
+      [
+       "CUSCO",
+       118
+      ],
+      [
+       "LIMA",
+       103
+      ],
+      [
+       "PARACAS",
+       112
+      ],
+      [
+       "[OTHER]",
+       95
+      ]
+     ],
+     "PHILIPPINES": [
+      [
+       "BAGUIO CITY",
+       77
+      ],
+      [
+       "BOHOL",
+       84
+      ],
+      [
+       "BORACAY",
+       96
+      ],
+      [
+       "CEBU",
+       73
+      ],
+      [
+       "CLARK AFB",
+       86
+      ],
+      [
+       "CORON",
+       96
+      ],
+      [
+       "DAVAO CITY",
+       67
+      ],
+      [
+       "EL NIDO",
+       81
+      ],
+      [
+       "MACTAN",
+       77
+      ],
+      [
+       "MAKATI CITY",
+       87
+      ],
+      [
+       "MANILA",
+       87
+      ],
+      [
+       "METRO MANILA",
+       87
+      ],
+      [
+       "[OTHER]",
+       63
+      ]
+     ],
+     "POLAND": [
+      [
+       "GDANSK",
+       92
+      ],
+      [
+       "GDYNIA",
+       92
+      ],
+      [
+       "GNIEZNO",
+       98
+      ],
+      [
+       "KATOWICE",
+       124
+      ],
+      [
+       "KRAKOW",
+       125
+      ],
+      [
+       "POWIDZ",
+       98
+      ],
+      [
+       "POZNAN",
+       98
+      ],
+      [
+       "RZESZOW",
+       104
+      ],
+      [
+       "SOPOT",
+       92
+      ],
+      [
+       "WARSAW",
+       104
+      ],
+      [
+       "WROCLAW",
+       137
+      ],
+      [
+       "[OTHER]",
+       85
+      ]
+     ],
+     "PORTUGAL": [
+      [
+       "CASCAIS",
+       98
+      ],
+      [
+       "ESTORIL",
+       98
+      ],
+      [
+       "FAIAL ISLAND",
+       73,
+       74
+      ],
+      [
+       "LAJES FIELD AB",
+       67
+      ],
+      [
+       "LISBON",
+       112
+      ],
+      [
+       "MADEIRA ISLANDS",
+       63
+      ],
+      [
+       "OEIRAS",
+       98
+      ],
+      [
+       "OPORTO",
+       129
+      ],
+      [
+       "PONTA DELGADA",
+       59,
+       63
+      ],
+      [
+       "SAO MIGUEL ISLAND",
+       95
+      ],
+      [
+       "[OTHER]",
+       67
+      ]
+     ],
+     "PUERTO RICO": [
+      [
+       "AGUADILLA",
+       97
+      ],
+      [
+       "BAYAMON",
+       148
+      ],
+      [
+       "CAROLINA",
+       148
+      ],
+      [
+       "CEIBA",
+       110
+      ],
+      [
+       "CULEBRA",
+       116
+      ],
+      [
+       "FAJARDO [INCL ROOSEVELT RDS NAVSTAT]",
+       110
+      ],
+      [
+       "FT. BUCHANAN [INCL GSA SVC CTR, GUAYNABO]",
+       148
+      ],
+      [
+       "HUMACAO",
+       110
+      ],
+      [
+       "LUIS MUNOZ MARIN IAP AGS",
+       148
+      ],
+      [
+       "LUQUILLO",
+       110
+      ],
+      [
+       "MAYAGUEZ",
+       116
+      ],
+      [
+       "PONCE",
+       146
+      ],
+      [
+       "RIO GRANDE",
+       103
+      ],
+      [
+       "SABANA SECA [INCL ALL MILITARY]",
+       148
+      ],
+      [
+       "SAN JUAN & NAV RES STA",
+       148
+      ],
+      [
+       "VIEQUES",
+       125
+      ],
+      [
+       "[OTHER]",
+       116
+      ]
+     ],
+     "QATAR": [
+      [
+       "AL UDEID AIR BASE",
+       165
+      ],
+      [
+       "CAMP AS SAYLIYAH",
+       165
+      ],
+      [
+       "DOHA",
+       165
+      ],
+      [
+       "[OTHER]",
+       165
+      ]
+     ],
+     "REPUBLIC OF THE CONGO": [
+      [
+       "BRAZZAVILLE",
+       129
+      ],
+      [
+       "[OTHER]",
+       129
+      ]
+     ],
+     "RESERVE COMPONENT": [
+      [
+       "NO PER DIEM LOCATION (RC)",
+       0
+      ]
+     ],
+     "REUNION": [
+      [
+       "REUNION",
+       76
+      ]
+     ],
+     "ROMANIA": [
+      [
+       "BUCHAREST",
+       123
+      ],
+      [
+       "CONSTANTA-MIHAIL KOGALNICEANU AB",
+       87
+      ],
+      [
+       "[OTHER]",
+       106
+      ]
+     ],
+     "RUSSIA": [
+      [
+       "KOROLEV",
+       154
+      ],
+      [
+       "MOSCOW",
+       154
+      ],
+      [
+       "SAINT PETERSBURG",
+       134
+      ],
+      [
+       "SOCHI",
+       202
+      ],
+      [
+       "STAR CITY",
+       154
+      ],
+      [
+       "VLADIVOSTOK",
+       89
+      ],
+      [
+       "YEKATERINBURG",
+       112
+      ],
+      [
+       "YUZHNO-SAKHALINSK",
+       120
+      ],
+      [
+       "[OTHER]",
+       112
+      ]
+     ],
+     "RWANDA": [
+      [
+       "AKAGERA",
+       60
+      ],
+      [
+       "GISENYI",
+       54
+      ],
+      [
+       "KIGALI",
+       102
+      ],
+      [
+       "RUHENGERI",
+       46
+      ],
+      [
+       "[OTHER]",
+       54
+      ]
+     ],
+     "SAINT HELENA": [
+      [
+       "SAINT HELENA",
+       15
+      ]
+     ],
+     "SAINT KITTS AND NEVIS": [
+      [
+       "SAINT KITTS AND NEVIS",
+       138
+      ]
+     ],
+     "SAINT VINCENT AND THE GRENADINES": [
+      [
+       "SAINT VINCENT AND THE GRENADINES",
+       110
+      ]
+     ],
+     "SAMOA": [
+      [
+       "SAMOA",
+       148
+      ]
+     ],
+     "SAN MARINO": [
+      [
+       "SAN MARINO",
+       101
+      ]
+     ],
+     "SAO TOME AND PRINCIPE": [
+      [
+       "PRINCIPE",
+       47
+      ],
+      [
+       "SAO TOME",
+       128
+      ]
+     ],
+     "SAUDI ARABIA": [
+      [
+       "AL KHOBAR",
+       134
+      ],
+      [
+       "DAMMAM",
+       134
+      ],
+      [
+       "DHAHRAN AREA",
+       134
+      ],
+      [
+       "ESKAN",
+       43
+      ],
+      [
+       "JEDDAH",
+       155
+      ],
+      [
+       "JUBAIL MILITARY TNG MISSION",
+       155
+      ],
+      [
+       "MEDINA",
+       86,
+       93
+      ],
+      [
+       "RIYADH",
+       178
+      ],
+      [
+       "TAIF",
+       87,
+       89
+      ],
+      [
+       "[OTHER]",
+       155
+      ]
+     ],
+     "SENEGAL": [
+      [
+       "DAKAR",
+       161
+      ],
+      [
+       "MBOUR",
+       100
+      ],
+      [
+       "[OTHER]",
+       111
+      ]
+     ],
+     "SERBIA": [
+      [
+       "BELGRADE",
+       100
+      ],
+      [
+       "KOPAONIK",
+       68
+      ],
+      [
+       "[OTHER]",
+       62
+      ]
+     ],
+     "SEYCHELLES": [
+      [
+       "SEYCHELLES",
+       172
+      ]
+     ],
+     "SIERRA LEONE": [
+      [
+       "FREETOWN",
+       101
+      ],
+      [
+       "[OTHER]",
+       70
+      ]
+     ],
+     "SINGAPORE": [
+      [
+       "SEMBAWANG BASE",
+       162
+      ],
+      [
+       "SINGAPORE",
+       162
+      ]
+     ],
+     "SINT MAARTEN": [
+      [
+       "SINT MAARTEN",
+       169
+      ]
+     ],
+     "SLOVAKIA": [
+      [
+       "BRATISLAVA",
+       143
+      ],
+      [
+       "LIPTOVSKY MIKULAS",
+       100
+      ],
+      [
+       "ZILINA",
+       95
+      ],
+      [
+       "[OTHER]",
+       89
+      ]
+     ],
+     "SLOVENIA": [
+      [
+       "LJUBLJANA",
+       149
+      ],
+      [
+       "PORTOROZ",
+       86
+      ],
+      [
+       "[OTHER]",
+       149
+      ]
+     ],
+     "SOLOMON ISLANDS": [
+      [
+       "HONIARA",
+       125
+      ],
+      [
+       "[OTHER]",
+       125
+      ]
+     ],
+     "SOMALIA": [
+      [
+       "MOGADISHU (NON-US FACILITIES)",
+       80
+      ],
+      [
+       "MOGADISHU",
+       66
+      ],
+      [
+       "[OTHER]",
+       57
+      ]
+     ],
+     "SOUTH AFRICA": [
+      [
+       "BLOEMFONTEIN",
+       75
+      ],
+      [
+       "CAPE TOWN",
+       92
+      ],
+      [
+       "DURBAN",
+       95
+      ],
+      [
+       "JOHANNESBURG",
+       90
+      ],
+      [
+       "PRETORIA",
+       87
+      ],
+      [
+       "STELLENBOSCH",
+       80
+      ],
+      [
+       "SUN CITY",
+       54
+      ],
+      [
+       "[OTHER]",
+       59
+      ]
+     ],
+     "SOUTH SUDAN": [
+      [
+       "JUBA",
+       90
+      ],
+      [
+       "[OTHER]",
+       90
+      ]
+     ],
+     "SPAIN": [
+      [
+       "ALMERIA",
+       109
+      ],
+      [
+       "BALEARIC ISLANDS",
+       138
+      ],
+      [
+       "BARCELONA",
+       134
+      ],
+      [
+       "BILBAO",
+       130
+      ],
+      [
+       "FUENGIROLA",
+       127
+      ],
+      [
+       "LA CORUNA",
+       135
+      ],
+      [
+       "LAS PALMAS DE GRAN CANARIA",
+       155
+      ],
+      [
+       "MADRID",
+       139
+      ],
+      [
+       "MALAGA",
+       147
+      ],
+      [
+       "MARBELLA",
+       100
+      ],
+      [
+       "MORON AB",
+       146
+      ],
+      [
+       "OVIEDO",
+       92
+      ],
+      [
+       "ROTA NAS",
+       146
+      ],
+      [
+       "SAN SEBASTIAN",
+       160
+      ],
+      [
+       "SANTA CRUZ DE TENERIFE",
+       91
+      ],
+      [
+       "SANTANDER",
+       89
+      ],
+      [
+       "SANTIAGO DE COMPOSTELA",
+       146
+      ],
+      [
+       "SEVILLE",
+       130
+      ],
+      [
+       "VALENCIA",
+       120
+      ],
+      [
+       "VIGO",
+       90
+      ],
+      [
+       "ZARAGOZA",
+       145
+      ],
+      [
+       "[OTHER]",
+       146
+      ]
+     ],
+     "SRI LANKA": [
+      [
+       "COLOMBO",
+       65
+      ],
+      [
+       "GALLE",
+       119
+      ],
+      [
+       "KANDY",
+       69
+      ],
+      [
+       "TRINCOMALEE",
+       76
+      ],
+      [
+       "[OTHER]",
+       88
+      ]
+     ],
+     "ST LUCIA": [
+      [
+       "SAINT LUCIA",
+       157
+      ]
+     ],
+     "SUDAN": [
+      [
+       "KHARTOUM",
+       140
+      ],
+      [
+       "[OTHER]",
+       109
+      ]
+     ],
+     "SURINAME": [
+      [
+       "PARAMARIBO",
+       111
+      ],
+      [
+       "[OTHER]",
+       111
+      ]
+     ],
+     "SWEDEN": [
+      [
+       "STOCKHOLM",
+       147
+      ],
+      [
+       "[OTHER]",
+       147
+      ]
+     ],
+     "SWITZERLAND": [
+      [
+       "BAD RAGAZ",
+       189
+      ],
+      [
+       "BASEL",
+       203
+      ],
+      [
+       "BERN",
+       192
+      ],
+      [
+       "DAVOS",
+       224
+      ],
+      [
+       "GENEVA",
+       206
+      ],
+      [
+       "KLOSTERS",
+       212
+      ],
+      [
+       "LUGANO",
+       202
+      ],
+      [
+       "MONTREUX",
+       180
+      ],
+      [
+       "ZURICH",
+       236
+      ],
+      [
+       "[OTHER]",
+       188
+      ]
+     ],
+     "SYRIA": [
+      [
+       "DAMASCUS (USG FACILITIES)",
+       70
+      ],
+      [
+       "DAMASCUS",
+       92
+      ],
+      [
+       "[OTHER] (USG FACILITIES)",
+       70
+      ],
+      [
+       "[OTHER]",
+       92
+      ]
+     ],
+     "TAIWAN": [
+      [
+       "KAOHSIUNG",
+       120
+      ],
+      [
+       "TAICHUNG",
+       72
+      ],
+      [
+       "TAIPEI",
+       107
+      ],
+      [
+       "[OTHER]",
+       114
+      ]
+     ],
+     "TAJIKISTAN": [
+      [
+       "DUSHANBE",
+       91
+      ],
+      [
+       "KHOROG",
+       80
+      ],
+      [
+       "KULOB",
+       55
+      ],
+      [
+       "[OTHER]",
+       55
+      ]
+     ],
+     "TANZANIA": [
+      [
+       "ARUSHA",
+       150
+      ],
+      [
+       "DAR ES SALAAM",
+       137
+      ],
+      [
+       "DODOMA",
+       85
+      ],
+      [
+       "GAME PARK AREAS (AUTHORIZATION REQUIRED)",
+       104
+      ],
+      [
+       "MOROGORO",
+       60
+      ],
+      [
+       "ZANZIBAR",
+       131
+      ],
+      [
+       "[OTHER]",
+       78
+      ]
+     ],
+     "THAILAND": [
+      [
+       "BANGKOK",
+       115
+      ],
+      [
+       "CHA AM",
+       115
+      ],
+      [
+       "CHIANG MAI",
+       86
+      ],
+      [
+       "CHIANG RAI",
+       85
+      ],
+      [
+       "HAT YAI",
+       85
+      ],
+      [
+       "HUA HIN",
+       115
+      ],
+      [
+       "KHAO LAK",
+       107
+      ],
+      [
+       "KRABI",
+       103
+      ],
+      [
+       "NONG KHAI",
+       63
+      ],
+      [
+       "PATTAYA CITY",
+       105
+      ],
+      [
+       "PHUKET",
+       109
+      ],
+      [
+       "SAMUI ISLAND",
+       104
+      ],
+      [
+       "SAMUTPAKAN",
+       115
+      ],
+      [
+       "SUVARNBHUMI AIRPORT",
+       115
+      ],
+      [
+       "[OTHER]",
+       63
+      ]
+     ],
+     "TIMOR-LESTE": [
+      [
+       "DILI",
+       90
+      ],
+      [
+       "[OTHER]",
+       70
+      ]
+     ],
+     "TOGO": [
+      [
+       "LAMA KARA",
+       70
+      ],
+      [
+       "LOME",
+       92
+      ],
+      [
+       "[OTHER]",
+       60
+      ]
+     ],
+     "TOKELAU": [
+      [
+       "TOKELAU ISLANDS",
+       18
+      ]
+     ],
+     "TONGA": [
+      [
+       "NUKUALOFA",
+       97
+      ],
+      [
+       "[OTHER]",
+       97
+      ]
+     ],
+     "TRINIDAD AND TOBAGO": [
+      [
+       "PORT OF SPAIN",
+       170
+      ],
+      [
+       "TOBAGO",
+       109
+      ],
+      [
+       "[OTHER]",
+       170
+      ]
+     ],
+     "TUNISIA": [
+      [
+       "CARTHAGE",
+       118
+      ],
+      [
+       "GAMMARTH",
+       118
+      ],
+      [
+       "HAMMAMET",
+       94
+      ],
+      [
+       "JERBA",
+       89
+      ],
+      [
+       "LAMARSA",
+       118
+      ],
+      [
+       "MONASTIR",
+       94
+      ],
+      [
+       "SOUSSE",
+       110
+      ],
+      [
+       "TABARKA",
+       131
+      ],
+      [
+       "TAMERZA",
+       94
+      ],
+      [
+       "TOZEUR",
+       98
+      ],
+      [
+       "TUNIS",
+       118
+      ],
+      [
+       "[OTHER]",
+       94
+      ]
+     ],
+     "TURKEY": [
+      [
+       "ADANA-INCIRLIK",
+       81
+      ],
+      [
+       "ANKARA",
+       119
+      ],
+      [
+       "ANTALYA",
+       94
+      ],
+      [
+       "BURSA",
+       102
+      ],
+      [
+       "GAZIANTEP",
+       78
+      ],
+      [
+       "INCIRLIK AIR BASE",
+       81
+      ],
+      [
+       "ISTANBUL",
+       173
+      ],
+      [
+       "IZMIR AS",
+       101
+      ],
+      [
+       "IZMIR-CIGLI",
+       101
+      ],
+      [
+       "[OTHER]",
+       98
+      ]
+     ],
+     "TURKMENISTAN": [
+      [
+       "ASHGABAT",
+       110
+      ],
+      [
+       "[OTHER]",
+       65
+      ]
+     ],
+     "TURKS AND CAICOS ISLANDS": [
+      [
+       "TURKS AND CAICOS ISLANDS",
+       157,
+       165
+      ]
+     ],
+     "TUVALU": [
+      [
+       "TUVALU",
+       68
+      ]
+     ],
+     "UGANDA": [
+      [
+       "ENTEBBE",
+       74
+      ],
+      [
+       "FORT PORTAL",
+       64
+      ],
+      [
+       "GULU",
+       57
+      ],
+      [
+       "JINJA",
+       73
+      ],
+      [
+       "KAMPALA",
+       99
+      ],
+      [
+       "KIDEPO NATIONAL PARK",
+       62
+      ],
+      [
+       "MBALE",
+       75
+      ],
+      [
+       "MBARARA",
+       58
+      ],
+      [
+       "MURCHISON FALLS NATIONAL PARK",
+       84
+      ],
+      [
+       "QUEEN ELIZABETH NATIONAL PARK",
+       83
+      ],
+      [
+       "[OTHER]",
+       57
+      ]
+     ],
+     "UKRAINE": [
+      [
+       "KHARKIV",
+       95
+      ],
+      [
+       "KYIV",
+       72
+      ],
+      [
+       "[OTHER]",
+       97
+      ]
+     ],
+     "UNITED ARAB EMIRATES": [
+      [
+       "ABU DHABI",
+       149
+      ],
+      [
+       "AL DHAFRA AIR BASE",
+       149
+      ],
+      [
+       "DUBAI",
+       173
+      ],
+      [
+       "SAS AL NAKHL AIR BASE",
+       149
+      ],
+      [
+       "[OTHER]",
+       149
+      ]
+     ],
+     "UNITED KINGDOM": [
+      [
+       "BARKING",
+       174
+      ],
+      [
+       "BARNET",
+       174
+      ],
+      [
+       "BELFAST",
+       110
+      ],
+      [
+       "BEXLEY",
+       174
+      ],
+      [
+       "BIRMINGHAM",
+       77
+      ],
+      [
+       "BOLTON",
+       133
+      ],
+      [
+       "BRENT",
+       174
+      ],
+      [
+       "BRISTOL",
+       98
+      ],
+      [
+       "BROMLEY",
+       174
+      ],
+      [
+       "CAMBDEN",
+       174
+      ],
+      [
+       "CAMBRIDGE",
+       143
+      ],
+      [
+       "CAMBRIDGESHIRE COUNTY",
+       143
+      ],
+      [
+       "CARDIFF, WALES",
+       88
+      ],
+      [
+       "CAVERSHAM",
+       130
+      ],
+      [
+       "CHELTENHAM",
+       122
+      ],
+      [
+       "CRAWLEY",
+       174
+      ],
+      [
+       "CROYDEN",
+       174
+      ],
+      [
+       "EALING",
+       174
+      ],
+      [
+       "EDINBURGH",
+       142,
+       173
+      ],
+      [
+       "ENFIELD",
+       174
+      ],
+      [
+       "FAIRFORD",
+       94
+      ],
+      [
+       "GATWICK",
+       129
+      ],
+      [
+       "GLASGOW",
+       127
+      ],
+      [
+       "GREENWICH",
+       174
+      ],
+      [
+       "HACKNEY",
+       174
+      ],
+      [
+       "HAMMERSMITH",
+       174
+      ],
+      [
+       "HARINGEY",
+       174
+      ],
+      [
+       "HARROGATE",
+       120
+      ],
+      [
+       "HARROW",
+       174
+      ],
+      [
+       "HAVERING",
+       174
+      ],
+      [
+       "HIGH WYCOMBE",
+       98
+      ],
+      [
+       "HILLINGDON",
+       174
+      ],
+      [
+       "HORLEY",
+       129
+      ],
+      [
+       "HOUNSLOW",
+       174
+      ],
+      [
+       "HUNTINGDON",
+       143
+      ],
+      [
+       "ISLINGTON",
+       174
+      ],
+      [
+       "KENSINGTON & CHELSEA",
+       174
+      ],
+      [
+       "KINGSTON UPON THAMES",
+       174
+      ],
+      [
+       "LAMBETH",
+       174
+      ],
+      [
+       "LEWISHAM",
+       174
+      ],
+      [
+       "LIVERPOOL",
+       135
+      ],
+      [
+       "LONDON",
+       174
+      ],
+      [
+       "LOUDWATER",
+       105
+      ],
+      [
+       "MANCHESTER",
+       133
+      ],
+      [
+       "MENWITH HILL",
+       120
+      ],
+      [
+       "MERTON",
+       174
+      ],
+      [
+       "NEWHAM",
+       174
+      ],
+      [
+       "OLDAM",
+       133
+      ],
+      [
+       "OXFORD",
+       161
+      ],
+      [
+       "RAF ALCONBURY",
+       108
+      ],
+      [
+       "RAF BRAWDY",
+       108
+      ],
+      [
+       "RAF CROUGHTON",
+       108
+      ],
+      [
+       "RAF DIGBY",
+       108
+      ],
+      [
+       "RAF FAIRFORD",
+       108
+      ],
+      [
+       "RAF LAKENHEATH",
+       108
+      ],
+      [
+       "RAF MENWITH HILL",
+       120
+      ],
+      [
+       "RAF MILDENHALL",
+       108
+      ],
+      [
+       "RAF MOLESWORTH",
+       108
+      ],
+      [
+       "RAF WYTON",
+       143
+      ],
+      [
+       "READING",
+       130
+      ],
+      [
+       "REDBRIDGE",
+       174
+      ],
+      [
+       "RICHMOND UPON THAMES",
+       174
+      ],
+      [
+       "ROCHDALE",
+       133
+      ],
+      [
+       "SALFORD",
+       133
+      ],
+      [
+       "SALISBURY",
+       108
+      ],
+      [
+       "SOUTHWARK",
+       174
+      ],
+      [
+       "STOCKPORT",
+       133
+      ],
+      [
+       "SUTTON",
+       174
+      ],
+      [
+       "TOWER HAMLETS",
+       174
+      ],
+      [
+       "WALTHAM FOREST",
+       174
+      ],
+      [
+       "WANDSWORTH",
+       174
+      ],
+      [
+       "WESTMINSTER, CITY OF",
+       174
+      ],
+      [
+       "[OTHER]",
+       108
+      ]
+     ],
+     "URUGUAY": [
+      [
+       "COLONIA",
+       127
+      ],
+      [
+       "MONTEVIDEO",
+       126
+      ],
+      [
+       "PUNTA DEL ESTE",
+       155,
+       161
+      ],
+      [
+       "[OTHER]",
+       126
+      ]
+     ],
+     "UZBEKISTAN": [
+      [
+       "TASHKENT",
+       139
+      ],
+      [
+       "[OTHER]",
+       104
+      ]
+     ],
+     "VANUATU": [
+      [
+       "PORT VILA",
+       133
+      ],
+      [
+       "SANTOS",
+       103
+      ],
+      [
+       "TANNA ISLAND",
+       111
+      ],
+      [
+       "[OTHER]",
+       13
+      ]
+     ],
+     "VENEZUELA": [
+      [
+       "BARQUISIMETO",
+       101
+      ],
+      [
+       "CARACAS",
+       158
+      ],
+      [
+       "MARACAIBO",
+       287
+      ],
+      [
+       "PORLAMAR",
+       124
+      ],
+      [
+       "PUERTO LA CRUZ",
+       206
+      ],
+      [
+       "PUERTO ORDAZ",
+       114
+      ],
+      [
+       "PUNTO FIJO",
+       231
+      ],
+      [
+       "SAN CRISTOBAL",
+       268
+      ],
+      [
+       "VALENCIA",
+       256
+      ],
+      [
+       "[OTHER]",
+       206
+      ]
+     ],
+     "VIETNAM": [
+      [
+       "DA LAT",
+       103
+      ],
+      [
+       "DA NANG",
+       105,
+       111
+      ],
+      [
+       "HANOI",
+       126
+      ],
+      [
+       "HO CHI MINH CITY",
+       117
+      ],
+      [
+       "PHU QUOC ISLAND",
+       83
+      ],
+      [
+       "[OTHER]",
+       111
+      ]
+     ],
+     "VIRGIN ISLANDS (U.S.)": [
+      [
+       "ST. CROIX",
+       115
+      ],
+      [
+       "ST. JOHN",
+       150
+      ],
+      [
+       "ST. THOMAS",
+       150
+      ]
+     ],
+     "VIRGIN ISLANDS, BRITISH": [
+      [
+       "VIRGIN ISLANDS, BRITISH",
+       100,
+       105
+      ]
+     ],
+     "WAKE ISLAND": [
+      [
+       "WAKE ISLAND",
+       73
+      ]
+     ],
+     "WALLIS AND FUTUNA": [
+      [
+       "WALLIS AND FUTUNA",
+       137
+      ]
+     ],
+     "YEMEN": [
+      [
+       "ADEN",
+       58
+      ],
+      [
+       "SANAA",
+       95
+      ],
+      [
+       "[OTHER]",
+       65
+      ]
+     ],
+     "ZAMBIA": [
+      [
+       "CHIPATA",
+       92
+      ],
+      [
+       "KITWE",
+       122
+      ],
+      [
+       "LIVINGSTONE",
+       93
+      ],
+      [
+       "LUSAKA",
+       107
+      ],
+      [
+       "MFUWE",
+       101
+      ],
+      [
+       "NDOLA",
+       114
+      ],
+      [
+       "SOLWEZI",
+       89
+      ],
+      [
+       "[OTHER]",
+       80
+      ]
+     ],
+     "ZIMBABWE": [
+      [
+       "BULAWAYO",
+       121
+      ],
+      [
+       "HARARE",
+       115
+      ],
+      [
+       "VICTORIA FALLS",
+       108,
+       115
+      ],
+      [
+       "[OTHER]",
+       85
+      ]
+     ]
+    }
+   }
+  }
+ ]
+}

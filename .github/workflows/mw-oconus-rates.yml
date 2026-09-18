@@ -1,0 +1,98 @@
+# Mil Wizard — monthly DTMO OCONUS per diem table into milwizard-packs/latest.json
+# Ported from DrillWizard-packs/.github/workflows/oconus-rates.yml with the same parser
+# (milwizard-packs/scripts/oconus_rates.py) and the same three download routes: direct,
+# the Wayback Machine as a go-between (DoD's edge blocks GitHub's runner addresses), then a
+# PDF committed by hand at milwizard-packs/oconus/Current_OCONUS_Rates.pdf.
+# FAIL-CLOSED: any parse anomaly exits non-zero and commits nothing; the app keeps the last
+# good table and its rates clock says so. A red run is the signal — read the step log.
+
+name: Mil Wizard OCONUS rates
+
+on:
+  schedule:
+    - cron: "30 12 2 * *"       # 12:30 UTC on the 2nd of every month — DTMO posts on the 1st
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mw-latest-json
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: milwizard-packs
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the PDF reader
+        run: pip install --quiet pdfplumber
+
+      - name: Self-test the parser against real rows
+        run: python3 scripts/oconus_rates.py --self-test
+
+      - name: Download DTMO's current OCONUS table
+        run: |
+          set -euo pipefail
+          URL="https://www.travel.dod.mil/Portals/119/Documents/Allowances/Per_Diem/OCONUS/Current_OCONUS_Rates.pdf"
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15"
+          OUT=Current_OCONUS_Rates.pdf
+
+          direct() {
+            curl -fsSL --max-time 120 -A "$UA" \
+              -H "Accept: application/pdf,application/octet-stream;q=0.9,*/*;q=0.8" \
+              -H "Accept-Language: en-US,en;q=0.9" \
+              -H "Referer: https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Per-Diem-Rate-Lookup/" \
+              -o "$OUT" "$URL"
+          }
+          wayback() {
+            echo "asking the Wayback Machine to capture today's copy"
+            curl -sS --max-time 300 -o /dev/null -w "save request: HTTP %{http_code}\n" -A "$UA" \
+              "https://web.archive.org/save/$URL" || echo "save request did not complete; trying the newest capture anyway"
+            sleep 20
+            curl -fsSL --max-time 300 -A "$UA" -D wb_headers.txt -o "$OUT" \
+              "https://web.archive.org/web/29991231235959id_/$URL"
+            echo "capture served:"; grep -i '^memento-datetime\|^x-archive-orig-last-modified\|^location' wb_headers.txt || true
+          }
+
+          got=""
+          if direct; then got="direct"
+          else
+            echo "direct download refused (DoD edge blocks the runner)"
+            if wayback; then got="wayback"
+            elif [ -f oconus/Current_OCONUS_Rates.pdf ]; then
+              echo "Wayback route failed too; using the hand-dropped oconus/Current_OCONUS_Rates.pdf"
+              cp oconus/Current_OCONUS_Rates.pdf "$OUT"; got="hand-drop"
+            else
+              echo "every route failed and no oconus/Current_OCONUS_Rates.pdf is in the repo"; exit 1
+            fi
+          fi
+          echo "source: $got"
+          file "$OUT" | grep -q "PDF document" || { echo "not a PDF"; head -c 400 "$OUT"; echo; exit 1; }
+          ls -la "$OUT"
+
+      - name: Fetch and parse
+        run: python3 scripts/oconus_rates.py Current_OCONUS_Rates.pdf latest.json
+
+      - name: Commit if the table moved
+        run: |
+          set -euo pipefail
+          if [ "$(cat oconus_result.txt)" != "changed" ]; then
+            echo "latest.json already carries this month's table — nothing to commit"
+            exit 0
+          fi
+          git config user.name  "mil-wizard-packs[bot]"
+          git config user.email "support@ephemerislabs.app"
+          git add latest.json
+          git commit -m "Mil Wizard OCONUS per diem: $(python3 -c 'import json;print(json.load(open("latest.json"))["packs"][0]["oconus_mie"]["as_of"])')"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "pushed"
