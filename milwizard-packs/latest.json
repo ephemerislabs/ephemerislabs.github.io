@@ -1,12 +1,12 @@
 {
  "schema_version": 3,
- "generated": "2026-09-19",
+ "generated": "2026-09-18",
  "note": "Mil Wizard rate packs. Served to the app at DATA_PACK_URL. See README.md.",
  "packs": [
   {
    "pack_id": "2026",
    "schema_version": 3,
-   "generated": "2026-09-19",
+   "generated": "2026-09-18",
    "effective": {
     "military_pay_start": "2026-01-01"
    },
