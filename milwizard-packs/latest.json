@@ -1,12 +1,12 @@
 {
  "schema_version": 3,
- "generated": "2026-09-18",
+ "generated": "2026-09-19",
  "note": "Mil Wizard rate packs. Served to the app at DATA_PACK_URL. See README.md.",
  "packs": [
   {
    "pack_id": "2026",
    "schema_version": 3,
-   "generated": "2026-09-18",
+   "generated": "2026-09-19",
    "effective": {
     "military_pay_start": "2026-01-01"
    },
@@ -8833,6 +8833,1590 @@
       [
        "[OTHER]",
        85
+      ]
+     ]
+    }
+   },
+   "conus_mie": {
+    "as_of": "2025-10-01",
+    "fy": "FY2026",
+    "std": 68,
+    "source": "GSA FY2026 CONUS per diem master rates file (gsa.gov), eff. 01 Oct 2025",
+    "states": {
+     "AL": [
+      [
+       "Birmingham",
+       "Jefferson",
+       80
+      ],
+      [
+       "Gulf Shores",
+       "Baldwin",
+       74
+      ],
+      [
+       "Huntsville",
+       "Madison",
+       74
+      ],
+      [
+       "Mobile",
+       "Mobile",
+       74
+      ]
+     ],
+     "AR": [
+      [
+       "Hot Springs",
+       "Garland",
+       68
+      ]
+     ],
+     "AZ": [
+      [
+       "Grand Canyon / Flagstaff",
+       "Coconino / Yavapai less the city of Sedona",
+       80
+      ],
+      [
+       "Kayenta",
+       "Navajo",
+       74
+      ],
+      [
+       "Phoenix / Scottsdale",
+       "Maricopa",
+       86
+      ],
+      [
+       "Sedona",
+       "City Limits of Sedona",
+       92
+      ],
+      [
+       "Tucson",
+       "Pima",
+       80
+      ]
+     ],
+     "CA": [
+      [
+       "Antioch / Brentwood / Concord",
+       "Contra Costa",
+       86
+      ],
+      [
+       "Bakersfield / Ridgecrest",
+       "Kern",
+       74
+      ],
+      [
+       "Barstow / Ontario / Victorville",
+       "San Bernardino",
+       86
+      ],
+      [
+       "Death Valley",
+       "Inyo / NAWS China Lake",
+       80
+      ],
+      [
+       "Eureka / Arcata / McKinleyville",
+       "Humboldt",
+       86
+      ],
+      [
+       "Fresno",
+       "Fresno",
+       86
+      ],
+      [
+       "Los Angeles",
+       "Los Angeles / Orange / Ventura / Edwards AFB less the city of Santa Monica",
+       86
+      ],
+      [
+       "Mammoth Lakes",
+       "Mono",
+       86
+      ],
+      [
+       "Mill Valley / San Rafael / Novato",
+       "Marin",
+       92
+      ],
+      [
+       "Monterey",
+       "Monterey",
+       92
+      ],
+      [
+       "Napa",
+       "Napa",
+       92
+      ],
+      [
+       "Oakhurst",
+       "Madera",
+       80
+      ],
+      [
+       "Oakland",
+       "Alameda",
+       92
+      ],
+      [
+       "Palm Springs",
+       "Riverside",
+       86
+      ],
+      [
+       "Point Arena / Gualala",
+       "Mendocino",
+       86
+      ],
+      [
+       "Sacramento",
+       "Sacramento",
+       86
+      ],
+      [
+       "San Diego",
+       "San Diego",
+       86
+      ],
+      [
+       "San Francisco",
+       "San Francisco",
+       92
+      ],
+      [
+       "San Luis Obispo",
+       "San Luis Obispo",
+       86
+      ],
+      [
+       "San Mateo / Foster City / Belmont",
+       "San Mateo",
+       86
+      ],
+      [
+       "Santa Barbara",
+       "Santa Barbara",
+       92
+      ],
+      [
+       "Santa Cruz",
+       "Santa Cruz",
+       86
+      ],
+      [
+       "Santa Monica",
+       "City limits of Santa Monica",
+       92
+      ],
+      [
+       "Santa Rosa",
+       "Sonoma",
+       86
+      ],
+      [
+       "South Lake Tahoe",
+       "El Dorado",
+       86
+      ],
+      [
+       "Stockton",
+       "San Joaquin",
+       74
+      ],
+      [
+       "Sunnyvale / Palo Alto / San Jose",
+       "Santa Clara",
+       92
+      ],
+      [
+       "Tahoe City",
+       "Placer",
+       86
+      ],
+      [
+       "Truckee",
+       "Nevada",
+       86
+      ],
+      [
+       "Visalia",
+       "Tulare",
+       80
+      ],
+      [
+       "West Sacramento / Davis",
+       "Yolo",
+       80
+      ],
+      [
+       "Yosemite National Park",
+       "Mariposa",
+       86
+      ]
+     ],
+     "CO": [
+      [
+       "Aspen",
+       "Pitkin",
+       92
+      ],
+      [
+       "Boulder / Broomfield",
+       "Boulder / Broomfield",
+       80
+      ],
+      [
+       "Colorado Springs",
+       "El Paso",
+       86
+      ],
+      [
+       "Cortez",
+       "Montezuma",
+       74
+      ],
+      [
+       "Crested Butte / Gunnison",
+       "Gunnison",
+       86
+      ],
+      [
+       "Denver / Aurora",
+       "Denver / Adams / Arapahoe / Jefferson",
+       92
+      ],
+      [
+       "Douglas",
+       "Douglas",
+       80
+      ],
+      [
+       "Durango",
+       "La Plata",
+       80
+      ],
+      [
+       "Fort Collins / Loveland",
+       "Larimer",
+       80
+      ],
+      [
+       "Grand Lake",
+       "Grand",
+       86
+      ],
+      [
+       "Montrose",
+       "Montrose",
+       74
+      ],
+      [
+       "Silverthorne / Breckenridge",
+       "Summit",
+       92
+      ],
+      [
+       "Steamboat Springs",
+       "Routt",
+       92
+      ],
+      [
+       "Telluride",
+       "San Miguel",
+       92
+      ],
+      [
+       "Vail",
+       "Eagle",
+       92
+      ]
+     ],
+     "CT": [
+      [
+       "Bridgeport / Danbury",
+       "Fairfield",
+       86
+      ],
+      [
+       "Hartford",
+       "Hartford",
+       80
+      ],
+      [
+       "New Haven",
+       "New Haven",
+       80
+      ],
+      [
+       "New London / Groton",
+       "New London",
+       86
+      ]
+     ],
+     "DC": [
+      [
+       "District of Columbia",
+       "Washington DC (also the cities of Alexandria, Falls Church and Fairfax, and the counties of Arlington and Fairfax, in Virginia; and the counties of Montgomery and Prince George's in Maryland)",
+       92
+      ]
+     ],
+     "DE": [
+      [
+       "Lewes",
+       "Sussex",
+       74
+      ],
+      [
+       "Wilmington",
+       "New Castle",
+       74
+      ]
+     ],
+     "FL": [
+      [
+       "Boca Raton / Delray Beach / Jupiter",
+       "Palm Beach / Hendry",
+       86
+      ],
+      [
+       "Bradenton",
+       "Manatee",
+       80
+      ],
+      [
+       "Cocoa Beach",
+       "Brevard",
+       74
+      ],
+      [
+       "Daytona Beach",
+       "Volusia",
+       80
+      ],
+      [
+       "Fort Lauderdale",
+       "Broward",
+       86
+      ],
+      [
+       "Fort Myers",
+       "Lee",
+       80
+      ],
+      [
+       "Fort Walton Beach / De Funiak Springs",
+       "Okaloosa / Walton",
+       86
+      ],
+      [
+       "Gulf Breeze",
+       "Santa Rosa",
+       74
+      ],
+      [
+       "Key West",
+       "Monroe",
+       86
+      ],
+      [
+       "Miami",
+       "Miami-Dade",
+       92
+      ],
+      [
+       "Naples",
+       "Collier",
+       80
+      ],
+      [
+       "Orlando",
+       "Orange",
+       80
+      ],
+      [
+       "Panama City",
+       "Bay",
+       80
+      ],
+      [
+       "Pensacola",
+       "Escambia",
+       74
+      ],
+      [
+       "Punta Gorda",
+       "Charlotte",
+       74
+      ],
+      [
+       "Sarasota",
+       "Sarasota",
+       86
+      ],
+      [
+       "Sebring",
+       "Highlands",
+       74
+      ],
+      [
+       "St. Augustine",
+       "St. Johns",
+       80
+      ],
+      [
+       "Stuart",
+       "Martin",
+       80
+      ],
+      [
+       "Tallahassee",
+       "Leon",
+       80
+      ],
+      [
+       "Tampa / St. Petersburg",
+       "Pinellas / Hillsborough",
+       80
+      ],
+      [
+       "Vero Beach",
+       "Indian River",
+       74
+      ]
+     ],
+     "GA": [
+      [
+       "Athens",
+       "Clarke",
+       74
+      ],
+      [
+       "Atlanta",
+       "Fulton / Dekalb",
+       86
+      ],
+      [
+       "Augusta",
+       "Richmond",
+       74
+      ],
+      [
+       "Jekyll Island / Brunswick",
+       "Glynn",
+       86
+      ],
+      [
+       "Marietta",
+       "Cobb",
+       74
+      ],
+      [
+       "Savannah",
+       "Chatham",
+       80
+      ]
+     ],
+     "IA": [
+      [
+       "Dallas",
+       "Dallas",
+       80
+      ],
+      [
+       "Des Moines",
+       "Polk",
+       80
+      ]
+     ],
+     "ID": [
+      [
+       "Boise",
+       "Ada",
+       86
+      ],
+      [
+       "Coeur d'Alene",
+       "Kootenai",
+       74
+      ],
+      [
+       "Sun Valley / Ketchum",
+       "Blaine / Elmore",
+       80
+      ]
+     ],
+     "IL": [
+      [
+       "Bolingbrook / Romeoville / Lemont",
+       "Will",
+       74
+      ],
+      [
+       "Chicago",
+       "Cook / Lake",
+       92
+      ],
+      [
+       "East St. Louis / O'Fallon / Fairview Heights",
+       "St. Clair",
+       86
+      ],
+      [
+       "Oak Brook Terrace",
+       "DuPage",
+       80
+      ]
+     ],
+     "IN": [
+      [
+       "Bloomington",
+       "Monroe",
+       74
+      ],
+      [
+       "Indianapolis / Carmel",
+       "Marion / Hamilton",
+       80
+      ],
+      [
+       "Lafayette / West Lafayette",
+       "Tippecanoe",
+       74
+      ]
+     ],
+     "KS": [
+      [
+       "Kansas City / Overland Park",
+       "Wyandotte / Johnson / Leavenworth",
+       80
+      ]
+     ],
+     "KY": [
+      [
+       "Boone",
+       "Boone",
+       68
+      ],
+      [
+       "Kenton",
+       "Kenton",
+       86
+      ],
+      [
+       "Lexington",
+       "Fayette",
+       80
+      ],
+      [
+       "Louisville",
+       "Jefferson",
+       80
+      ]
+     ],
+     "LA": [
+      [
+       "Alexandria / Leesville / Natchitoches",
+       "Allen / Jefferson Davis / Natchitoches / Rapides / Vernon Parishes",
+       68
+      ],
+      [
+       "New Orleans",
+       "Orleans / Jefferson Parishes",
+       80
+      ]
+     ],
+     "MA": [
+      [
+       "Andover",
+       "Essex",
+       80
+      ],
+      [
+       "Boston / Cambridge",
+       "Suffolk, city of Cambridge",
+       92
+      ],
+      [
+       "Burlington / Woburn",
+       "Middlesex less the city of Cambridge",
+       86
+      ],
+      [
+       "Falmouth",
+       "City limits of Falmouth",
+       86
+      ],
+      [
+       "Hyannis",
+       "Barnstable less the city of Falmouth",
+       92
+      ],
+      [
+       "Martha's Vineyard",
+       "Dukes",
+       92
+      ],
+      [
+       "Nantucket",
+       "Nantucket",
+       92
+      ],
+      [
+       "Northampton",
+       "Hampshire",
+       80
+      ],
+      [
+       "Pittsfield",
+       "Berkshire",
+       86
+      ],
+      [
+       "Plymouth / Taunton / New Bedford",
+       "Plymouth / Bristol",
+       80
+      ],
+      [
+       "Quincy",
+       "Norfolk",
+       80
+      ],
+      [
+       "Springfield",
+       "Hampden",
+       74
+      ],
+      [
+       "Worcester",
+       "Worcester",
+       80
+      ]
+     ],
+     "MD": [
+      [
+       "Aberdeen / Bel Air / Belcamp",
+       "Harford",
+       74
+      ],
+      [
+       "Annapolis",
+       "Anne Arundel",
+       80
+      ],
+      [
+       "Baltimore City",
+       "Baltimore City",
+       86
+      ],
+      [
+       "Cambridge / St. Michaels",
+       "Dorchester / Talbot",
+       80
+      ],
+      [
+       "Centreville",
+       "Queen Anne",
+       74
+      ],
+      [
+       "Columbia",
+       "Howard",
+       86
+      ],
+      [
+       "Ocean City",
+       "Worcester",
+       80
+      ]
+     ],
+     "ME": [
+      [
+       "Bar Harbor / Rockport",
+       "Hancock / Knox",
+       92
+      ],
+      [
+       "Kennebunk / Kittery / Sanford",
+       "York",
+       86
+      ],
+      [
+       "Portland",
+       "Cumberland / Sagadahoc",
+       80
+      ]
+     ],
+     "MI": [
+      [
+       "Ann Arbor",
+       "Washtenaw",
+       80
+      ],
+      [
+       "Detroit",
+       "Wayne",
+       74
+      ],
+      [
+       "Grand Rapids",
+       "Kent",
+       80
+      ],
+      [
+       "Holland",
+       "Ottawa",
+       74
+      ],
+      [
+       "Mackinac Island",
+       "Mackinac",
+       86
+      ],
+      [
+       "Midland",
+       "Midland",
+       74
+      ],
+      [
+       "Muskegon",
+       "Muskegon",
+       68
+      ],
+      [
+       "Petoskey",
+       "Emmet",
+       86
+      ],
+      [
+       "Pontiac / Auburn Hills",
+       "Oakland",
+       80
+      ],
+      [
+       "South Haven",
+       "Van Buren",
+       68
+      ],
+      [
+       "Traverse City",
+       "Grand Traverse",
+       80
+      ]
+     ],
+     "MN": [
+      [
+       "Duluth",
+       "St. Louis",
+       86
+      ],
+      [
+       "Minneapolis / St. Paul",
+       "Hennepin / Ramsey",
+       92
+      ],
+      [
+       "Rochester",
+       "Olmsted",
+       80
+      ]
+     ],
+     "MO": [
+      [
+       "Kansas City",
+       "Jackson / Clay / Cass / Platte",
+       80
+      ],
+      [
+       "St. Louis",
+       "St. Louis / St. Louis City / St. Charles",
+       86
+      ]
+     ],
+     "MS": [
+      [
+       "Oxford",
+       "Lafayette",
+       68
+      ],
+      [
+       "Southaven",
+       "Desoto",
+       68
+      ],
+      [
+       "Starkville",
+       "Oktibbeha",
+       68
+      ]
+     ],
+     "MT": [
+      [
+       "Big Sky / West Yellowstone/Gardiner",
+       "Gallatin/Park",
+       80
+      ],
+      [
+       "Helena",
+       "Lewis and Clark",
+       74
+      ],
+      [
+       "Kalispell/Whitefish",
+       "Flathead",
+       80
+      ],
+      [
+       "Missoula",
+       "Missoula",
+       74
+      ]
+     ],
+     "NC": [
+      [
+       "Asheville",
+       "Buncombe",
+       80
+      ],
+      [
+       "Atlantic Beach / Morehead City",
+       "Carteret",
+       74
+      ],
+      [
+       "Chapel Hill",
+       "Orange",
+       80
+      ],
+      [
+       "Charlotte",
+       "Mecklenburg",
+       80
+      ],
+      [
+       "Durham",
+       "Durham",
+       74
+      ],
+      [
+       "Fayetteville",
+       "Cumberland",
+       68
+      ],
+      [
+       "Greensboro",
+       "Guilford",
+       74
+      ],
+      [
+       "Kill Devil Hills",
+       "Dare",
+       74
+      ],
+      [
+       "Raleigh",
+       "Wake",
+       74
+      ],
+      [
+       "Wilmington",
+       "New Hanover",
+       74
+      ]
+     ],
+     "NE": [
+      [
+       "Omaha",
+       "Douglas",
+       80
+      ]
+     ],
+     "NH": [
+      [
+       "Concord",
+       "Merrimack",
+       74
+      ],
+      [
+       "Conway",
+       "Caroll",
+       80
+      ],
+      [
+       "Durham",
+       "Strafford",
+       74
+      ],
+      [
+       "Laconia",
+       "Belknap",
+       74
+      ],
+      [
+       "Lebanon / Lincoln / West Lebanon",
+       "Grafton",
+       74
+      ],
+      [
+       "Manchester",
+       "Hillsborough",
+       74
+      ],
+      [
+       "Portsmouth",
+       "Rockingham",
+       74
+      ]
+     ],
+     "NJ": [
+      [
+       "Cherry Hill / Moorestown",
+       "Camden / Burlington",
+       80
+      ],
+      [
+       "Eatontown / Freehold",
+       "Monmouth",
+       86
+      ],
+      [
+       "Edison / Piscataway",
+       "Middlesex",
+       80
+      ],
+      [
+       "Flemington",
+       "Hunterdon",
+       80
+      ],
+      [
+       "Newark",
+       "Essex / Bergen / Hudson / Passaic",
+       86
+      ],
+      [
+       "Parsippany",
+       "Morris",
+       80
+      ],
+      [
+       "Princeton / Trenton",
+       "Mercer",
+       86
+      ],
+      [
+       "Somerset",
+       "Somerset",
+       80
+      ],
+      [
+       "Springfield / Cranford / New Providence",
+       "Union",
+       80
+      ],
+      [
+       "Toms River",
+       "Ocean",
+       74
+      ]
+     ],
+     "NM": [
+      [
+       "Albuquerque",
+       "Bernalillo",
+       80
+      ],
+      [
+       "Carlsbad",
+       "Eddy",
+       74
+      ],
+      [
+       "Santa Fe",
+       "Santa Fe",
+       80
+      ],
+      [
+       "Taos",
+       "Taos",
+       74
+      ]
+     ],
+     "NV": [
+      [
+       "Incline Village / Reno / Sparks",
+       "Washoe",
+       80
+      ],
+      [
+       "Las Vegas",
+       "Clark",
+       86
+      ]
+     ],
+     "NY": [
+      [
+       "Albany",
+       "Albany",
+       86
+      ],
+      [
+       "Binghamton",
+       "Broome",
+       74
+      ],
+      [
+       "Buffalo",
+       "Erie",
+       80
+      ],
+      [
+       "Floral Park / Garden City / Great Neck",
+       "Nassau",
+       86
+      ],
+      [
+       "Glens Falls",
+       "Warren",
+       86
+      ],
+      [
+       "Ithaca",
+       "Tompkins",
+       80
+      ],
+      [
+       "Kingston",
+       "Ulster",
+       86
+      ],
+      [
+       "Lake Placid",
+       "Essex",
+       86
+      ],
+      [
+       "New York City",
+       "Bronx / Kings / New York / Queens / Richmond",
+       92
+      ],
+      [
+       "Niagara Falls",
+       "Niagara",
+       80
+      ],
+      [
+       "Nyack / Palisades",
+       "Rockland",
+       80
+      ],
+      [
+       "Poughkeepsie",
+       "Dutchess",
+       80
+      ],
+      [
+       "Riverhead / Ronkonkoma / Melville",
+       "Suffolk",
+       86
+      ],
+      [
+       "Rochester",
+       "Monroe",
+       80
+      ],
+      [
+       "Saratoga Springs / Schenectady",
+       "Saratoga / Schenectady",
+       80
+      ],
+      [
+       "Syracuse / Oswego",
+       "Onondaga / Oswego",
+       80
+      ],
+      [
+       "Tarrytown / White Plains / New Rochelle",
+       "Westchester",
+       92
+      ],
+      [
+       "Troy",
+       "Rensselaer",
+       80
+      ],
+      [
+       "West Point",
+       "Orange",
+       80
+      ]
+     ],
+     "OH": [
+      [
+       "Cincinnati",
+       "Hamilton / Clermont",
+       86
+      ],
+      [
+       "Cleveland",
+       "Cuyahoga",
+       80
+      ],
+      [
+       "Columbus",
+       "Franklin",
+       80
+      ],
+      [
+       "Dayton / Fairborn",
+       "Greene / Montgomery",
+       74
+      ],
+      [
+       "Hamilton",
+       "Butler / Warren",
+       74
+      ],
+      [
+       "Sandusky",
+       "Erie",
+       68
+      ]
+     ],
+     "OK": [
+      [
+       "Oklahoma City",
+       "Oklahoma",
+       80
+      ]
+     ],
+     "OR": [
+      [
+       "Beaverton",
+       "Washington",
+       80
+      ],
+      [
+       "Bend",
+       "Deschutes",
+       86
+      ],
+      [
+       "Clackamas",
+       "Clackamas",
+       80
+      ],
+      [
+       "Eugene / Florence",
+       "Lane",
+       80
+      ],
+      [
+       "Lincoln City",
+       "Lincoln",
+       92
+      ],
+      [
+       "Portland",
+       "Multnomah",
+       86
+      ],
+      [
+       "Seaside",
+       "Clatsop",
+       86
+      ]
+     ],
+     "PA": [
+      [
+       "Allentown / Easton / Bethlehem",
+       "Lehigh / Northampton",
+       74
+      ],
+      [
+       "Bucks",
+       "Bucks",
+       80
+      ],
+      [
+       "Chester / Radnor / Essington",
+       "Delaware",
+       80
+      ],
+      [
+       "Gettysburg",
+       "Adams",
+       68
+      ],
+      [
+       "Harrisburg",
+       "Dauphin County excluding Hershey",
+       74
+      ],
+      [
+       "Hershey",
+       "Hershey",
+       80
+      ],
+      [
+       "Lancaster",
+       "Lancaster",
+       74
+      ],
+      [
+       "Malvern / Frazer / Berwyn",
+       "Chester",
+       80
+      ],
+      [
+       "Montgomery",
+       "Montgomery",
+       80
+      ],
+      [
+       "Philadelphia",
+       "Philadelphia",
+       92
+      ],
+      [
+       "Pittsburgh",
+       "Allegheny",
+       80
+      ],
+      [
+       "Reading",
+       "Berks",
+       74
+      ],
+      [
+       "State College",
+       "Centre",
+       74
+      ]
+     ],
+     "RI": [
+      [
+       "Jamestown / Middletown / Newport",
+       "Newport",
+       80
+      ],
+      [
+       "Providence / Bristol",
+       "Providence / Bristol",
+       80
+      ]
+     ],
+     "SC": [
+      [
+       "Charleston",
+       "Charleston / Berkeley / Dorchester",
+       92
+      ],
+      [
+       "Columbia",
+       "Richland / Lexington",
+       74
+      ],
+      [
+       "Hilton Head",
+       "Beaufort",
+       80
+      ],
+      [
+       "Myrtle Beach",
+       "Horry",
+       74
+      ]
+     ],
+     "SD": [
+      [
+       "Deadwood / Spearfish",
+       "Lawrence",
+       80
+      ],
+      [
+       "Hot Springs",
+       "Fall River / Custer",
+       74
+      ],
+      [
+       "Rapid City",
+       "Pennington",
+       74
+      ]
+     ],
+     "TN": [
+      [
+       "Brentwood / Franklin",
+       "Williamson",
+       86
+      ],
+      [
+       "Chattanooga",
+       "Hamilton",
+       74
+      ],
+      [
+       "Knoxville",
+       "Knox",
+       74
+      ],
+      [
+       "Memphis",
+       "Shelby",
+       74
+      ],
+      [
+       "Nashville",
+       "Davidson",
+       86
+      ]
+     ],
+     "TX": [
+      [
+       "Arlington / Fort Worth / Grapevine",
+       "Tarrant County / City of Grapevine",
+       80
+      ],
+      [
+       "Austin",
+       "Travis",
+       80
+      ],
+      [
+       "Big Spring",
+       "Howard",
+       68
+      ],
+      [
+       "Dallas",
+       "Dallas",
+       80
+      ],
+      [
+       "Galveston",
+       "Galveston",
+       74
+      ],
+      [
+       "Houston",
+       "Montgomery / Fort Bend / Harris",
+       80
+      ],
+      [
+       "Midland / Odessa",
+       "Midland / Andrews / Ector / Martin",
+       74
+      ],
+      [
+       "Pecos",
+       "Reeves",
+       74
+      ],
+      [
+       "Plano",
+       "Collin",
+       80
+      ],
+      [
+       "San Antonio",
+       "Bexar",
+       74
+      ],
+      [
+       "South Padre Island",
+       "Cameron",
+       74
+      ]
+     ],
+     "UT": [
+      [
+       "Moab",
+       "Grand",
+       86
+      ],
+      [
+       "Park City",
+       "Summit",
+       92
+      ],
+      [
+       "Provo",
+       "Utah",
+       74
+      ],
+      [
+       "Salt Lake City",
+       "Salt Lake / Tooele",
+       80
+      ]
+     ],
+     "VA": [
+      [
+       "Blacksburg",
+       "Montgomery",
+       68
+      ],
+      [
+       "Charlottesville",
+       "City of Charlottesville / Albemarle",
+       80
+      ],
+      [
+       "Loudoun",
+       "Loudoun",
+       80
+      ],
+      [
+       "Lynchburg",
+       "Campbell / Lynchburg City",
+       68
+      ],
+      [
+       "Richmond",
+       "City of Richmond",
+       80
+      ],
+      [
+       "Roanoke",
+       "City limits of Roanoke",
+       74
+      ],
+      [
+       "Virginia Beach",
+       "City of Virginia Beach",
+       74
+      ],
+      [
+       "Wallops Island",
+       "Accomack",
+       68
+      ],
+      [
+       "Williamsburg / York",
+       "James City / York Counties / City of Williamsburg",
+       80
+      ]
+     ],
+     "VT": [
+      [
+       "Burlington",
+       "Chittenden",
+       86
+      ],
+      [
+       "Manchester",
+       "Bennington",
+       86
+      ],
+      [
+       "Montpelier",
+       "Washington",
+       74
+      ],
+      [
+       "Stowe",
+       "Lamoille",
+       86
+      ],
+      [
+       "White River Junction",
+       "Windsor",
+       86
+      ]
+     ],
+     "WA": [
+      [
+       "Everett / Lynnwood",
+       "Snohomish",
+       86
+      ],
+      [
+       "Ocean Shores",
+       "Grays Harbor",
+       86
+      ],
+      [
+       "Olympia / Tumwater",
+       "Thurston",
+       80
+      ],
+      [
+       "Port Angeles / Port Townsend",
+       "Clallam / Jefferson",
+       92
+      ],
+      [
+       "Richland / Pasco",
+       "Benton / Franklin",
+       86
+      ],
+      [
+       "Seattle",
+       "King",
+       92
+      ],
+      [
+       "Spokane",
+       "Spokane",
+       86
+      ],
+      [
+       "Tacoma",
+       "Pierce",
+       86
+      ],
+      [
+       "Vancouver",
+       "Clark / Cowlitz / Skamania",
+       86
+      ]
+     ],
+     "WI": [
+      [
+       "Madison",
+       "Dane",
+       80
+      ],
+      [
+       "Milwaukee",
+       "Milwaukee",
+       80
+      ],
+      [
+       "Sturgeon Bay",
+       "Door",
+       80
+      ]
+     ],
+     "WV": [
+      [
+       "Charles Town",
+       "Jefferson",
+       68
+      ],
+      [
+       "Charleston",
+       "Kanawha",
+       68
+      ]
+     ],
+     "WY": [
+      [
+       "Cody",
+       "Park",
+       74
+      ],
+      [
+       "Jackson / Pinedale",
+       "Teton / Sublette",
+       92
       ]
      ]
     }
