@@ -42,6 +42,33 @@ Both updaters are ported from Drill Wizard unchanged and are fail-closed: a bad 
 3. Set `effective.military_pay_start` to the date the new tables take effect.
 4. Commit to `main`. Pages redeploys in about a minute and the app picks it up on its next check.
 
+## Publishing the FY2027 CONUS per diem table
+
+**Due 1 October 2026.** GSA sets continental per diem once a year, effective 1 October
+(5 U.S.C. 5702, 41 CFR 301-11.6; the Joint Travel Regulations adopt it at 0203). The app
+carries FY2026 compiled into the binary and reads `conus_mie` from this pack when the pack's
+copy is newer, so the new edition can ship here instead of waiting for a store release. The
+TSP price and OCONUS per diem workflows run themselves; this one is annual and manual.
+
+The app accepts a pack table only when every one of these holds, so check them before pushing:
+
+| Field | Requirement |
+| --- | --- |
+| `as_of` | `YYYY-MM-DD`, and on or after the compiled table's date (`2025-10-01`) |
+| `fy` | a string, e.g. `"FY2027"` |
+| `std` | a positive number: the standard M&IE rate |
+| `std_lodging` | the standard lodging rate; the PCS and TDY cards default to it |
+| `states` | an object of at least 40 state keys, each an array of `[city, county, mie]` |
+
+Anything malformed or older is ignored and the compiled table keeps serving, so a bad push
+degrades to the previous edition rather than leaving the app without rates. The app's Rates
+tab flags the row as overdue on its own once the edition rolls.
+
+To publish: take the current rates from the GSA per diem master file at gsa.gov/perdiem,
+build the block in the shape above, write it into `packs[0].conus_mie` in `latest.json`, set
+that pack's `generated` and the document's `generated` to today, and commit to `main`. Pages
+redeploys in about a minute and the app picks it up on its next check.
+
 ## Rate calendar
 
 | Table | Rolls |
