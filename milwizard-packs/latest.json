@@ -1,12 +1,12 @@
 {
  "schema_version": 3,
- "generated": "2026-09-18",
+ "generated": "2026-09-19",
  "note": "Mil Wizard rate packs. Served to the app at DATA_PACK_URL. See README.md.",
  "packs": [
   {
    "pack_id": "2026",
    "schema_version": 3,
-   "generated": "2026-09-18",
+   "generated": "2026-09-19",
    "effective": {
     "military_pay_start": "2026-01-01"
    },
@@ -692,24 +692,24 @@
     "officer": 328.48
    },
    "tsp_prices": {
-    "as_of": "2026-09-16",
+    "as_of": "2026-09-18",
     "px": {
-     "LI": 30.9516,
-     "L30": 63.1152,
-     "L35": 19.3938,
-     "L40": 74.7409,
-     "L45": 20.7723,
-     "L50": 46.2304,
-     "L55": 24.2845,
-     "L60": 24.2811,
-     "L65": 24.2775,
-     "L70": 14.3884,
-     "L75": 12.5683,
-     "G": 20.2182,
-     "F": 20.5873,
-     "C": 121.8196,
-     "S": 113.104,
-     "I": 64.7938
+     "LI": 31.0409,
+     "L30": 63.4486,
+     "L35": 19.5177,
+     "L40": 75.2586,
+     "L45": 20.9258,
+     "L50": 46.5934,
+     "L55": 24.5125,
+     "L60": 24.5091,
+     "L65": 24.5055,
+     "L70": 14.5236,
+     "L75": 12.6864,
+     "G": 20.2236,
+     "F": 20.6097,
+     "C": 123.4142,
+     "S": 113.6009,
+     "I": 65.183
     }
    },
    "avip_navy_officer_baseline": [
@@ -937,26 +937,26 @@
     },
     {
      "id": "hdip_crew",
-     "label": "HDIP — flying, aircrew (non-AvIP)",
+     "label": "HDIP \u2014 flying, aircrew (non-AvIP)",
      "def": null,
-     "hint": "Up to $250/mo by grade — enter your LES amount"
+     "hint": "Up to $250/mo by grade \u2014 enter your LES amount"
     },
     {
      "id": "hdip_noncrew",
-     "label": "HDIP — flying, non-crewmember",
+     "label": "HDIP \u2014 flying, non-crewmember",
      "def": 150
     },
     {
      "id": "para",
      "label": "Parachute duty (static line)",
      "def": 150,
-     "hint": "Army rate temporarily higher through 2029 — verify on LES"
+     "hint": "Army rate temporarily higher through 2029 \u2014 verify on LES"
     },
     {
      "id": "halo",
      "label": "Parachute duty (MFF / HALO)",
      "def": 225,
-     "hint": "Recent NDAA raised some MFF rates — verify on LES"
+     "hint": "Recent NDAA raised some MFF rates \u2014 verify on LES"
     },
     {
      "id": "demo",
@@ -972,37 +972,37 @@
      "id": "dive",
      "label": "Diving duty",
      "def": null,
-     "hint": "Up to $240 officer / $340 enlisted — enter your LES amount"
+     "hint": "Up to $240 officer / $340 enlisted \u2014 enter your LES amount"
     },
     {
      "id": "sub",
      "label": "Submarine duty",
      "def": null,
-     "hint": "By grade and YOS — enter your LES amount"
+     "hint": "By grade and YOS \u2014 enter your LES amount"
     },
     {
      "id": "seapay",
      "label": "Career sea pay",
      "def": null,
-     "hint": "By grade and cumulative sea years — roughly $60–$805/mo, tables vary by service. Enter your LES amount"
+     "hint": "By grade and cumulative sea years \u2014 roughly $60\u2013$805/mo, tables vary by service. Enter your LES amount"
     },
     {
      "id": "seaprem",
      "label": "Career sea pay premium",
      "def": 200,
-     "hint": "After 36 consecutive months of sea duty. Officers O1–O6 draw $100 — edit the amount"
+     "hint": "After 36 consecutive months of sea duty. Officers O1\u2013O6 draw $100 \u2014 edit the amount"
     },
     {
      "id": "flpb",
      "label": "Foreign language proficiency",
      "def": null,
-     "hint": "By language/level — enter your LES amount"
+     "hint": "By language/level \u2014 enter your LES amount"
     },
     {
      "id": "sdap",
      "label": "Special duty assignment pay",
      "def": null,
-     "hint": "SD-1 to SD-6 — enter your LES amount"
+     "hint": "SD-1 to SD-6 \u2014 enter your LES amount"
     },
     {
      "id": "custom",
@@ -1131,7 +1131,7 @@
     "auto_start_days": 60,
     "start_yos": 2,
     "end_yos": 26,
-    "src": "5 U.S.C. 8440e(e)(3); 5 CFR 1600.19 — automatic 1% from 60 days, match from 2 yrs + 1 day, both end at 26 YOS"
+    "src": "5 U.S.C. 8440e(e)(3); 5 CFR 1600.19 \u2014 automatic 1% from 60 days, match from 2 yrs + 1 day, both end at 26 YOS"
    },
    "tsp_limits": {
     "elective": 24500,
@@ -1150,18 +1150,18 @@
     "discount_daily": 13.65,
     "standard_daily": 18,
     "as_of": "2026-01-01",
-    "src": "OUSD(C) Food Service Charges memo eff. 2026-01-01 — discount rate B $3.35 / L $5.55 / D $4.75 = $13.65; charged to ESM/EUM members (DoDD 1418.05, JTR 020315)"
+    "src": "OUSD(C) Food Service Charges memo eff. 2026-01-01 \u2014 discount rate B $3.35 / L $5.55 / D $4.75 = $13.65; charged to ESM/EUM members (DoDD 1418.05, JTR 020315)"
    },
    "fsa": {
     "monthly": 300,
     "daily": 10,
     "min_days": 30,
-    "src": "37 U.S.C. 427 as amended by the FY2026 NDAA — $300/mo eff. 2026-01-01 (was $250 since 2003); prorated $10/day; payable after more than 30 continuous days"
+    "src": "37 U.S.C. 427 as amended by the FY2026 NDAA \u2014 $300/mo eff. 2026-01-01 (was $250 since 2003); prorated $10/day; payable after more than 30 continuous days"
    },
    "hfp_idp": {
     "monthly": 225,
     "daily": 7.5,
-    "src": "37 U.S.C. 310; DoD FMR Vol 7A Ch 10 — HFP $225 for any month with exposure, IDP prorated at $7.50/day"
+    "src": "37 U.S.C. 310; DoD FMR Vol 7A Ch 10 \u2014 HFP $225 for any month with exposure, IDP prorated at $7.50/day"
    },
    "hdp_l": {
     "tiers": [
@@ -1169,7 +1169,7 @@
      100,
      150
     ],
-    "src": "37 U.S.C. 352; DoD FMR Vol 7A Ch 17 — $50/$100/$150 by designated location"
+    "src": "37 U.S.C. 352; DoD FMR Vol 7A Ch 17 \u2014 $50/$100/$150 by designated location"
    },
    "afrh": {
     "monthly": 0.5,
@@ -1180,7 +1180,7 @@
      "USMC",
      "USSF"
     ],
-    "src": "24 U.S.C. 419 — $0.50/mo from enlisted, warrant, and limited-duty officers of the Armed Forces Retirement Home services; Coast Guard is not assessed"
+    "src": "24 U.S.C. 419 \u2014 $0.50/mo from enlisted, warrant, and limited-duty officers of the Armed Forces Retirement Home services; Coast Guard is not assessed"
    },
    "tdp": {
     "as_of": "2026-03-01",
@@ -1192,7 +1192,7 @@
      "single": 11.72,
      "family": 30.47
     },
-    "src": "TRICARE Dental Program premiums eff. 2026-03-01 through 2027-02-28 (United Concordia; tricare.mil/costs) — by sponsor grade, one family member vs two or more; paid by payroll allotment a month ahead. Active-duty families pay NO enrollment fee for TRICARE Prime or Select."
+    "src": "TRICARE Dental Program premiums eff. 2026-03-01 through 2027-02-28 (United Concordia; tricare.mil/costs) \u2014 by sponsor grade, one family member vs two or more; paid by payroll allotment a month ahead. Active-duty families pay NO enrollment fee for TRICARE Prime or Select."
    },
    "fsgli": {
     "max": 100000,
@@ -1228,7 +1228,7 @@
       "rate": 4
      }
     ],
-    "src": "VA Insurance Service FSGLI premium table eff. 2025-07-01 ($0.40–$4.00 per $10,000 by spouse age); children $10,000 at no cost"
+    "src": "VA Insurance Service FSGLI premium table eff. 2025-07-01 ($0.40\u2013$4.00 per $10,000 by spouse age); children $10,000 at no cost"
    },
    "cz": {
     "officer_cap_note": "Officers exclude up to the senior-enlisted (E-9 max) monthly basic pay plus HFP/IDP; enlisted and warrant exclude all pay earned in the zone",
@@ -1322,58 +1322,58 @@
      "add_12up": 0.35,
      "add_under12": 0.25
     },
-    "src": "JTR 0507 (TLA) — locality per diem × family-size percentage; no daily cap; 60 days on arrival, 10 on departure, in 15-day increments"
+    "src": "JTR 0507 (TLA) \u2014 locality per diem \u00d7 family-size percentage; no daily cap; 60 days on arrival, 10 on departure, in 15-day increments"
    },
    "ppm": {
     "incentive_pct": 1,
     "advance_pct": 0.6,
     "withholding_pct": 0.22,
-    "src": "JTR 051502 — 100% of the Government Constructed Cost for moves after 2025-09-30 (the 130% authority expired); advance up to 60%; DFAS withholds 22% federal on the taxable excess of incentive over receipted expenses"
+    "src": "JTR 051502 \u2014 100% of the Government Constructed Cost for moves after 2025-09-30 (the 130% authority expired); advance up to 60%; DFAS withholds 22% federal on the taxable excess of incentive over receipted expenses"
    },
    "leave": {
     "accrual_per_month": 2.5,
     "use_lose_cap": 60,
     "sell_career_cap": 60,
-    "src": "10 U.S.C. 701 — 2.5 days per month; carryover above 60 days is lost at fiscal year end unless SLA applies; 60 days of leave may be sold in a career, at basic pay only"
+    "src": "10 U.S.C. 701 \u2014 2.5 days per month; carryover above 60 days is lost at fiscal year end unless SLA applies; 60 days of leave may be sold in a career, at basic pay only"
    },
    "retirement": {
     "high3_mult": 0.025,
     "brs_mult": 0.02,
     "min_yos": 20,
-    "src": "10 U.S.C. 1401/1407/1409 — 2.5% (High-3) or 2.0% (BRS) per year of service × high-36 average basic pay; retired pay from the first day after 20 years, no age gate"
+    "src": "10 U.S.C. 1401/1407/1409 \u2014 2.5% (High-3) or 2.0% (BRS) per year of service \u00d7 high-36 average basic pay; retired pay from the first day after 20 years, no age gate"
    },
    "per_diem_ie": {
     "conus": 5,
     "oconus_reduced": 3.5,
-    "src": "JTR 020304-F — incidental expense $5 CONUS; $3.50 OCONUS when lodged in government quarters on a U.S. installation; none under field conditions or aboard ship"
+    "src": "JTR 020304-F \u2014 incidental expense $5 CONUS; $3.50 OCONUS when lodged in government quarters on a U.S. installation; none under field conditions or aboard ship"
    },
    "sdp": {
     "rate": 0.1,
     "max": 10000,
     "min_days": 30,
     "tail_days": 90,
-    "src": "10 U.S.C. 1035; DoD FMR Vol 7A Ch 51 — Savings Deposit Program: 10% a year, compounded quarterly, on up to $10,000, after 30 consecutive days in a designated combat zone/direct-support area drawing HFP/IDP; interest runs 90 days past return and is taxable"
+    "src": "10 U.S.C. 1035; DoD FMR Vol 7A Ch 51 \u2014 Savings Deposit Program: 10% a year, compounded quarterly, on up to $10,000, after 30 consecutive days in a designated combat zone/direct-support area drawing HFP/IDP; interest runs 90 days past return and is taxable"
    },
    "idp_rules": {
     "daily": 7.5,
     "monthly_cap": 225,
     "skip_31st": true,
-    "src": "DoD FMR Vol 7A Ch 10 ¶2.2 (Oct 2024) — IDP prorated $7.50/day to $225; the 31st is never a paid day for members on active duty 30+ days; HFP is the full $225 for any month with a certified hostile-fire event"
+    "src": "DoD FMR Vol 7A Ch 10 \u00b62.2 (Oct 2024) \u2014 IDP prorated $7.50/day to $225; the 31st is never a paid day for members on active duty 30+ days; HFP is the full $225 for any month with a certified hostile-fire event"
    },
    "hdpl_rules": {
     "min_consecutive_days": 30,
     "cap_with_idp": 100,
     "combined_cap": 325,
-    "src": "DoD FMR Vol 7A Ch 17 ¶2.1.4, ¶3.1 (Dec 2024) — TDY/deployed HDP-L starts on the 31st consecutive day, retroactive to arrival; maximum $100 in any month HFP/IDP is paid; HDP-L + HFP/IDP ≤ $325"
+    "src": "DoD FMR Vol 7A Ch 17 \u00b62.1.4, \u00b63.1 (Dec 2024) \u2014 TDY/deployed HDP-L starts on the 31st consecutive day, retroactive to arrival; maximum $100 in any month HFP/IDP is paid; HDP-L + HFP/IDP \u2264 $325"
    },
    "deploy_zones": {
     "as_of": "2025-09-23",
-    "src": "IDP: DoD FMR Vol 7A Ch 10 Table 10-1 (incl. Red Sea/Gulf of Aden/Bab-al-Mandeb Oct 2023, Gaza/Israel seas Mar 2023, Ukraine Apr 2022). CZ: IRS Pub 3 (2025) / FMR Ch 44; EO 12744, 13239, 13119; P.L. 115-97 §11026. HDP-L: DFAS HDP-L table updated 2025-09-23 (Kuwait $100 from Sep 2025).",
+    "src": "IDP: DoD FMR Vol 7A Ch 10 Table 10-1 (incl. Red Sea/Gulf of Aden/Bab-al-Mandeb Oct 2023, Gaza/Israel seas Mar 2023, Ukraine Apr 2022). CZ: IRS Pub 3 (2025) / FMR Ch 44; EO 12744, 13239, 13119; P.L. 115-97 \u00a711026. HDP-L: DFAS HDP-L table updated 2025-09-23 (Kuwait $100 from Sep 2025).",
     "list": [
      {
       "k": "kuwait",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Kuwait — Arifjan, Buehring, Ali Al Salem",
+      "label": "Kuwait \u2014 Arifjan, Buehring, Ali Al Salem",
       "oc": "KUWAIT",
       "idp": false,
       "cz": "eo",
@@ -1383,7 +1383,7 @@
      {
       "k": "bahrain",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Bahrain — NSA Bahrain",
+      "label": "Bahrain \u2014 NSA Bahrain",
       "oc": "BAHRAIN",
       "idp": false,
       "cz": "eo",
@@ -1392,7 +1392,7 @@
      {
       "k": "qatar",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Qatar — Al Udeid AB",
+      "label": "Qatar \u2014 Al Udeid AB",
       "oc": "QATAR",
       "idp": false,
       "cz": "eo",
@@ -1401,7 +1401,7 @@
      {
       "k": "uae",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "UAE — Al Dhafra, Fujairah, Jebel Ali",
+      "label": "UAE \u2014 Al Dhafra, Fujairah, Jebel Ali",
       "oc": "UNITED ARAB EMIRATES",
       "idp": false,
       "cz": "eo",
@@ -1410,7 +1410,7 @@
      {
       "k": "oman",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Oman — Duqm, Thumrait, Masirah",
+      "label": "Oman \u2014 Duqm, Thumrait, Masirah",
       "oc": "OMAN",
       "idp": false,
       "cz": "eo",
@@ -1419,7 +1419,7 @@
      {
       "k": "saudi",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Saudi Arabia — Prince Sultan AB",
+      "label": "Saudi Arabia \u2014 Prince Sultan AB",
       "oc": "SAUDI ARABIA",
       "idp": true,
       "cz": "eo",
@@ -1428,7 +1428,7 @@
      {
       "k": "iraq",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Iraq — Erbil, Al Asad, Baghdad",
+      "label": "Iraq \u2014 Erbil, Al Asad, Baghdad",
       "oc": "IRAQ",
       "idp": true,
       "cz": "eo",
@@ -1437,7 +1437,7 @@
      {
       "k": "sea_gulf",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "At sea — Persian Gulf, Gulf of Oman, Arabian Sea",
+      "label": "At sea \u2014 Persian Gulf, Gulf of Oman, Arabian Sea",
       "oc": "",
       "idp": false,
       "cz": "eo",
@@ -1448,7 +1448,7 @@
      {
       "k": "sea_red",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "At sea — Red Sea, Gulf of Aden, Bab-al-Mandeb",
+      "label": "At sea \u2014 Red Sea, Gulf of Aden, Bab-al-Mandeb",
       "oc": "",
       "idp": true,
       "cz": "eo",
@@ -1459,7 +1459,7 @@
      {
       "k": "sinai",
       "g": "Sinai (P.L. 115-97)",
-      "label": "Egypt — Sinai Peninsula (MFO)",
+      "label": "Egypt \u2014 Sinai Peninsula (MFO)",
       "oc": "EGYPT",
       "idp": true,
       "cz": "qhda",
@@ -1468,7 +1468,7 @@
      {
       "k": "jordan",
       "g": "Direct support (with IDP)",
-      "label": "Jordan — Muwaffaq Salti, Tower 22",
+      "label": "Jordan \u2014 Muwaffaq Salti, Tower 22",
       "oc": "JORDAN",
       "idp": true,
       "cz": "ds",
@@ -1486,7 +1486,7 @@
      {
       "k": "djibouti",
       "g": "Direct support (with IDP)",
-      "label": "Djibouti — Camp Lemonnier",
+      "label": "Djibouti \u2014 Camp Lemonnier",
       "oc": "DJIBOUTI",
       "idp": true,
       "cz": "ds",
@@ -1531,12 +1531,12 @@
      {
       "k": "incirlik",
       "g": "Direct support (with IDP)",
-      "label": "Turkey — Incirlik AB",
+      "label": "Turkey \u2014 Incirlik AB",
       "oc": "TURKEY",
       "idp": true,
       "cz": "ds",
       "hdpl": 100,
-      "note": "Direct support east of 33.51°E; Izmir is excluded from IDP."
+      "note": "Direct support east of 33.51\u00b0E; Izmir is excluded from IDP."
      },
      {
       "k": "pakistan",
@@ -1550,7 +1550,7 @@
      {
       "k": "sea_som",
       "g": "Direct support (with IDP)",
-      "label": "At sea — Somalia Basin",
+      "label": "At sea \u2014 Somalia Basin",
       "oc": "",
       "idp": true,
       "cz": "ds",
@@ -1569,7 +1569,7 @@
      {
       "k": "kosovo",
       "g": "Kosovo (EO 13119)",
-      "label": "Kosovo — Camp Bondsteel",
+      "label": "Kosovo \u2014 Camp Bondsteel",
       "oc": "KOSOVO",
       "idp": true,
       "cz": "eo",
@@ -1596,7 +1596,7 @@
      {
       "k": "kenya",
       "g": "IDP, no tax exclusion",
-      "label": "Kenya — Manda Bay",
+      "label": "Kenya \u2014 Manda Bay",
       "oc": "KENYA",
       "idp": true,
       "cz": "",
@@ -1614,7 +1614,7 @@
      {
       "k": "mindanao",
       "g": "IDP, no tax exclusion",
-      "label": "Philippines — Mindanao / Sulu",
+      "label": "Philippines \u2014 Mindanao / Sulu",
       "oc": "PHILIPPINES",
       "idp": true,
       "cz": "",
@@ -1623,7 +1623,7 @@
      {
       "k": "gtmo",
       "g": "IDP, no tax exclusion",
-      "label": "Cuba — JTF Guantanamo",
+      "label": "Cuba \u2014 JTF Guantanamo",
       "oc": "CUBA",
       "idp": true,
       "cz": "",
@@ -1633,7 +1633,7 @@
      {
       "k": "sea_med",
       "g": "IDP, no tax exclusion",
-      "label": "At sea — Mediterranean (North African coast area)",
+      "label": "At sea \u2014 Mediterranean (North African coast area)",
       "oc": "",
       "idp": true,
       "cz": "",
@@ -1643,7 +1643,7 @@
      {
       "k": "korea1",
       "g": "Hardship only",
-      "label": "Korea — Area I (Camp Casey, DMZ)",
+      "label": "Korea \u2014 Area I (Camp Casey, DMZ)",
       "oc": "KOREA, SOUTH",
       "idp": false,
       "cz": "",
@@ -1652,7 +1652,7 @@
      {
       "k": "korea",
       "g": "Hardship only",
-      "label": "Korea — other (Humphreys, Osan: $0)",
+      "label": "Korea \u2014 other (Humphreys, Osan: $0)",
       "oc": "KOREA, SOUTH",
       "idp": false,
       "cz": "",
@@ -1662,7 +1662,7 @@
      {
       "k": "honduras",
       "g": "Hardship only",
-      "label": "Honduras — Soto Cano",
+      "label": "Honduras \u2014 Soto Cano",
       "oc": "HONDURAS",
       "idp": false,
       "cz": "",
@@ -1671,7 +1671,7 @@
      {
       "k": "greenland",
       "g": "Hardship only",
-      "label": "Greenland — Pituffik SB",
+      "label": "Greenland \u2014 Pituffik SB",
       "oc": "GREENLAND",
       "idp": false,
       "cz": "",
@@ -1689,7 +1689,7 @@
      {
       "k": "iceland",
       "g": "Hardship only",
-      "label": "Iceland — Keflavik",
+      "label": "Iceland \u2014 Keflavik",
       "oc": "ICELAND",
       "idp": false,
       "cz": "",
@@ -1698,7 +1698,7 @@
      {
       "k": "romania",
       "g": "Hardship only",
-      "label": "Romania — MK AB",
+      "label": "Romania \u2014 MK AB",
       "oc": "ROMANIA",
       "idp": false,
       "cz": "",
@@ -1743,7 +1743,7 @@
      {
       "k": "italy",
       "g": "No designation",
-      "label": "Italy — Sigonella, Aviano, Naples",
+      "label": "Italy \u2014 Sigonella, Aviano, Naples",
       "oc": "ITALY",
       "idp": false,
       "cz": "",
@@ -1752,7 +1752,7 @@
      {
       "k": "spain",
       "g": "No designation",
-      "label": "Spain — Rota",
+      "label": "Spain \u2014 Rota",
       "oc": "SPAIN",
       "idp": false,
       "cz": "",
@@ -1779,7 +1779,7 @@
      {
       "k": "australia",
       "g": "No designation",
-      "label": "Australia — Darwin",
+      "label": "Australia \u2014 Darwin",
       "oc": "AUSTRALIA",
       "idp": false,
       "cz": "",
@@ -1788,7 +1788,7 @@
      {
       "k": "sea_other",
       "g": "No designation",
-      "label": "At sea — Western Pacific / Atlantic / other",
+      "label": "At sea \u2014 Western Pacific / Atlantic / other",
       "oc": "",
       "idp": false,
       "cz": "",
