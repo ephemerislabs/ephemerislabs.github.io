@@ -1,12 +1,12 @@
 {
  "schema_version": 3,
- "generated": "2026-10-31",
+ "generated": "2026-11-02",
  "note": "Mil Wizard rate packs. Served to the app at DATA_PACK_URL. See README.md.",
  "packs": [
   {
    "pack_id": "2026",
    "schema_version": 3,
-   "generated": "2026-10-31",
+   "generated": "2026-11-02",
    "effective": {
     "military_pay_start": "2026-01-01"
    },
@@ -937,26 +937,26 @@
     },
     {
      "id": "hdip_crew",
-     "label": "HDIP \u2014 flying, aircrew (non-AvIP)",
+     "label": "HDIP — flying, aircrew (non-AvIP)",
      "def": null,
-     "hint": "Up to $250/mo by grade \u2014 enter your LES amount"
+     "hint": "Up to $250/mo by grade — enter your LES amount"
     },
     {
      "id": "hdip_noncrew",
-     "label": "HDIP \u2014 flying, non-crewmember",
+     "label": "HDIP — flying, non-crewmember",
      "def": 150
     },
     {
      "id": "para",
      "label": "Parachute duty (static line)",
      "def": 150,
-     "hint": "Army rate temporarily higher through 2029 \u2014 verify on LES"
+     "hint": "Army rate temporarily higher through 2029 — verify on LES"
     },
     {
      "id": "halo",
      "label": "Parachute duty (MFF / HALO)",
      "def": 225,
-     "hint": "Recent NDAA raised some MFF rates \u2014 verify on LES"
+     "hint": "Recent NDAA raised some MFF rates — verify on LES"
     },
     {
      "id": "demo",
@@ -972,37 +972,37 @@
      "id": "dive",
      "label": "Diving duty",
      "def": null,
-     "hint": "Up to $240 officer / $340 enlisted \u2014 enter your LES amount"
+     "hint": "Up to $240 officer / $340 enlisted — enter your LES amount"
     },
     {
      "id": "sub",
      "label": "Submarine duty",
      "def": null,
-     "hint": "By grade and YOS \u2014 enter your LES amount"
+     "hint": "By grade and YOS — enter your LES amount"
     },
     {
      "id": "seapay",
      "label": "Career sea pay",
      "def": null,
-     "hint": "By grade and cumulative sea years \u2014 roughly $60\u2013$805/mo, tables vary by service. Enter your LES amount"
+     "hint": "By grade and cumulative sea years — roughly $60–$805/mo, tables vary by service. Enter your LES amount"
     },
     {
      "id": "seaprem",
      "label": "Career sea pay premium",
      "def": 200,
-     "hint": "After 36 consecutive months of sea duty. Officers O1\u2013O6 draw $100 \u2014 edit the amount"
+     "hint": "After 36 consecutive months of sea duty. Officers O1–O6 draw $100 — edit the amount"
     },
     {
      "id": "flpb",
      "label": "Foreign language proficiency",
      "def": null,
-     "hint": "By language/level \u2014 enter your LES amount"
+     "hint": "By language/level — enter your LES amount"
     },
     {
      "id": "sdap",
      "label": "Special duty assignment pay",
      "def": null,
-     "hint": "SD-1 to SD-6 \u2014 enter your LES amount"
+     "hint": "SD-1 to SD-6 — enter your LES amount"
     },
     {
      "id": "custom",
@@ -1131,7 +1131,7 @@
     "auto_start_days": 60,
     "start_yos": 2,
     "end_yos": 26,
-    "src": "5 U.S.C. 8440e(e)(3); 5 CFR 1600.19 \u2014 automatic 1% from 60 days, match from 2 yrs + 1 day, both end at 26 YOS"
+    "src": "5 U.S.C. 8440e(e)(3); 5 CFR 1600.19 — automatic 1% from 60 days, match from 2 yrs + 1 day, both end at 26 YOS"
    },
    "tsp_limits": {
     "elective": 24500,
@@ -1150,18 +1150,18 @@
     "discount_daily": 13.65,
     "standard_daily": 18,
     "as_of": "2026-01-01",
-    "src": "OUSD(C) Food Service Charges memo eff. 2026-01-01 \u2014 discount rate B $3.35 / L $5.55 / D $4.75 = $13.65; charged to ESM/EUM members (DoDD 1418.05, JTR 020315)"
+    "src": "OUSD(C) Food Service Charges memo eff. 2026-01-01 — discount rate B $3.35 / L $5.55 / D $4.75 = $13.65; charged to ESM/EUM members (DoDD 1418.05, JTR 020315)"
    },
    "fsa": {
     "monthly": 300,
     "daily": 10,
     "min_days": 30,
-    "src": "37 U.S.C. 427 as amended by the FY2026 NDAA \u2014 $300/mo eff. 2026-01-01 (was $250 since 2003); prorated $10/day; payable after more than 30 continuous days"
+    "src": "37 U.S.C. 427 as amended by the FY2026 NDAA — $300/mo eff. 2026-01-01 (was $250 since 2003); prorated $10/day; payable after more than 30 continuous days"
    },
    "hfp_idp": {
     "monthly": 225,
     "daily": 7.5,
-    "src": "37 U.S.C. 310; DoD FMR Vol 7A Ch 10 \u2014 HFP $225 for any month with exposure, IDP prorated at $7.50/day"
+    "src": "37 U.S.C. 310; DoD FMR Vol 7A Ch 10 — HFP $225 for any month with exposure, IDP prorated at $7.50/day"
    },
    "hdp_l": {
     "tiers": [
@@ -1169,7 +1169,7 @@
      100,
      150
     ],
-    "src": "37 U.S.C. 352; DoD FMR Vol 7A Ch 17 \u2014 $50/$100/$150 by designated location"
+    "src": "37 U.S.C. 352; DoD FMR Vol 7A Ch 17 — $50/$100/$150 by designated location"
    },
    "afrh": {
     "monthly": 0.5,
@@ -1180,7 +1180,7 @@
      "USMC",
      "USSF"
     ],
-    "src": "24 U.S.C. 419 \u2014 $0.50/mo from enlisted, warrant, and limited-duty officers of the Armed Forces Retirement Home services; Coast Guard is not assessed"
+    "src": "24 U.S.C. 419 — $0.50/mo from enlisted, warrant, and limited-duty officers of the Armed Forces Retirement Home services; Coast Guard is not assessed"
    },
    "tdp": {
     "as_of": "2026-03-01",
@@ -1192,7 +1192,7 @@
      "single": 11.72,
      "family": 30.47
     },
-    "src": "TRICARE Dental Program premiums eff. 2026-03-01 through 2027-02-28 (United Concordia; tricare.mil/costs) \u2014 by sponsor grade, one family member vs two or more; paid by payroll allotment a month ahead. Active-duty families pay NO enrollment fee for TRICARE Prime or Select."
+    "src": "TRICARE Dental Program premiums eff. 2026-03-01 through 2027-02-28 (United Concordia; tricare.mil/costs) — by sponsor grade, one family member vs two or more; paid by payroll allotment a month ahead. Active-duty families pay NO enrollment fee for TRICARE Prime or Select."
    },
    "fsgli": {
     "max": 100000,
@@ -1228,7 +1228,7 @@
       "rate": 4
      }
     ],
-    "src": "VA Insurance Service FSGLI premium table eff. 2025-07-01 ($0.40\u2013$4.00 per $10,000 by spouse age); children $10,000 at no cost"
+    "src": "VA Insurance Service FSGLI premium table eff. 2025-07-01 ($0.40–$4.00 per $10,000 by spouse age); children $10,000 at no cost"
    },
    "cz": {
     "officer_cap_note": "Officers exclude up to the senior-enlisted (E-9 max) monthly basic pay plus HFP/IDP; enlisted and warrant exclude all pay earned in the zone",
@@ -1322,58 +1322,58 @@
      "add_12up": 0.35,
      "add_under12": 0.25
     },
-    "src": "JTR 0507 (TLA) \u2014 locality per diem \u00d7 family-size percentage; no daily cap; 60 days on arrival, 10 on departure, in 15-day increments"
+    "src": "JTR 0507 (TLA) — locality per diem × family-size percentage; no daily cap; 60 days on arrival, 10 on departure, in 15-day increments"
    },
    "ppm": {
     "incentive_pct": 1,
     "advance_pct": 0.6,
     "withholding_pct": 0.22,
-    "src": "JTR 051502 \u2014 100% of the Government Constructed Cost for moves after 2025-09-30 (the 130% authority expired); advance up to 60%; DFAS withholds 22% federal on the taxable excess of incentive over receipted expenses"
+    "src": "JTR 051502 — 100% of the Government Constructed Cost for moves after 2025-09-30 (the 130% authority expired); advance up to 60%; DFAS withholds 22% federal on the taxable excess of incentive over receipted expenses"
    },
    "leave": {
     "accrual_per_month": 2.5,
     "use_lose_cap": 60,
     "sell_career_cap": 60,
-    "src": "10 U.S.C. 701 \u2014 2.5 days per month; carryover above 60 days is lost at fiscal year end unless SLA applies; 60 days of leave may be sold in a career, at basic pay only"
+    "src": "10 U.S.C. 701 — 2.5 days per month; carryover above 60 days is lost at fiscal year end unless SLA applies; 60 days of leave may be sold in a career, at basic pay only"
    },
    "retirement": {
     "high3_mult": 0.025,
     "brs_mult": 0.02,
     "min_yos": 20,
-    "src": "10 U.S.C. 1401/1407/1409 \u2014 2.5% (High-3) or 2.0% (BRS) per year of service \u00d7 high-36 average basic pay; retired pay from the first day after 20 years, no age gate"
+    "src": "10 U.S.C. 1401/1407/1409 — 2.5% (High-3) or 2.0% (BRS) per year of service × high-36 average basic pay; retired pay from the first day after 20 years, no age gate"
    },
    "per_diem_ie": {
     "conus": 5,
     "oconus_reduced": 3.5,
-    "src": "JTR 020304-F \u2014 incidental expense $5 CONUS; $3.50 OCONUS when lodged in government quarters on a U.S. installation; none under field conditions or aboard ship"
+    "src": "JTR 020304-F — incidental expense $5 CONUS; $3.50 OCONUS when lodged in government quarters on a U.S. installation; none under field conditions or aboard ship"
    },
    "sdp": {
     "rate": 0.1,
     "max": 10000,
     "min_days": 30,
     "tail_days": 90,
-    "src": "10 U.S.C. 1035; DoD FMR Vol 7A Ch 51 \u2014 Savings Deposit Program: 10% a year, compounded quarterly, on up to $10,000, after 30 consecutive days in a designated combat zone/direct-support area drawing HFP/IDP; interest runs 90 days past return and is taxable"
+    "src": "10 U.S.C. 1035; DoD FMR Vol 7A Ch 51 — Savings Deposit Program: 10% a year, compounded quarterly, on up to $10,000, after 30 consecutive days in a designated combat zone/direct-support area drawing HFP/IDP; interest runs 90 days past return and is taxable"
    },
    "idp_rules": {
     "daily": 7.5,
     "monthly_cap": 225,
     "skip_31st": true,
-    "src": "DoD FMR Vol 7A Ch 10 \u00b62.2 (Oct 2024) \u2014 IDP prorated $7.50/day to $225; the 31st is never a paid day for members on active duty 30+ days; HFP is the full $225 for any month with a certified hostile-fire event"
+    "src": "DoD FMR Vol 7A Ch 10 ¶2.2 (Oct 2024) — IDP prorated $7.50/day to $225; the 31st is never a paid day for members on active duty 30+ days; HFP is the full $225 for any month with a certified hostile-fire event"
    },
    "hdpl_rules": {
     "min_consecutive_days": 30,
     "cap_with_idp": 100,
     "combined_cap": 325,
-    "src": "DoD FMR Vol 7A Ch 17 \u00b62.1.4, \u00b63.1 (Dec 2024) \u2014 TDY/deployed HDP-L starts on the 31st consecutive day, retroactive to arrival; maximum $100 in any month HFP/IDP is paid; HDP-L + HFP/IDP \u2264 $325"
+    "src": "DoD FMR Vol 7A Ch 17 ¶2.1.4, ¶3.1 (Dec 2024) — TDY/deployed HDP-L starts on the 31st consecutive day, retroactive to arrival; maximum $100 in any month HFP/IDP is paid; HDP-L + HFP/IDP ≤ $325"
    },
    "deploy_zones": {
     "as_of": "2025-09-23",
-    "src": "IDP: DoD FMR Vol 7A Ch 10 Table 10-1 (incl. Red Sea/Gulf of Aden/Bab-al-Mandeb Oct 2023, Gaza/Israel seas Mar 2023, Ukraine Apr 2022). CZ: IRS Pub 3 (2025) / FMR Ch 44; EO 12744, 13239, 13119; P.L. 115-97 \u00a711026. HDP-L: DFAS HDP-L table updated 2025-09-23 (Kuwait $100 from Sep 2025).",
+    "src": "IDP: DoD FMR Vol 7A Ch 10 Table 10-1 (incl. Red Sea/Gulf of Aden/Bab-al-Mandeb Oct 2023, Gaza/Israel seas Mar 2023, Ukraine Apr 2022). CZ: IRS Pub 3 (2025) / FMR Ch 44; EO 12744, 13239, 13119; P.L. 115-97 §11026. HDP-L: DFAS HDP-L table updated 2025-09-23 (Kuwait $100 from Sep 2025).",
     "list": [
      {
       "k": "kuwait",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Kuwait \u2014 Arifjan, Buehring, Ali Al Salem",
+      "label": "Kuwait — Arifjan, Buehring, Ali Al Salem",
       "oc": "KUWAIT",
       "idp": false,
       "cz": "eo",
@@ -1383,7 +1383,7 @@
      {
       "k": "bahrain",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Bahrain \u2014 NSA Bahrain",
+      "label": "Bahrain — NSA Bahrain",
       "oc": "BAHRAIN",
       "idp": false,
       "cz": "eo",
@@ -1392,7 +1392,7 @@
      {
       "k": "qatar",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Qatar \u2014 Al Udeid AB",
+      "label": "Qatar — Al Udeid AB",
       "oc": "QATAR",
       "idp": false,
       "cz": "eo",
@@ -1401,7 +1401,7 @@
      {
       "k": "uae",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "UAE \u2014 Al Dhafra, Fujairah, Jebel Ali",
+      "label": "UAE — Al Dhafra, Fujairah, Jebel Ali",
       "oc": "UNITED ARAB EMIRATES",
       "idp": false,
       "cz": "eo",
@@ -1410,7 +1410,7 @@
      {
       "k": "oman",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Oman \u2014 Duqm, Thumrait, Masirah",
+      "label": "Oman — Duqm, Thumrait, Masirah",
       "oc": "OMAN",
       "idp": false,
       "cz": "eo",
@@ -1419,7 +1419,7 @@
      {
       "k": "saudi",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Saudi Arabia \u2014 Prince Sultan AB",
+      "label": "Saudi Arabia — Prince Sultan AB",
       "oc": "SAUDI ARABIA",
       "idp": true,
       "cz": "eo",
@@ -1428,7 +1428,7 @@
      {
       "k": "iraq",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "Iraq \u2014 Erbil, Al Asad, Baghdad",
+      "label": "Iraq — Erbil, Al Asad, Baghdad",
       "oc": "IRAQ",
       "idp": true,
       "cz": "eo",
@@ -1437,7 +1437,7 @@
      {
       "k": "sea_gulf",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "At sea \u2014 Persian Gulf, Gulf of Oman, Arabian Sea",
+      "label": "At sea — Persian Gulf, Gulf of Oman, Arabian Sea",
       "oc": "",
       "idp": false,
       "cz": "eo",
@@ -1448,7 +1448,7 @@
      {
       "k": "sea_red",
       "g": "Arabian Peninsula (EO 12744)",
-      "label": "At sea \u2014 Red Sea, Gulf of Aden, Bab-al-Mandeb",
+      "label": "At sea — Red Sea, Gulf of Aden, Bab-al-Mandeb",
       "oc": "",
       "idp": true,
       "cz": "eo",
@@ -1459,7 +1459,7 @@
      {
       "k": "sinai",
       "g": "Sinai (P.L. 115-97)",
-      "label": "Egypt \u2014 Sinai Peninsula (MFO)",
+      "label": "Egypt — Sinai Peninsula (MFO)",
       "oc": "EGYPT",
       "idp": true,
       "cz": "qhda",
@@ -1468,7 +1468,7 @@
      {
       "k": "jordan",
       "g": "Direct support (with IDP)",
-      "label": "Jordan \u2014 Muwaffaq Salti, Tower 22",
+      "label": "Jordan — Muwaffaq Salti, Tower 22",
       "oc": "JORDAN",
       "idp": true,
       "cz": "ds",
@@ -1486,7 +1486,7 @@
      {
       "k": "djibouti",
       "g": "Direct support (with IDP)",
-      "label": "Djibouti \u2014 Camp Lemonnier",
+      "label": "Djibouti — Camp Lemonnier",
       "oc": "DJIBOUTI",
       "idp": true,
       "cz": "ds",
@@ -1531,12 +1531,12 @@
      {
       "k": "incirlik",
       "g": "Direct support (with IDP)",
-      "label": "Turkey \u2014 Incirlik AB",
+      "label": "Turkey — Incirlik AB",
       "oc": "TURKEY",
       "idp": true,
       "cz": "ds",
       "hdpl": 100,
-      "note": "Direct support east of 33.51\u00b0E; Izmir is excluded from IDP."
+      "note": "Direct support east of 33.51°E; Izmir is excluded from IDP."
      },
      {
       "k": "pakistan",
@@ -1550,7 +1550,7 @@
      {
       "k": "sea_som",
       "g": "Direct support (with IDP)",
-      "label": "At sea \u2014 Somalia Basin",
+      "label": "At sea — Somalia Basin",
       "oc": "",
       "idp": true,
       "cz": "ds",
@@ -1569,7 +1569,7 @@
      {
       "k": "kosovo",
       "g": "Kosovo (EO 13119)",
-      "label": "Kosovo \u2014 Camp Bondsteel",
+      "label": "Kosovo — Camp Bondsteel",
       "oc": "KOSOVO",
       "idp": true,
       "cz": "eo",
@@ -1596,7 +1596,7 @@
      {
       "k": "kenya",
       "g": "IDP, no tax exclusion",
-      "label": "Kenya \u2014 Manda Bay",
+      "label": "Kenya — Manda Bay",
       "oc": "KENYA",
       "idp": true,
       "cz": "",
@@ -1614,7 +1614,7 @@
      {
       "k": "mindanao",
       "g": "IDP, no tax exclusion",
-      "label": "Philippines \u2014 Mindanao / Sulu",
+      "label": "Philippines — Mindanao / Sulu",
       "oc": "PHILIPPINES",
       "idp": true,
       "cz": "",
@@ -1623,7 +1623,7 @@
      {
       "k": "gtmo",
       "g": "IDP, no tax exclusion",
-      "label": "Cuba \u2014 JTF Guantanamo",
+      "label": "Cuba — JTF Guantanamo",
       "oc": "CUBA",
       "idp": true,
       "cz": "",
@@ -1633,7 +1633,7 @@
      {
       "k": "sea_med",
       "g": "IDP, no tax exclusion",
-      "label": "At sea \u2014 Mediterranean (North African coast area)",
+      "label": "At sea — Mediterranean (North African coast area)",
       "oc": "",
       "idp": true,
       "cz": "",
@@ -1643,7 +1643,7 @@
      {
       "k": "korea1",
       "g": "Hardship only",
-      "label": "Korea \u2014 Area I (Camp Casey, DMZ)",
+      "label": "Korea — Area I (Camp Casey, DMZ)",
       "oc": "KOREA, SOUTH",
       "idp": false,
       "cz": "",
@@ -1652,7 +1652,7 @@
      {
       "k": "korea",
       "g": "Hardship only",
-      "label": "Korea \u2014 other (Humphreys, Osan: $0)",
+      "label": "Korea — other (Humphreys, Osan: $0)",
       "oc": "KOREA, SOUTH",
       "idp": false,
       "cz": "",
@@ -1662,7 +1662,7 @@
      {
       "k": "honduras",
       "g": "Hardship only",
-      "label": "Honduras \u2014 Soto Cano",
+      "label": "Honduras — Soto Cano",
       "oc": "HONDURAS",
       "idp": false,
       "cz": "",
@@ -1671,7 +1671,7 @@
      {
       "k": "greenland",
       "g": "Hardship only",
-      "label": "Greenland \u2014 Pituffik SB",
+      "label": "Greenland — Pituffik SB",
       "oc": "GREENLAND",
       "idp": false,
       "cz": "",
@@ -1689,7 +1689,7 @@
      {
       "k": "iceland",
       "g": "Hardship only",
-      "label": "Iceland \u2014 Keflavik",
+      "label": "Iceland — Keflavik",
       "oc": "ICELAND",
       "idp": false,
       "cz": "",
@@ -1698,7 +1698,7 @@
      {
       "k": "romania",
       "g": "Hardship only",
-      "label": "Romania \u2014 MK AB",
+      "label": "Romania — MK AB",
       "oc": "ROMANIA",
       "idp": false,
       "cz": "",
@@ -1743,7 +1743,7 @@
      {
       "k": "italy",
       "g": "No designation",
-      "label": "Italy \u2014 Sigonella, Aviano, Naples",
+      "label": "Italy — Sigonella, Aviano, Naples",
       "oc": "ITALY",
       "idp": false,
       "cz": "",
@@ -1752,7 +1752,7 @@
      {
       "k": "spain",
       "g": "No designation",
-      "label": "Spain \u2014 Rota",
+      "label": "Spain — Rota",
       "oc": "SPAIN",
       "idp": false,
       "cz": "",
@@ -1779,7 +1779,7 @@
      {
       "k": "australia",
       "g": "No designation",
-      "label": "Australia \u2014 Darwin",
+      "label": "Australia — Darwin",
       "oc": "AUSTRALIA",
       "idp": false,
       "cz": "",
@@ -1788,7 +1788,7 @@
      {
       "k": "sea_other",
       "g": "No designation",
-      "label": "At sea \u2014 Western Pacific / Atlantic / other",
+      "label": "At sea — Western Pacific / Atlantic / other",
       "oc": "",
       "idp": false,
       "cz": "",
@@ -2235,8 +2235,8 @@
     }
    },
    "oconus_mie": {
-    "as_of": "2026-10-01",
-    "source": "DTMO OCONUS per diem supplement (travel.dod.mil), eff. 01 Oct 2026",
+    "as_of": "2026-11-01",
+    "source": "DTMO OCONUS per diem supplement (travel.dod.mil), eff. 01 Nov 2026",
     "countries": {
      "AFGHANISTAN": [
       [
@@ -2619,7 +2619,7 @@
       ],
       [
        "[OTHER]",
-       109
+       105
       ]
      ],
      "ALL PLACES NOT LISTED": [
@@ -2641,7 +2641,7 @@
      "ANDORRA": [
       [
        "ANDORRA",
-       128
+       123
       ]
      ],
      "ANGOLA": [
@@ -2707,11 +2707,11 @@
      "ARMENIA": [
       [
        "YEREVAN",
-       93
+       98
       ],
       [
        "[OTHER]",
-       93
+       98
       ]
      ],
      "ARUBA": [
@@ -2799,27 +2799,27 @@
      "AUSTRIA": [
       [
        "GRAZ",
-       123
-      ],
-      [
-       "INNSBRUCK",
-       130
-      ],
-      [
-       "LINZ",
-       152
-      ],
-      [
-       "SALZBURG",
        118
       ],
       [
-       "VIENNA",
+       "INNSBRUCK",
+       124
+      ],
+      [
+       "LINZ",
        146
       ],
       [
+       "SALZBURG",
+       114
+      ],
+      [
+       "VIENNA",
+       139
+      ],
+      [
        "[OTHER]",
-       130
+       124
       ]
      ],
      "AZERBAIJAN": [
@@ -2939,55 +2939,55 @@
      "BELGIUM": [
       [
        "ANTWERP",
-       171
+       163
       ],
       [
        "BRUGES",
-       157
+       149
       ],
       [
        "BRUSSELS",
-       178
+       170
       ],
       [
        "DIEGEM",
-       178
+       170
       ],
       [
        "GENT",
-       179
+       170
       ],
       [
        "KLEINE BROGEL AB",
-       82
-      ],
-      [
-       "KLEINE BROGEL",
-       82
-      ],
-      [
-       "LIEGE",
        78
       ],
       [
+       "KLEINE BROGEL",
+       78
+      ],
+      [
+       "LIEGE",
+       74
+      ],
+      [
        "MONS",
-       120
+       114
       ],
       [
        "OSTEND",
-       157
+       149
       ],
       [
        "SHAPE/CHIEVRES",
-       120
+       114
       ],
       [
        "ZAVENTEM",
-       178
+       170
       ],
       [
        "[OTHER]",
-       135
+       129
       ]
      ],
      "BELIZE": [
@@ -3027,11 +3027,11 @@
      "BENIN": [
       [
        "COTONOU",
-       114
+       108
       ],
       [
        "[OTHER]",
-       60
+       58
       ]
      ],
      "BERMUDA": [
@@ -3054,15 +3054,15 @@
       ],
       [
        "LA PAZ",
-       61
+       63
       ],
       [
        "POTOSI",
-       43
+       45
       ],
       [
        "SANTA CRUZ",
-       60
+       61
       ],
       [
        "TARIJA",
@@ -3070,7 +3070,7 @@
       ],
       [
        "[OTHER]",
-       41
+       42
       ]
      ],
      "BONAIRE, SINT EUSTATIUS, AND SABA": [
@@ -3090,19 +3090,19 @@
      "BOSNIA AND HERZEGOVINA": [
       [
        "MIL BASES IN SARAJEVO",
-       113
+       108
       ],
       [
        "MIL BASES NOT IN SARAJEVO",
-       113
+       108
       ],
       [
        "SARAJEVO",
-       113
+       108
       ],
       [
        "[OTHER]",
-       113
+       108
       ]
      ],
      "BOTSWANA": [
@@ -3214,7 +3214,7 @@
      "BULGARIA": [
       [
        "BOURGAS",
-       159
+       153
       ],
       [
        "PLOVDIV",
@@ -3222,29 +3222,29 @@
       ],
       [
        "SOFIA",
-       207
+       200
       ],
       [
        "VARNA",
-       187
+       180
       ],
       [
        "[OTHER]",
-       192
+       186
       ]
      ],
      "BURKINA FASO": [
       [
        "BOBO DIOULASSO",
-       65
+       62
       ],
       [
        "OUAGADOUGOU",
-       106
+       101
       ],
       [
        "[OTHER]",
-       65
+       62
       ]
      ],
      "BURMA": [
@@ -3274,31 +3274,31 @@
      "CABO VERDE": [
       [
        "BOA VISTA ISLAND",
-       63
+       61
       ],
       [
        "FOGO",
-       76
+       73
       ],
       [
        "PRAIA",
-       108
+       104
       ],
       [
        "SAL ISLAND",
-       136
+       130
       ],
       [
        "SAO TIAGO ISLAND",
-       91
+       87
       ],
       [
        "SAO VICENTE ISLAND",
-       107
+       102
       ],
       [
        "[OTHER]",
-       79
+       75
       ]
      ],
      "CAMBODIA": [
@@ -3322,19 +3322,19 @@
      "CAMEROON": [
       [
        "DOUALA",
-       125
+       120
       ],
       [
        "LIMBE",
-       73
+       69
       ],
       [
        "YAOUNDE",
-       126
+       122
       ],
       [
        "[OTHER]",
-       63
+       61
       ]
      ],
      "CANADA": [
@@ -3368,7 +3368,7 @@
       ],
       [
        "FREDERICTON",
-       110
+       128
       ],
       [
        "GANDER, NEWFOUNDLAND",
@@ -3397,7 +3397,7 @@
       ],
       [
        "MONCTON",
-       108
+       123
       ],
       [
        "MONTREAL",
@@ -3458,7 +3458,7 @@
       ],
       [
        "ST. JOHN'S, NEWFOUNDLAND",
-       153
+       140
       ],
       [
        "TORONTO",
@@ -3514,17 +3514,17 @@
      "CENTRAL AFRICAN REPUBLIC": [
       [
        "BANGUI",
-       91
+       89
       ],
       [
        "[OTHER]",
-       91
+       89
       ]
      ],
      "CHAD": [
       [
        "NDJAMENA",
-       115
+       110
       ],
       [
        "[OTHER]",
@@ -3544,11 +3544,11 @@
      "CHILE": [
       [
        "SANTIAGO",
-       110
+       105
       ],
       [
        "[OTHER]",
-       105
+       101
       ]
      ],
      "CHINA": [
@@ -3558,7 +3558,7 @@
       ],
       [
        "BEIJING",
-       142
+       147
       ],
       [
        "CHANGCHUN",
@@ -3566,11 +3566,11 @@
       ],
       [
        "CHENGDU",
-       126
+       130
       ],
       [
        "CHONGQING",
-       133
+       138
       ],
       [
        "DALIAN",
@@ -3622,11 +3622,12 @@
       ],
       [
        "NINGBO",
-       92
+       95
       ],
       [
        "QINGDAO",
-       108
+       115,
+       120
       ],
       [
        "SANYA",
@@ -3642,15 +3643,19 @@
       ],
       [
        "SHENYANG",
-       98
+       100
+      ],
+      [
+       "SHENZHEN (AELW)",
+       151
       ],
       [
        "SHENZHEN",
-       147
+       151
       ],
       [
        "SUZHOU",
-       101
+       104
       ],
       [
        "TIANJIN",
@@ -3662,7 +3667,7 @@
       ],
       [
        "WUHAN",
-       105
+       108
       ],
       [
        "XIAMEN",
@@ -3690,7 +3695,7 @@
      "COLOMBIA": [
       [
        "BARRANQUILLA",
-       117
+       113
       ],
       [
        "BOGOTA",
@@ -3718,7 +3723,7 @@
       ],
       [
        "MEDELLIN",
-       129
+       125
       ],
       [
        "PASTO",
@@ -3758,11 +3763,11 @@
      "COOK ISLANDS": [
       [
        "RAROTONGA",
-       102
+       98
       ],
       [
        "[OTHER]",
-       102
+       98
       ]
      ],
      "COSTA RICA": [
@@ -3778,11 +3783,11 @@
      "COTE D'IVOIRE": [
       [
        "ABIDJAN",
-       117
+       112
       ],
       [
        "YAMOUSSOUKRO",
-       76
+       74
       ],
       [
        "[OTHER]",
@@ -3807,11 +3812,11 @@
       ],
       [
        "ZAGREB",
-       103
+       100
       ],
       [
        "[OTHER]",
-       103
+       100
       ]
      ],
      "CUBA": [
@@ -3861,27 +3866,27 @@
      "CYPRUS": [
       [
        "AKROTIRI",
-       159,
-       179
+       152,
+       171
       ],
       [
        "LIMASSOL",
-       159,
-       179
+       152,
+       171
       ],
       [
        "NICOSIA",
-       121
+       117
       ],
       [
        "PAPHOS",
-       116,
-       136
+       110,
+       130
       ],
       [
        "[OTHER]",
-       115,
-       118
+       110,
+       112
       ]
      ],
      "CZECHIA": [
@@ -3891,7 +3896,7 @@
       ],
       [
        "PRAGUE",
-       111
+       109
       ],
       [
        "[OTHER]",
@@ -3933,23 +3938,23 @@
      "DENMARK": [
       [
        "AALBORG",
-       117
+       111
       ],
       [
        "COPENHAGEN",
-       141
+       135
       ],
       [
        "LYNGBY",
-       141
+       135
       ],
       [
        "ODENSE",
-       123
+       117
       ],
       [
        "[OTHER]",
-       112
+       107
       ]
      ],
      "DJIBOUTI": [
@@ -3975,7 +3980,7 @@
      "DOMINICAN REPUBLIC": [
       [
        "SANTO DOMINGO",
-       104
+       101
       ],
       [
        "SOSUA",
@@ -3983,7 +3988,7 @@
       ],
       [
        "[OTHER]",
-       94
+       91
       ]
      ],
      "DUTCH CARIBBEAN": [
@@ -4030,16 +4035,16 @@
       ],
       [
        "ASWAN",
-       101,
-       106
+       98,
+       103
       ],
       [
        "CAIRO",
-       114
+       110
       ],
       [
        "LUXOR",
-       93
+       89
       ],
       [
        "MFO BASES",
@@ -4047,12 +4052,12 @@
       ],
       [
        "SHARM EL SHEIKH",
-       114,
-       123
+       110,
+       119
       ],
       [
        "[OTHER]",
-       111
+       108
       ]
      ],
      "EL SALVADOR": [
@@ -4076,11 +4081,11 @@
       ],
       [
        "MALABO",
-       110
+       106
       ],
       [
        "[OTHER]",
-       110
+       106
       ]
      ],
      "ERITREA": [
@@ -4104,12 +4109,12 @@
      "ESTONIA": [
       [
        "TALLINN",
-       139
+       133
       ],
       [
        "[OTHER]",
-       127,
-       134
+       121,
+       129
       ]
      ],
      "ESWATINI": [
@@ -4149,7 +4154,7 @@
      "FAROE ISLANDS": [
       [
        "FAROE ISLANDS",
-       99
+       95
       ]
      ],
      "FIJI": [
@@ -4181,88 +4186,88 @@
      "FINLAND": [
       [
        "HELSINKI",
-       144
+       137
       ],
       [
        "[OTHER]",
-       124
+       118
       ]
      ],
      "FRANCE": [
       [
        "BORDEAUX",
-       135
-      ],
-      [
-       "CANNES",
-       152,
-       167
-      ],
-      [
-       "DEAUVILLE",
        129
       ],
       [
+       "CANNES",
+       145,
+       159
+      ],
+      [
+       "DEAUVILLE",
+       124
+      ],
+      [
        "ESSONE",
-       173
+       165
       ],
       [
        "HAUTS-DE-SEINE",
-       173
+       165
       ],
       [
        "LYON",
-       151
+       145
       ],
       [
        "MARSEILLE",
-       154
+       147
       ],
       [
        "MONTPELLIER",
-       166
+       159
       ],
       [
        "NICE",
-       141
+       135
       ],
       [
        "PARIS",
-       173
+       165
       ],
       [
        "SEINE-ST. DENIS",
-       173
+       165
       ],
       [
        "STRASBOURG",
-       164
+       157
       ],
       [
        "TOULOUSE",
-       131
+       125
       ],
       [
        "VAL-D'OISE",
-       173
+       165
       ],
       [
        "VAL-DE-MARNE",
-       173
+       165
       ],
       [
        "YVELINES",
-       173
+       165
       ],
       [
        "[OTHER]",
-       132
+       127
       ]
      ],
      "FRENCH GUIANA": [
       [
        "FRENCH GUIANA",
-       94
+       90
       ]
      ],
      "FRENCH POLYNESIA": [
@@ -4274,7 +4279,7 @@
      "GABON": [
       [
        "LIBREVILLE",
-       141
+       136
       ],
       [
        "[OTHER]",
@@ -4341,7 +4346,7 @@
       ],
       [
        "BERLIN",
-       145
+       138
       ],
       [
        "BOEBLINGEN",
@@ -4357,7 +4362,7 @@
       ],
       [
        "BREMEN",
-       133
+       127
       ],
       [
        "BUCHEL AB",
@@ -4369,14 +4374,14 @@
       ],
       [
        "COLOGNE",
-       130
+       124
       ],
       [
        "DRESDEN",
-       135
+       129
       ],
       [
-       "Dusseldorf",
+       "DUSSELDORF",
        138
       ],
       [
@@ -4405,11 +4410,11 @@
       ],
       [
        "GARMISCH - US ARMY GARRISON",
-       140
+       134
       ],
       [
        "GARMISCH-PARTENKIRCHEN",
-       140
+       134
       ],
       [
        "GEILENKIRCHEN AB",
@@ -4421,11 +4426,11 @@
       ],
       [
        "HAMBURG",
-       133
+       129
       ],
       [
        "HANNOVER",
-       123
+       118
       ],
       [
        "HEIDELBERG",
@@ -4485,7 +4490,7 @@
       ],
       [
        "LEIPZIG",
-       132
+       125
       ],
       [
        "LUDWIGSBURG",
@@ -4505,7 +4510,7 @@
       ],
       [
        "MUNICH",
-       154
+       148
       ],
       [
        "NELLINGEN",
@@ -4513,7 +4518,7 @@
       ],
       [
        "OBERAMMERGAU",
-       140
+       134
       ],
       [
        "OFFENBACH",
@@ -4623,34 +4628,34 @@
      "GREECE": [
       [
        "ATHENS",
-       133,
-       144
+       127,
+       138
       ],
       [
        "IRAKLION (CRETE)",
-       127
+       122
       ],
       [
        "SOUDA BAY NAVAL SUP ACT",
-       127
+       122
       ],
       [
        "[OTHER]",
-       127
+       122
       ]
      ],
      "GREENLAND": [
       [
        "ILULISSAT",
-       125
+       119
       ],
       [
        "KANGERLUSSUAQ",
-       113
+       107
       ],
       [
        "NUUK",
-       142
+       137
       ],
       [
        "THULE AB",
@@ -4662,7 +4667,7 @@
       ],
       [
        "[OTHER]",
-       110
+       106
       ]
      ],
      "GRENADA": [
@@ -4851,6 +4856,10 @@
        163
       ],
       [
+       "KAHULUI",
+       163
+      ],
+      [
        "KAPOLEI",
        163
       ],
@@ -4861,6 +4870,10 @@
       [
        "KILAUEA MILITARY CAMP",
        146
+      ],
+      [
+       "KONA",
+       163
       ],
       [
        "LIHUE",
@@ -4906,7 +4919,7 @@
      "HOLY SEE": [
       [
        "HOLY SEE",
-       179
+       171
       ]
      ],
      "HONDURAS": [
@@ -4948,15 +4961,15 @@
      "HUNGARY": [
       [
        "BUDAPEST",
-       108
+       105
       ],
       [
        "PAPA",
-       72
+       70
       ],
       [
        "[OTHER]",
-       72
+       70
       ]
      ],
      "ICELAND": [
@@ -5123,19 +5136,19 @@
      "IRELAND": [
       [
        "CORK",
-       132
+       127
       ],
       [
        "DUBLIN",
-       155
+       148
       ],
       [
        "GALWAY",
-       124
+       119
       ],
       [
        "[OTHER]",
-       122
+       118
       ]
      ],
      "ISRAEL": [
@@ -5179,160 +5192,160 @@
      "ITALY": [
       [
        "AVIANO AB",
-       89
+       86
       ],
       [
        "AVIANO",
-       89
+       86
       ],
       [
        "BARI",
-       141
+       135
       ],
       [
        "BOLOGNA",
-       129
-      ],
-      [
-       "BOLZANO",
-       125
-      ],
-      [
-       "BRINDISI",
-       115
-      ],
-      [
-       "CAMP DARBY (INCLUDING LEGHORN)",
-       96
-      ],
-      [
-       "CAPRI",
-       176
-      ],
-      [
-       "CASERMA EDERLE",
-       127
-      ],
-      [
-       "CATANIA",
-       128
-      ],
-      [
-       "COMO",
-       168
-      ],
-      [
-       "FERRARA",
-       114
-      ],
-      [
-       "FLORENCE",
-       137
-      ],
-      [
-       "GAETA",
-       135,
-       155
-      ],
-      [
-       "GENOA",
        123
       ],
       [
-       "GHEDI AB",
-       95
-      ],
-      [
-       "LA SPEZIA",
-       109
-      ],
-      [
-       "LATINA AIR FORCE NCISS SCHOOL",
-       135
-      ],
-      [
-       "LATINA ARMY NCISS SCHOOL",
-       135
-      ],
-      [
-       "MILAN",
-       191
-      ],
-      [
-       "MODENA",
-       95
-      ],
-      [
-       "NAPLES NAVAL SUPPORT ACTIVITY",
-       169
-      ],
-      [
-       "NAPLES",
-       169
-      ],
-      [
-       "PALERMO",
-       152
-      ],
-      [
-       "PISA",
-       96
-      ],
-      [
-       "RAVENNA",
-       108
-      ],
-      [
-       "REGGIO EMILIA",
-       116
-      ],
-      [
-       "RIMINI",
-       124
-      ],
-      [
-       "ROME",
-       179
-      ],
-      [
-       "SIENA",
+       "BOLZANO",
        120
       ],
       [
-       "SIGONELLA NAS",
-       135
+       "BRINDISI",
+       110
       ],
       [
-       "TAORMINA",
-       128
+       "CAMP DARBY (INCLUDING LEGHORN)",
+       92
       ],
       [
-       "TREVISO",
-       114
+       "CAPRI",
+       168
       ],
       [
-       "TRIESTE",
+       "CASERMA EDERLE",
+       122
+      ],
+      [
+       "CATANIA",
+       122
+      ],
+      [
+       "COMO",
+       160
+      ],
+      [
+       "FERRARA",
+       109
+      ],
+      [
+       "FLORENCE",
+       130
+      ],
+      [
+       "GAETA",
+       128,
        147
       ],
       [
+       "GENOA",
+       118
+      ],
+      [
+       "GHEDI AB",
+       91
+      ],
+      [
+       "LA SPEZIA",
+       103
+      ],
+      [
+       "LATINA AIR FORCE NCISS SCHOOL",
+       128
+      ],
+      [
+       "LATINA ARMY NCISS SCHOOL",
+       128
+      ],
+      [
+       "MILAN",
+       183
+      ],
+      [
+       "MODENA",
+       91
+      ],
+      [
+       "NAPLES NAVAL SUPPORT ACTIVITY",
+       161
+      ],
+      [
+       "NAPLES",
+       161
+      ],
+      [
+       "PALERMO",
+       145
+      ],
+      [
+       "PISA",
+       92
+      ],
+      [
+       "RAVENNA",
+       103
+      ],
+      [
+       "REGGIO EMILIA",
+       110
+      ],
+      [
+       "RIMINI",
+       119
+      ],
+      [
+       "ROME",
+       171
+      ],
+      [
+       "SIENA",
+       114
+      ],
+      [
+       "SIGONELLA NAS",
+       128
+      ],
+      [
+       "TAORMINA",
+       122
+      ],
+      [
+       "TREVISO",
+       109
+      ],
+      [
+       "TRIESTE",
+       141
+      ],
+      [
        "TURIN",
-       146
+       139
       ],
       [
        "VENICE",
-       223
+       212
       ],
       [
        "VERONA",
-       93
+       88
       ],
       [
        "VICENZA",
-       127
+       122
       ],
       [
        "[OTHER]",
-       135
+       128
       ]
      ],
      "JAMAICA": [
@@ -5593,10 +5606,6 @@
       [
        "NAGASAKI",
        89
-      ],
-      [
-       "NAGOYA (20TH ASIAN & 5TH PARA GAMES)",
-       160
       ],
       [
        "NAGOYA",
@@ -5973,7 +5982,7 @@
       ],
       [
        "PYEONGCHANG",
-       73
+       76
       ],
       [
        "PYEONGTAEK",
@@ -6019,7 +6028,7 @@
      "KOSOVO": [
       [
        "MILITARY BASES IN PRISTINA",
-       64
+       60
       ],
       [
        "MILITARY BASES NOT IN PRISTINA",
@@ -6027,7 +6036,7 @@
       ],
       [
        "PRISTINA",
-       64
+       60
       ],
       [
        "[OTHER]",
@@ -6091,11 +6100,11 @@
      "LATVIA": [
       [
        "RIGA",
-       132
+       126
       ],
       [
        "[OTHER]",
-       95
+       90
       ]
      ],
      "LEBANON": [
@@ -6177,28 +6186,28 @@
      "LIECHTENSTEIN": [
       [
        "LIECHTENSTEIN",
-       200
+       193
       ]
      ],
      "LITHUANIA": [
       [
        "PALANGA",
-       147,
-       157
+       142,
+       152
       ],
       [
        "VILNIUS",
-       150
+       145
       ],
       [
        "[OTHER]",
-       110
+       106
       ]
      ],
      "LUXEMBOURG": [
       [
        "LUXEMBOURG",
-       138
+       132
       ]
      ],
      "MACAU": [
@@ -6210,7 +6219,7 @@
      "MADAGASCAR": [
       [
        "ANTANANARIVO",
-       68
+       66
       ],
       [
        "NOSY BE",
@@ -6224,7 +6233,7 @@
      "MALAWI": [
       [
        "BLANTYRE",
-       104
+       137
       ],
       [
        "LILONGWE",
@@ -6302,17 +6311,17 @@
      "MALI": [
       [
        "BAMAKO",
-       131
+       126
       ],
       [
        "[OTHER]",
-       46
+       45
       ]
      ],
      "MALTA": [
       [
        "MALTA",
-       145
+       139
       ]
      ],
      "MARSHALL ISLANDS": [
@@ -6366,13 +6375,13 @@
      "MAYOTTE": [
       [
        "MAYOTTE ISLANDS",
-       71
+       67
       ]
      ],
      "MEXICO": [
       [
        "ACAPULCO",
-       153
+       148
       ],
       [
        "CABO SAN LUCAS",
@@ -6380,7 +6389,7 @@
       ],
       [
        "CAMPECHE",
-       80
+       77
       ],
       [
        "CANCUN",
@@ -6388,11 +6397,11 @@
       ],
       [
        "CHIHUAHUA",
-       96
+       92
       ],
       [
        "CIUDAD JUAREZ",
-       95
+       90
       ],
       [
        "CIUDAD VICTORIA",
@@ -6404,15 +6413,15 @@
       ],
       [
        "COZUMEL",
-       109
+       105
       ],
       [
        "CUERNAVACA",
-       112
+       107
       ],
       [
        "CULIACAN",
-       130
+       123
       ],
       [
        "ENSENADA",
@@ -6420,11 +6429,11 @@
       ],
       [
        "GUADALAJARA",
-       131
+       126
       ],
       [
        "HERMOSILLO",
-       128
+       122
       ],
       [
        "HUATULCO",
@@ -6432,7 +6441,7 @@
       ],
       [
        "IXTAPA ZIHUATANEJO",
-       127
+       122
       ],
       [
        "LA PAZ",
@@ -6440,16 +6449,16 @@
       ],
       [
        "MANZANILLO",
-       114,
-       120
+       108,
+       114
       ],
       [
        "MATAMOROS",
-       94
+       90
       ],
       [
        "MAZATLAN",
-       133
+       127
       ],
       [
        "MERIDA",
@@ -6461,27 +6470,27 @@
       ],
       [
        "MEXICO CITY, D.F.",
-       136
+       132
       ],
       [
        "MONTERREY",
-       158
+       153
       ],
       [
        "MORELIA",
-       107
+       102
       ],
       [
        "NOGALES",
-       96
+       93
       ],
       [
        "NUEVO LAREDO",
-       104
+       101
       ],
       [
        "OAXACA",
-       107
+       104
       ],
       [
        "PLAYA DEL CARMEN, QUINTANA ROO",
@@ -6489,7 +6498,7 @@
       ],
       [
        "PUEBLA",
-       112
+       107
       ],
       [
        "PUERTO PENASCO",
@@ -6497,23 +6506,23 @@
       ],
       [
        "PUERTO VALLARTA",
-       134
+       129
       ],
       [
        "QUERETARO",
-       133
+       128
       ],
       [
        "SAN CARLOS",
-       100
+       96
       ],
       [
        "SAN LUIS POTOSI",
-       105
+       102
       ],
       [
        "SAN MIGUEL DE ALLENDE",
-       133
+       128
       ],
       [
        "TAPACHULA",
@@ -6521,7 +6530,7 @@
       ],
       [
        "TIJUANA",
-       110
+       105
       ],
       [
        "VALLE DEL BRAVO",
@@ -6533,11 +6542,11 @@
       ],
       [
        "ZACATECAS",
-       94
+       90
       ],
       [
        "[OTHER]",
-       120
+       115
       ]
      ],
      "MICRONESIA, FEDERATED STATES OF": [
@@ -6598,7 +6607,7 @@
      "MONACO": [
       [
        "MONACO",
-       130
+       124
       ]
      ],
      "MONGOLIA": [
@@ -6614,11 +6623,11 @@
      "MONTENEGRO": [
       [
        "PODGORICA",
-       111
+       106
       ],
       [
        "[OTHER]",
-       111
+       106
       ]
      ],
      "MONTSERRAT": [
@@ -6630,39 +6639,39 @@
      "MOROCCO": [
       [
        "AGADIR",
-       106
+       98
       ],
       [
        "CASABLANCA",
-       141
+       131
       ],
       [
        "FES",
-       143
+       133
       ],
       [
        "MARRAKECH",
-       153
+       143
       ],
       [
        "OUARZAZATE",
-       144
+       133
       ],
       [
        "RABAT",
-       162
+       150
       ],
       [
        "TANGIER",
-       176
+       164
       ],
       [
        "TAROUDANT",
-       145
+       135
       ],
       [
        "[OTHER]",
-       96
+       89
       ]
      ],
      "MOZAMBIQUE": [
@@ -6724,123 +6733,123 @@
      "NETHERLANDS": [
       [
        "ALBRANDSWAARD (INCL RHOON & POOR",
-       157
+       150
       ],
       [
        "AMSTERDAM",
-       192
+       183
       ],
       [
        "BARENDRECHT",
-       157
+       150
       ],
       [
        "BERGSCHENHOEK",
-       157
+       150
       ],
       [
        "BERKEL EN RODENRIJS",
-       157
+       150
       ],
       [
        "BERNISSE",
-       157
+       150
       ],
       [
        "BLEISWIJK",
-       157
+       150
       ],
       [
        "BRIELLE",
-       157
+       150
       ],
       [
        "BRUNSSUM/SCHINNEN",
-       120
+       115
       ],
       [
        "CAPELLE AAN DEN IJSSEL",
-       157
+       150
       ],
       [
        "COEVORDEN",
-       121
+       115
       ],
       [
        "EINDHOVEN",
-       141
+       135
       ],
       [
        "HELLEVOETSLUIS",
-       157
+       150
       ],
       [
        "KRIMPEN AAN DEN IJSSEL",
-       157
+       150
       ],
       [
        "LISSE",
-       130
+       124
       ],
       [
        "MAASSLUIS",
-       157
+       150
       ],
       [
        "MAASTRICHT",
-       165
+       157
       ],
       [
        "NOORDWIJK",
-       108
+       103
       ],
       [
        "PAPENDRECHT",
-       157
+       150
       ],
       [
        "RIDDERKERK",
-       157
+       150
       ],
       [
        "ROTTERDAM",
-       157
+       150
       ],
       [
        "ROZENBURG",
-       157
+       150
       ],
       [
        "SCHIEDAM",
-       157
+       150
       ],
       [
        "SCHIPHOL",
-       192
+       183
       ],
       [
        "SPIJKENISSE",
-       157
+       150
       ],
       [
        "THE HAGUE",
-       176
+       167
       ],
       [
        "UTRECHT",
-       120
+       115
       ],
       [
        "VLAARDINGEN",
-       157
+       150
       ],
       [
        "VOLKEL AB",
-       120
+       115
       ],
       [
        "WESTVOORNE",
-       157
+       150
       ],
       [
        "YPENBURG",
@@ -6848,47 +6857,47 @@
       ],
       [
        "[OTHER]",
-       120
+       115
       ]
      ],
      "NEW CALEDONIA": [
       [
        "NOUMEA",
-       97
+       131
       ]
      ],
      "NEW ZEALAND": [
       [
        "AUCKLAND",
-       118
+       114
       ],
       [
        "CHRISTCHURCH",
-       123
+       119
       ],
       [
        "DUNEDIN",
-       97
+       94
       ],
       [
        "NAVANTARCTICSUPPU DET CHRISTCHURCH",
-       123
+       119
       ],
       [
        "QUEENSTOWN",
-       112
+       108
       ],
       [
        "ROTORUA",
-       99
+       95
       ],
       [
        "WELLINGTON",
-       136
+       131
       ],
       [
        "[OTHER]",
-       80
+       78
       ]
      ],
      "NICARAGUA": [
@@ -6944,29 +6953,29 @@
      "NIUE": [
       [
        "NIUE",
-       68
+       67
       ]
      ],
      "NORTH MACEDONIA": [
       [
        "MILITARY BASES IN SKOPJE",
-       97
+       94
       ],
       [
        "MILITARY BASES NOT IN SKOPJE",
-       90
+       86
       ],
       [
        "OHRID",
-       90
+       86
       ],
       [
        "SKOPJE",
-       97
+       94
       ],
       [
        "[OTHER]",
-       90
+       86
       ]
      ],
      "NORTHERN MARIANA ISLANDS": [
@@ -7112,17 +7121,17 @@
      "PAPUA NEW GUINEA": [
       [
        "PORT MORESBY",
-       67
+       66
       ],
       [
        "[OTHER]",
-       51
+       50
       ]
      ],
      "PARAGUAY": [
       [
        "ASUNCION",
-       102
+       105
       ],
       [
        "CIUDAD DEL ESTE",
@@ -7158,55 +7167,59 @@
      "PHILIPPINES": [
       [
        "BAGUIO CITY",
-       77
+       74
       ],
       [
        "BOHOL",
-       84
-      ],
-      [
-       "BORACAY",
-       96
-      ],
-      [
-       "CEBU",
-       73
-      ],
-      [
-       "CLARK AFB",
-       86
-      ],
-      [
-       "CORON",
-       96
-      ],
-      [
-       "DAVAO CITY",
-       67
-      ],
-      [
-       "EL NIDO",
        81
       ],
       [
+       "BORACAY",
+       93
+      ],
+      [
+       "CEBU",
+       70
+      ],
+      [
+       "CLARK AFB",
+       84
+      ],
+      [
+       "CORON",
+       92
+      ],
+      [
+       "DAVAO CITY",
+       65
+      ],
+      [
+       "EL NIDO",
+       78
+      ],
+      [
        "MACTAN",
-       77
+       75
       ],
       [
        "MAKATI CITY",
-       87
+       84
+      ],
+      [
+       "MANILA (ASEAN LEADERSΓÇÖ SUMMIT)",
+       84
       ],
       [
        "MANILA",
-       87
+       84
       ],
       [
        "METRO MANILA",
-       87
+       84
       ],
       [
        "[OTHER]",
-       63
+       61
       ]
      ],
      "POLAND": [
@@ -7262,49 +7275,49 @@
      "PORTUGAL": [
       [
        "CASCAIS",
-       98
+       94
       ],
       [
        "ESTORIL",
-       98
+       94
       ],
       [
        "FAIAL ISLAND",
-       73,
-       74
+       69,
+       70
       ],
       [
        "LAJES FIELD AB",
-       67
+       65
       ],
       [
        "LISBON",
-       112
+       107
       ],
       [
        "MADEIRA ISLANDS",
-       63
+       60
       ],
       [
        "OEIRAS",
-       98
+       94
       ],
       [
        "OPORTO",
-       129
+       123
       ],
       [
        "PONTA DELGADA",
-       59,
-       63
+       57,
+       61
       ],
       [
        "SAO MIGUEL ISLAND",
-       95
+       91
       ],
       [
        "[OTHER]",
-       67
+       65
       ]
      ],
      "PUERTO RICO": [
@@ -7398,11 +7411,11 @@
      "REPUBLIC OF THE CONGO": [
       [
        "BRAZZAVILLE",
-       129
+       124
       ],
       [
        "[OTHER]",
-       129
+       124
       ]
      ],
      "RESERVE COMPONENT": [
@@ -7420,15 +7433,15 @@
      "ROMANIA": [
       [
        "BUCHAREST",
-       123
+       117
       ],
       [
        "CONSTANTA-MIHAIL KOGALNICEANU AB",
-       87
+       83
       ],
       [
        "[OTHER]",
-       106
+       101
       ]
      ],
      "RUSSIA": [
@@ -7518,7 +7531,7 @@
      "SAN MARINO": [
       [
        "SAN MARINO",
-       101
+       97
       ]
      ],
      "SAO TOME AND PRINCIPE": [
@@ -7528,7 +7541,7 @@
       ],
       [
        "SAO TOME",
-       128
+       123
       ]
      ],
      "SAUDI ARABIA": [
@@ -7578,7 +7591,7 @@
      "SENEGAL": [
       [
        "DAKAR",
-       161
+       155
       ],
       [
        "MBOUR",
@@ -7586,13 +7599,13 @@
       ],
       [
        "[OTHER]",
-       111
+       106
       ]
      ],
      "SERBIA": [
       [
        "BELGRADE",
-       100
+       97
       ],
       [
        "KOPAONIK",
@@ -7625,6 +7638,10 @@
        162
       ],
       [
+       "SINGAPORE (SICW)",
+       162
+      ],
+      [
        "SINGAPORE",
        162
       ]
@@ -7638,25 +7655,25 @@
      "SLOVAKIA": [
       [
        "BRATISLAVA",
-       143
+       136
       ],
       [
        "LIPTOVSKY MIKULAS",
-       100
+       96
       ],
       [
        "ZILINA",
-       95
+       91
       ],
       [
        "[OTHER]",
-       89
+       85
       ]
      ],
      "SLOVENIA": [
       [
        "LJUBLJANA",
-       149
+       143
       ],
       [
        "PORTOROZ",
@@ -7664,7 +7681,7 @@
       ],
       [
        "[OTHER]",
-       149
+       143
       ]
      ],
      "SOLOMON ISLANDS": [
@@ -7694,7 +7711,7 @@
      "SOUTH AFRICA": [
       [
        "BLOEMFONTEIN",
-       75
+       77
       ],
       [
        "CAPE TOWN",
@@ -7738,83 +7755,83 @@
      "SPAIN": [
       [
        "ALMERIA",
-       109
+       104
       ],
       [
        "BALEARIC ISLANDS",
-       138
+       131
       ],
       [
        "BARCELONA",
-       134
+       128
       ],
       [
        "BILBAO",
-       130
+       124
       ],
       [
        "FUENGIROLA",
-       127
+       122
       ],
       [
        "LA CORUNA",
-       135
+       131
       ],
       [
        "LAS PALMAS DE GRAN CANARIA",
-       155
+       148
       ],
       [
        "MADRID",
-       139
+       134
       ],
       [
        "MALAGA",
-       147
+       140
       ],
       [
        "MARBELLA",
-       100
+       95
       ],
       [
        "MORON AB",
-       146
+       140
       ],
       [
        "OVIEDO",
-       92
+       88
       ],
       [
        "ROTA NAS",
-       146
+       140
       ],
       [
        "SAN SEBASTIAN",
-       160
+       154
       ],
       [
        "SANTA CRUZ DE TENERIFE",
-       91
+       86
       ],
       [
        "SANTANDER",
-       89
+       85
       ],
       [
        "SANTIAGO DE COMPOSTELA",
-       146
+       139
       ],
       [
        "SEVILLE",
-       130
+       124
       ],
       [
        "VALENCIA",
-       120
+       115
       ],
       [
        "VIGO",
-       90
+       86
       ],
       [
        "ZARAGOZA",
@@ -7822,7 +7839,7 @@
       ],
       [
        "[OTHER]",
-       146
+       140
       ]
      ],
      "SRI LANKA": [
@@ -7876,53 +7893,53 @@
      "SWEDEN": [
       [
        "STOCKHOLM",
-       147
+       141
       ],
       [
        "[OTHER]",
-       147
+       141
       ]
      ],
      "SWITZERLAND": [
       [
        "BAD RAGAZ",
-       189
+       182
       ],
       [
        "BASEL",
-       203
+       196
       ],
       [
        "BERN",
-       192
+       185
       ],
       [
        "DAVOS",
-       224
+       216
       ],
       [
        "GENEVA",
-       206
+       199
       ],
       [
        "KLOSTERS",
-       212
+       204
       ],
       [
        "LUGANO",
-       202
+       195
       ],
       [
        "MONTREUX",
-       180
+       174
       ],
       [
        "ZURICH",
-       236
+       227
       ],
       [
        "[OTHER]",
-       188
+       181
       ]
      ],
      "SYRIA": [
@@ -8020,7 +8037,7 @@
       ],
       [
        "CHIANG MAI",
-       86
+       84
       ],
       [
        "CHIANG RAI",
@@ -8040,7 +8057,7 @@
       ],
       [
        "KRABI",
-       103
+       100
       ],
       [
        "NONG KHAI",
@@ -8084,15 +8101,15 @@
      "TOGO": [
       [
        "LAMA KARA",
-       70
+       68
       ],
       [
        "LOME",
-       92
+       87
       ],
       [
        "[OTHER]",
-       60
+       58
       ]
      ],
      "TOKELAU": [
@@ -8243,23 +8260,23 @@
      "UGANDA": [
       [
        "ENTEBBE",
-       74
+       70
       ],
       [
        "FORT PORTAL",
-       64
+       61
       ],
       [
        "GULU",
-       57
+       52
       ],
       [
        "JINJA",
-       73
+       68
       ],
       [
        "KAMPALA",
-       99
+       92
       ],
       [
        "KIDEPO NATIONAL PARK",
@@ -8271,7 +8288,7 @@
       ],
       [
        "MBARARA",
-       58
+       54
       ],
       [
        "MURCHISON FALLS NATIONAL PARK",
@@ -8283,7 +8300,7 @@
       ],
       [
        "[OTHER]",
-       57
+       52
       ]
      ],
      "UKRAINE": [
@@ -8381,7 +8398,7 @@
       ],
       [
        "CHELTENHAM",
-       122
+       118
       ],
       [
        "CRAWLEY",
@@ -8783,7 +8800,7 @@
      "ZAMBIA": [
       [
        "CHIPATA",
-       92
+       88
       ],
       [
        "KITWE",
@@ -8795,12 +8812,12 @@
       ],
       [
        "LUSAKA",
-       107
+       102
       ],
       [
        "MFUWE",
-       96,
-       102
+       93,
+       100
       ],
       [
        "NDOLA",
@@ -8808,7 +8825,7 @@
       ],
       [
        "SOLWEZI",
-       89
+       85
       ],
       [
        "[OTHER]",
