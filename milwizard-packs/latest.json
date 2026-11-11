@@ -1,12 +1,12 @@
 {
  "schema_version": 3,
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "note": "Mil Wizard rate packs. Served to the app at DATA_PACK_URL. See README.md.",
  "packs": [
   {
    "pack_id": "2026",
    "schema_version": 3,
-   "generated": "2026-11-10",
+   "generated": "2026-11-11",
    "effective": {
     "military_pay_start": "2026-01-01"
    },
@@ -932,8 +932,9 @@
     },
     {
      "id": "cefip",
-     "label": "Career Enlisted Flyer Incentive Pay",
-     "kind": "cefip"
+     "label": "Enlisted flyer incentive pay (CSIP / CEFIP)",
+     "kind": "cefip",
+     "hint": "By service and years of aviation service \u2014 enter your LES amount"
     },
     {
      "id": "hdip_crew",
@@ -1156,7 +1157,7 @@
     "monthly": 300,
     "daily": 10,
     "min_days": 30,
-    "src": "37 U.S.C. 427 as amended by the FY2026 NDAA \u2014 $300/mo eff. 2026-01-01 (was $250 since 2003); prorated $10/day; payable after more than 30 continuous days"
+    "src": "37 U.S.C. 427 as amended by the FY2026 NDAA \u2014 $300/mo eff. 2026-01-01 (was $250 since 2003); prorated $10/day, the 31st unpaid; payable once the separation exceeds 30 continuous days and then back to the day of departure (DoD FMR Vol 7A Ch 27 Table 27-1)"
    },
    "hfp_idp": {
     "monthly": 225,
@@ -1237,7 +1238,7 @@
    "dla": {
     "as_of": "2026-01-01",
     "partial": 1002.71,
-    "src": "PDTATAC UTD/MAP 72-25(I), CY2026 DLA rates eff. 2026-01-01 (JTR 0505); partial DLA per military.com CY2026 table",
+    "src": "PDTATAC UTD/MAP 72-25(I), CY2026 DLA rates eff. 2026-01-01 (JTR 0505); partial DLA from the same DTMO CY2026 DLA rate table (JTR 0505-B)",
     "wo": {
      "O10": 5187.33,
      "O9": 5187.33,
@@ -1794,6 +1795,16 @@
       "cz": "",
       "hdpl": 0,
       "sea": true
+     },
+     {
+      "k": "transit",
+      "g": "No designation",
+      "label": "Travel to or from the deployment",
+      "oc": "",
+      "idp": false,
+      "cz": "",
+      "hdpl": 0,
+      "note": "The trip out or home logged as its own leg: no designation of its own, and FSA counts it with the leg it touches."
      },
      {
       "k": "other",
